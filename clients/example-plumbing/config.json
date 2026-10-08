@@ -1,0 +1,24 @@
+{
+  "businessName": "Riverbend Plumbing",
+  "tagline": "Fast, honest plumbing repairs in Riverbend and surrounding areas.",
+  "trade": "Plumber",
+  "phone": "(555) 013-2200",
+  "email": "hello@example.com",
+  "address": "123 Main St, Riverbend, ST 00000",
+  "hours": "Mon–Fri 7am–6pm · 24/7 emergency calls",
+  "yearsInBusiness": "18",
+  "licensed": "Licensed & insured",
+  "colors": { "primary": "#0b5ed7", "accent": "#ff8a00" },
+  "services": [
+    { "name": "Emergency Repairs", "desc": "Burst pipes, leaks and overflows fixed fast, day or night." },
+    { "name": "Water Heaters", "desc": "Repair and replacement of tank and tankless units." },
+    { "name": "Drain Cleaning", "desc": "Clogged sinks, showers and main lines cleared for good." },
+    { "name": "Bathroom & Kitchen", "desc": "Fixture installs, remodels and re-pipes done right." }
+  ],
+  "about": "Riverbend Plumbing is a family-run shop serving local homes and businesses. We show up on time, quote upfront and clean up when we're done.",
+  "reviews": [
+    { "quote": "Showed up within the hour and fixed our leak. Fair price.", "name": "Dana R." },
+    { "quote": "Honest, tidy and professional. Highly recommend.", "name": "Marcus T." }
+  ],
+  "serviceAreas": ["Riverbend", "Oakfield", "Maple Heights", "Lakeside"]
+}

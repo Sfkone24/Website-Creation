@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{businessName}} | {{trade}} in {{serviceAreas.0}}</title>
+  <meta name="description" content="{{tagline}}">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#">{{businessName}}</a>
+    <a class="btn btn-accent" href="tel:{{phoneDigits}}">Call {{phone}}</a>
+  </header>
+
+  <section class="hero">
+    <h1>{{tagline}}</h1>
+    <p>{{licensed}} · {{yearsInBusiness}} years serving the community</p>
+    <a class="btn btn-accent" href="tel:{{phoneDigits}}">Call now: {{phone}}</a>
+    <a class="btn btn-ghost" href="#contact">Get a free quote</a>
+  </section>
+
+  <section id="services" class="wrap">
+    <h2>Our services</h2>
+    <div class="grid">
+      {{#services}}<article class="card"><h3>{{name}}</h3><p>{{desc}}</p></article>{{/services}}
+    </div>
+  </section>
+
+  <section id="about" class="wrap alt">
+    <h2>About us</h2>
+    <p>{{about}}</p>
+  </section>
+
+  {{#hasReviews}}
+  <section class="wrap">
+    <h2>What customers say</h2>
+    <div class="grid">
+      {{#reviews}}<blockquote class="card">“{{quote}}”<footer>— {{name}}</footer></blockquote>{{/reviews}}
+    </div>
+  </section>
+  {{/hasReviews}}
+
+  <section class="wrap alt">
+    <h2>Areas we serve</h2>
+    <ul class="chips">{{#serviceAreas}}<li>{{.}}</li>{{/serviceAreas}}</ul>
+  </section>
+
+  <section id="contact" class="wrap">
+    <h2>Contact us</h2>
+    <p><strong>Phone:</strong> <a href="tel:{{phoneDigits}}">{{phone}}</a><br>
+       <strong>Email:</strong> <a href="mailto:{{email}}">{{email}}</a><br>
+       <strong>Address:</strong> {{address}}<br>
+       <strong>Hours:</strong> {{hours}}</p>
+    <form action="mailto:{{email}}" method="post" enctype="text/plain">
+      <input name="name" placeholder="Your name" required>
+      <input name="phone" placeholder="Phone" required>
+      <textarea name="message" placeholder="How can we help?" rows="4"></textarea>
+      <button class="btn btn-accent" type="submit">Request a quote</button>
+    </form>
+  </section>
+
+  <footer class="foot">© {{year}} {{businessName}}. All rights reserved.</footer>
+  <a class="sticky-call" href="tel:{{phoneDigits}}">📞 Call</a>
+</body>
+</html>
