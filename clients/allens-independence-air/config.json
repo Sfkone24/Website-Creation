@@ -1,0 +1,38 @@
+{
+  "preset": "hvac",
+  "demo": true,
+  "businessName": "Allen's Independence Air",
+  "shortName": "Allen's",
+  "headline": "When you call, you get the owner.",
+  "tagline": "Heating, cooling and geothermal systems designed, installed and serviced by owner Dennis Allen. Heil Authorized Dealer serving Bloomington and south central Indiana.",
+  "phone": "(812) 822-3126",
+  "street": "1015 N Curry Pike",
+  "city": "Bloomington",
+  "zip": "47404",
+  "foundingYear": 2010,
+  "colors": { "primary": "#1b2a4a", "accent": "#c8102e", "dark": "#0e1830" },
+  "badges": ["Heil Authorized Dealer", "Owner on every job", "Custom ductwork made in-house"],
+  "services": [
+    { "icon": "flame", "name": "Heating Installation & Replacement", "desc": "Furnace and heat pump systems sized and installed for your home." },
+    { "icon": "snowflake", "name": "Air Conditioning", "desc": "Central air installation, replacement and repair." },
+    { "icon": "wrench", "name": "Service & Repair", "desc": "Diagnosis and repair for heating and cooling systems." },
+    { "icon": "earth", "name": "Geothermal Systems", "desc": "Geothermal heating and cooling installation and service." },
+    { "icon": "duct", "name": "Sheet Metal & Ductwork", "desc": "Custom ductwork fabricated in our own shop to fit your home exactly." },
+    { "icon": "clipboard", "name": "System Design", "desc": "A complete system designed around your home, not pulled off a shelf." }
+  ],
+  "highlights": [
+    { "icon": "user", "title": "Owner-operated", "desc": "Dennis Allen handles your job from the first call to the final check." },
+    { "icon": "duct", "title": "Built in our shop", "desc": "Ductwork is fabricated in-house, so it fits right and goes in fast." },
+    { "icon": "shield", "title": "Heil Authorized Dealer", "desc": "Authorized to sell, install and repair Heil heating and cooling equipment." },
+    { "icon": "earth", "title": "Geothermal", "desc": "Experience with geothermal systems, one of the most efficient options available." }
+  ],
+  "aboutHeading": "One owner. Every job.",
+  "aboutParagraphs": [
+    "Allen's Independence Air is an owner-operated heating and cooling company on Bloomington's west side, on N. Curry Pike.",
+    "\"I am the owner, service technician, installer, systems designer, sheet metal fabricator and sales representative.\" That means the person who designs your system is the same person who builds the ductwork, installs the equipment and answers the phone if you ever need us.",
+    "We're a Heil Authorized Dealer and work on conventional systems and geothermal alike."
+  ],
+  "brands": ["Heil"],
+  "areaRegion": "Bloomington & south central Indiana",
+  "serviceAreas": ["Bloomington", "Bloomfield", "Nashville", "Morgan County"]
+}

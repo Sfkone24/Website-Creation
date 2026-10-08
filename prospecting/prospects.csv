@@ -1,1 +1,5 @@
-business,trade,city,phone,current_site,score,notes,status,last_contact
+priority,business,slug,trade,city,phone,current_site,score,pitch_angle,recommended_tier,status,last_contact,notes
+1,Durham Heating & Cooling Inc,durham-heating-cooling,HVAC,Ellettsville IN,(812) 876-1097,none found (Facebook + unclaimed Yelp),9,"No website; listings disagree on address/phone/hours",Standard $900,demo_built,,"Nextdoor Neighborhood Favorite 2024; alt phone (812) 908-5155"
+2,Allen's Independence Air LLC,allens-independence-air,HVAC,Bloomington IN,(812) 822-3126,none found (listed domain not indexed),8,"Owner-operator; site sells the 'you get the owner' story",Starter $500 + Care,demo_built,,"Owner Dennis Allen; Heil dealer; 27 HomeAdvisor reviews"
+3,Terrell Heating & A/C Inc,terrell-heating-ac,HVAC,Bloomington IN,(812) 876-7776,none found (Facebook only),8,"40+ year family business invisible online; conflicting directory addresses",Standard $900,demo_built,,"Family owned since 1984; BBB A+"
+4,Harris Heating & Air Conditioning,harris-heating-air,HVAC,Bloomington IN,(812) 332-0711,harrisheatingandair.com (HTTP only; dated multi-page site),6,"Not Secure warning; site contradicts itself (1982 vs 1988; two addresses)",Standard $900,demo_built,,"Tempstar + ClimateMaster geothermal; commercial 5-20 ton"

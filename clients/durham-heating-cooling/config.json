@@ -1,0 +1,29 @@
+{
+  "preset": "hvac",
+  "demo": true,
+  "businessName": "Durham Heating & Cooling",
+  "shortName": "Durham",
+  "headline": "Ellettsville's neighborhood heating & cooling company",
+  "tagline": "Furnace, air conditioning and heat pump installation, maintenance and repair for homes and businesses in Ellettsville, Bloomington and the surrounding area.",
+  "phone": "(812) 876-1097",
+  "street": "6352 W Cowden Rd",
+  "city": "Ellettsville",
+  "zip": "47429",
+  "hours": "Monday–Friday, 8am–5pm",
+  "colors": { "primary": "#12355b", "accent": "#f26b21", "dark": "#0a1f36" },
+  "badges": ["Nextdoor Neighborhood Favorite 2024", "Homes & businesses", "40+ years in the area"],
+  "highlights": [
+    { "icon": "star", "title": "Neighborhood favorite", "desc": "Voted a Nextdoor Neighborhood Favorite in 2024 by local residents." },
+    { "icon": "building", "title": "Homes & businesses", "desc": "Residential and commercial heating and cooling, from one furnace to a whole building." },
+    { "icon": "leaf", "title": "Energy-efficient systems", "desc": "Heat pump installations and furnace replacements that cut energy waste." },
+    { "icon": "duct", "title": "Ductwork done right", "desc": "Custom duct configurations designed so your system isn't working harder than it has to." }
+  ],
+  "aboutHeading": "Ellettsville's local HVAC team",
+  "aboutParagraphs": [
+    "Durham Heating & Cooling is a heating and air conditioning company based right here in Ellettsville. We install, maintain and repair furnaces, air conditioners and heat pumps for homeowners and businesses across the area.",
+    "Our focus is efficiency: heat pump installations, furnace replacements and ductwork designed to minimize energy waste, so you stay comfortable and spend less doing it.",
+    "Our neighbors noticed. Durham was named a Nextdoor Neighborhood Favorite in 2024."
+  ],
+  "areaRegion": "Ellettsville, Bloomington & surrounding communities",
+  "serviceAreas": ["Ellettsville", "Bloomington", "Stinesville", "Spencer", "Gosport"]
+}

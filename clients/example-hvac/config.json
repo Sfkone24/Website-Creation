@@ -1,0 +1,15 @@
+{
+  "preset": "hvac",
+  "demo": true,
+  "businessName": "Sample Heating & Air",
+  "shortName": "Sample",
+  "headline": "Heating & cooling you can count on",
+  "tagline": "Furnace, AC and heat pump repair, installation and tune-ups in Bloomington, Indiana.",
+  "phone": "(812) 555-0100",
+  "city": "Bloomington",
+  "zip": "47401",
+  "badges": ["Licensed & insured", "Homes & businesses"],
+  "aboutParagraphs": ["Replace with the real business's own description. Use only facts the owner provides or that are public."],
+  "areaRegion": "Bloomington & Monroe County",
+  "serviceAreas": ["Bloomington", "Ellettsville", "Bedford", "Martinsville"]
+}

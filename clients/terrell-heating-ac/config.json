@@ -1,0 +1,37 @@
+{
+  "preset": "hvac",
+  "demo": true,
+  "businessName": "Terrell Heating & A/C",
+  "shortName": "Terrell",
+  "headline": "Family-owned heating & cooling since 1984",
+  "tagline": "Furnace and air conditioner installation and service for homes in Bloomington, Ellettsville and the surrounding area.",
+  "phone": "(812) 876-7776",
+  "street": "5440 N Union Valley Rd",
+  "city": "Bloomington",
+  "zip": "47404",
+  "foundingYear": 1984,
+  "colors": { "primary": "#1e3a8a", "accent": "#dc2626", "dark": "#0f1d45" },
+  "badges": ["Family owned since 1984", "A+ BBB rating", "Ducane & Tempstar specialists"],
+  "services": [
+    { "icon": "flame", "name": "Furnace Installation & Repair", "desc": "New furnace installs and fast repairs when the heat goes out." },
+    { "icon": "snowflake", "name": "Air Conditioning", "desc": "Central AC installation and service to beat the Indiana summer heat." },
+    { "icon": "fan", "name": "Heat Pumps", "desc": "Efficient heat pump systems for year-round comfort." },
+    { "icon": "gauge", "name": "Tune-Ups & Maintenance", "desc": "Seasonal service that keeps your system safe, efficient and reliable." },
+    { "icon": "droplet", "name": "Water Heaters", "desc": "Water heater replacement and service." },
+    { "icon": "duct", "name": "Ductwork", "desc": "Duct repair and replacement for even heating and cooling." }
+  ],
+  "highlights": [
+    { "icon": "family", "title": "Family owned", "desc": "Owned and operated by the Terrell family since 1984." },
+    { "icon": "shield", "title": "A+ BBB rating", "desc": "Rated A+ by the Better Business Bureau." },
+    { "icon": "clipboard", "title": "Ducane & Tempstar", "desc": "We specialize in installing and servicing Ducane and Tempstar equipment." },
+    { "icon": "pin", "title": "Right up the road", "desc": "Based on Union Valley Road, close to north Bloomington and Ellettsville." }
+  ],
+  "aboutHeading": "Four decades of keeping neighbors comfortable",
+  "aboutParagraphs": [
+    "Terrell Heating & A/C has been family owned and operated since 1984. For more than 40 years we've installed and serviced heating and cooling systems for families in Bloomington and the surrounding area.",
+    "We specialize in the installation and service of Ducane and Tempstar heating and cooling units, and we hold an A+ rating with the Better Business Bureau."
+  ],
+  "brands": ["Ducane", "Tempstar"],
+  "areaRegion": "Bloomington, Ellettsville & surrounding areas",
+  "serviceAreas": ["Bloomington", "Ellettsville", "Stinesville", "Spencer", "Martinsville"]
+}
