@@ -1,0 +1,76 @@
+{
+  "preset": "plumbing",
+  "demo": true,
+  "businessName": "Vincent Beyer Plumbing",
+  "shortName": "Vince",
+  "headline": "Bloomington's neighborhood plumber since 1985",
+  "tagline": "Plumbing repairs for Bloomington homes from a local plumber in business since 1985, and one neighbors call knowledgeable and honest.",
+  "phone": "(812) 824-9261",
+  "city": "Bloomington",
+  "zip": "47403",
+  "foundingYear": 1985,
+  "colors": {
+    "primary": "#1f3a5f",
+    "accent": "#e0a100",
+    "dark": "#13243b"
+  },
+  "heroLabel": "Since 1985",
+  "heroChips": [
+    "Repairs",
+    "Since 1985"
+  ],
+  "badges": [
+    "In business since 1985",
+    "Recommended on Nextdoor",
+    "Bloomington local"
+  ],
+  "requestOptions": [
+    "Leak or repair",
+    "Something else around the house",
+    "Estimate"
+  ],
+  "services": [
+    {
+      "icon": "wrench",
+      "name": "Plumbing Repairs",
+      "desc": "Leaks, drips, running toilets and fixture problems, diagnosed and fixed."
+    },
+    {
+      "icon": "check",
+      "name": "Everyday Household Plumbing",
+      "desc": "The everyday plumbing jobs every house eventually needs."
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "clock",
+      "title": "Since 1985",
+      "desc": "Four decades of plumbing for Bloomington homeowners."
+    },
+    {
+      "icon": "shield",
+      "title": "Knowledgeable & honest",
+      "desc": "That's how Bloomington neighbors describe Vince on Nextdoor."
+    },
+    {
+      "icon": "star",
+      "title": "Neighbor-recommended",
+      "desc": "Faved by Bloomington neighbors on Nextdoor."
+    },
+    {
+      "icon": "pin",
+      "title": "Truly local",
+      "desc": "Based on Bloomington's south side, serving Monroe County."
+    }
+  ],
+  "aboutHeading": "Four decades of honest plumbing",
+  "aboutParagraphs": [
+    "Vincent Beyer Plumbing has served Bloomington homeowners since 1985.",
+    "Bloomington neighbors on Nextdoor describe Vince as knowledgeable and honest, and recommend him for the everyday plumbing jobs every house eventually needs."
+  ],
+  "areaRegion": "Bloomington & Monroe County",
+  "serviceAreas": [
+    "Bloomington",
+    "Monroe County"
+  ]
+}

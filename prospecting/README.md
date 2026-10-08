@@ -42,4 +42,11 @@ Current leads (details, scripts and sources in `leads/`):
 4. Harris Heating & Air Conditioning (Bloomington): HTTP-only, dated site
 
 Researched and skipped: Murphy's HVAC (BBB believes it is out of business), and Summers, Commercial Service, Keller, All Seasons, Blue Fox and Chapman (they already have modern sites or are larger firms).
-Next market batch: Bloomington plumbers, then electricians.
+Plumbing batch (details in `leads/5-8`):
+5. Next Door Plumbing Pros (Bloomington): new business, name owned online by AZ/CA companies
+6. Brown County Plumbing (Nashville): a Green Bay, WI company owns their name online
+7. Vincent Beyer Plumbing (Bloomington): since 1985, call first
+8. Jones Plumbing & Excavating (Spencer): conflicting records, mixed reviews
+On hold: Dunham Plumbing (Nashville). Great reputation, but the corporation may be dissolved, so call first.
+
+Next market batch: Bloomington electricians.

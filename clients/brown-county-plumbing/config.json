@@ -1,0 +1,94 @@
+{
+  "preset": "plumbing",
+  "demo": true,
+  "businessName": "Brown County Plumbing",
+  "shortName": "Brown County Plumbing",
+  "headline": "Your Brown County plumber",
+  "tagline": "Owner-operated plumbing in Nashville and across Brown County: plumbing service, water heaters, water lines and water treatment.",
+  "phone": "(812) 276-7943",
+  "city": "Nashville",
+  "zip": "47448",
+  "hours": "Call or text (812) 276-7943",
+  "foundingYear": 2021,
+  "colors": {
+    "primary": "#2f5d3a",
+    "accent": "#d97706",
+    "dark": "#1c3523"
+  },
+  "heroLabel": "Call or text",
+  "heroChips": [
+    "Repairs",
+    "Water heaters",
+    "Water lines"
+  ],
+  "badges": [
+    "Owner-operated",
+    "Call or text",
+    "Serving Brown County since 2021"
+  ],
+  "requestOptions": [
+    "Leak or repair",
+    "Water heater",
+    "Water line",
+    "Water treatment"
+  ],
+  "services": [
+    {
+      "icon": "wrench",
+      "name": "Plumbing Service & Repair",
+      "desc": "Leaks, fixtures, toilets and faucets, handled by the owner-plumber."
+    },
+    {
+      "icon": "flame",
+      "name": "Water Heaters",
+      "desc": "Water heater replacement and service."
+    },
+    {
+      "icon": "duct",
+      "name": "Water Lines",
+      "desc": "Water line installation and repair from the meter to your home."
+    },
+    {
+      "icon": "leaf",
+      "name": "Water Treatment",
+      "desc": "Water treatment and filtration systems."
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "user",
+      "title": "Owner on the job",
+      "desc": "Owner-plumber Mike Miller runs the business and stands behind the work."
+    },
+    {
+      "icon": "phone",
+      "title": "Call or text",
+      "desc": "Call or text (812) 276-7943, whichever is easier for you."
+    },
+    {
+      "icon": "duct",
+      "title": "Water line work",
+      "desc": "On the Brown County Water Utility's list of local water line installation and repair providers."
+    },
+    {
+      "icon": "pin",
+      "title": "Brown County local",
+      "desc": "Based in Nashville and focused on customers across Brown County."
+    }
+  ],
+  "aboutHeading": "Owner-operated, right here in Nashville",
+  "aboutParagraphs": [
+    "Brown County Plumbing is an owner-operated plumbing company based in Nashville, Indiana. Owner-plumber Mike Miller started the company in 2021 to serve customers across Brown County.",
+    "We handle everyday plumbing service, water heaters, water treatment, and water line installation and repair. You'll find us on the Brown County Water Utility's courtesy list of local water line providers.",
+    "The easiest way to reach us is to call or text (812) 276-7943."
+  ],
+  "brands": [
+    "A.O. Smith"
+  ],
+  "brandsHeading": "Water heaters we carry",
+  "areaRegion": "Nashville & Brown County",
+  "serviceAreas": [
+    "Nashville",
+    "Brown County"
+  ]
+}

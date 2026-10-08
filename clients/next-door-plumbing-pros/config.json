@@ -1,0 +1,100 @@
+{
+  "preset": "plumbing",
+  "demo": true,
+  "businessName": "Next Door Plumbing Pros",
+  "shortName": "Next Door",
+  "headline": "Your neighborhood plumber in Bloomington",
+  "tagline": "Local, family-run plumbing for Bloomington homes: leak repair, water heaters, water softeners and copper repipes, with after-hours help when you need it.",
+  "phone": "(812) 558-1967",
+  "city": "Bloomington",
+  "zip": "47401",
+  "colors": {
+    "primary": "#0f766e",
+    "accent": "#f97316",
+    "dark": "#0b3b37"
+  },
+  "heroLabel": "Family-run & local",
+  "heroChips": [
+    "Leaks",
+    "Water heaters",
+    "Repipes"
+  ],
+  "badges": [
+    "Family-run & local",
+    "After-hours service available",
+    "Recommended on Nextdoor"
+  ],
+  "requestOptions": [
+    "Leak or repair",
+    "Water heater",
+    "Water softener",
+    "Gas line",
+    "Estimate for new work"
+  ],
+  "services": [
+    {
+      "icon": "droplet",
+      "name": "Leak Detection & Repair",
+      "desc": "Find the leak, fix it right, and stop the water damage before it spreads."
+    },
+    {
+      "icon": "flame",
+      "name": "Water Heaters",
+      "desc": "Water heater service, repair and piping."
+    },
+    {
+      "icon": "leaf",
+      "name": "Water Softeners",
+      "desc": "Water softener installation and service."
+    },
+    {
+      "icon": "duct",
+      "name": "Copper Pipe Replacement",
+      "desc": "Replace old or failing copper lines before the next leak."
+    },
+    {
+      "icon": "gauge",
+      "name": "Gas Lines",
+      "desc": "Gas line installation and repair, including garage heater hookups."
+    },
+    {
+      "icon": "wrench",
+      "name": "Plumbing Repairs",
+      "desc": "Faucets, toilets, fixtures and everything in between."
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "family",
+      "title": "Family-run",
+      "desc": "A local, family-run plumbing company based in central Indiana."
+    },
+    {
+      "icon": "clock",
+      "title": "After-hours help",
+      "desc": "Plumbing problems don't keep business hours. After-hours service is available."
+    },
+    {
+      "icon": "building",
+      "title": "Older homes welcome",
+      "desc": "Experience tracking down problems in older Bloomington homes."
+    },
+    {
+      "icon": "tag",
+      "title": "Fair prices",
+      "desc": "Customers describe our work as professional and our prices as reasonable."
+    }
+  ],
+  "aboutHeading": "Bloomington's neighborhood plumbers",
+  "aboutParagraphs": [
+    "Next Door Plumbing Pros is a local, family-run plumbing company serving Bloomington and the surrounding area. We handle leak repairs, water heaters, water softeners, copper repipes and gas line work for homeowners across town.",
+    "Our neighbors have noticed. Customers on Yelp and Nextdoor describe same-day leak repairs, problems in older homes solved quickly, and work that's professional with reasonable prices.",
+    "Need help after hours? Call us. After-hours service is available for those in need."
+  ],
+  "areaRegion": "Bloomington & the surrounding area",
+  "serviceAreas": [
+    "Bloomington",
+    "Monroe County",
+    "Central Indiana"
+  ]
+}

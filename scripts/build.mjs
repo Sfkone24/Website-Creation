@@ -60,6 +60,8 @@ function build(slug) {
   cfg.hasReviews = Boolean(cfg.reviews?.length);
   cfg.primaryArea = cfg.serviceAreas?.[0] ?? cfg.city;
   cfg.services = (cfg.services ?? []).map((s) => ({ ...s, iconSvg: icons[s.icon] ?? icons.wrench }));
+  // 2 or 4 services read better as a 2-column grid than a 3-column grid with an orphan.
+  cfg.servicesGrid = [2, 4].includes(cfg.services.length) ? "grid-2" : "grid-3";
   cfg.highlights = (cfg.highlights ?? []).map((h) => ({ ...h, iconSvg: icons[h.icon] ?? icons.check }));
   cfg.brandIconSvg = icons[cfg.brandIcon] ?? icons.flame;
   cfg.heroWater = cfg.heroCard === "water";
