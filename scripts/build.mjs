@@ -61,6 +61,9 @@ function build(slug) {
   cfg.primaryArea = cfg.serviceAreas?.[0] ?? cfg.city;
   cfg.services = (cfg.services ?? []).map((s) => ({ ...s, iconSvg: icons[s.icon] ?? icons.wrench }));
   cfg.highlights = (cfg.highlights ?? []).map((h) => ({ ...h, iconSvg: icons[h.icon] ?? icons.check }));
+  cfg.brandIconSvg = icons[cfg.brandIcon] ?? icons.flame;
+  cfg.heroWater = cfg.heroCard === "water";
+  cfg.heroThermo = !cfg.heroWater;
   cfg.icons = icons;
   cfg.jsonLd = jsonLd(cfg);
   const out = join(root, "dist", slug);

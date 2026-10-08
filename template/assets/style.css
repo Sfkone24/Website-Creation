@@ -57,6 +57,9 @@ svg{flex:none}
 .mode{display:flex;align-items:center;gap:6px;font-size:.85rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.12)}
 .mode svg{width:16px;height:16px}
 .mode.heat svg{color:#ffb35c}.mode.cool svg{color:#8fd3ff}
+.water-ring{background:conic-gradient(from 200deg,#2f80ed,#56ccf2 35%,#a8e6ff 55%,var(--accent) 80%,#2f80ed 100%)}
+.water-face{gap:10px}
+.water-face svg{width:72px;height:72px;color:#8fd3ff;stroke-width:1.4}
 
 .urgent{background:var(--accent);color:#fff}
 .urgent-in{max-width:1160px;margin:auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}

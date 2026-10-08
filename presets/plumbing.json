@@ -1,0 +1,32 @@
+{
+  "trade": "Plumbing",
+  "seoTrade": "Plumber",
+  "schemaType": "Plumber",
+  "brandIcon": "droplet",
+  "heroCard": "water",
+  "heroLabel": "Local plumbing",
+  "heroChips": ["Repairs", "Water heaters", "Drains"],
+  "servicesHeading": "Plumbing services",
+  "brandsHeading": "Brands we install & service",
+  "urgentLead": "Leak, clog or no hot water?",
+  "tradePerson": "plumber",
+  "requestOptions": ["Leak or repair", "Water heater", "Clogged drain", "Estimate for new work"],
+  "state": "IN",
+  "colors": { "primary": "#0b5394", "accent": "#f59e0b", "dark": "#082a4d" },
+  "whyHeading": "Local plumbing you can count on",
+  "aboutHeading": "A local plumbing company",
+  "services": [
+    { "icon": "wrench", "name": "Plumbing Repairs", "desc": "Leaking faucets, running toilets, broken pipes and everything in between." },
+    { "icon": "flame", "name": "Water Heaters", "desc": "Repair and replacement of tank and tankless water heaters." },
+    { "icon": "droplet", "name": "Drains & Sewer Lines", "desc": "Clogged sinks, tubs and main lines cleared and repaired." },
+    { "icon": "duct", "name": "Water Lines", "desc": "Water service line repair and replacement from the meter to the house." },
+    { "icon": "clipboard", "name": "Remodels & New Construction", "desc": "Rough-in and finish plumbing for kitchens, baths and new homes." },
+    { "icon": "leaf", "name": "Water Treatment", "desc": "Softeners and filtration for cleaner, better-tasting water." }
+  ],
+  "faq": [
+    { "q": "What should I do if a pipe bursts?", "a": "Shut off the main water valve right away. It's usually where the water line enters the house, near the meter or water heater. Then turn off the water heater and call us. Shutting off the water fast limits the damage." },
+    { "q": "How long does a water heater last?", "a": "A traditional tank water heater typically lasts about 8 to 12 years, and a tankless unit can last 20 years or more. Rust-colored water, rumbling noises or leaks around the base are signs it may be time to replace it." },
+    { "q": "Are chemical drain cleaners safe for my pipes?", "a": "Used often, harsh chemical cleaners can damage older pipes and rarely clear the real blockage. If a drain keeps clogging, it's usually worth having it cleared properly." },
+    { "q": "Why is my water pressure low?", "a": "Low pressure can come from clogged aerators, a failing pressure regulator, hidden leaks or old corroded pipes. If it affects the whole house, it's worth having it checked." }
+  ]
+}

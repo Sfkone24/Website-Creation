@@ -2,22 +2,73 @@
   "trade": "Heating & Air Conditioning",
   "seoTrade": "Furnace & AC Repair",
   "schemaType": "HVACBusiness",
+  "brandIcon": "flame",
+  "heroCard": "thermo",
+  "servicesHeading": "Heating & cooling services",
+  "brandsHeading": "Equipment we install & service",
+  "urgentLead": "No heat? No AC?",
+  "tradePerson": "technician",
+  "requestOptions": [
+    "Repair / no heat or AC",
+    "New system estimate",
+    "Tune-up / maintenance"
+  ],
   "state": "IN",
-  "colors": { "primary": "#0f4c81", "accent": "#e8590c", "dark": "#0a2540" },
+  "colors": {
+    "primary": "#0f4c81",
+    "accent": "#e8590c",
+    "dark": "#0a2540"
+  },
   "whyHeading": "Local service you can count on",
   "aboutHeading": "A local heating & cooling company",
   "services": [
-    { "icon": "flame", "name": "Furnace Repair & Replacement", "desc": "Fast diagnosis and repair on gas and electric furnaces, plus high-efficiency replacements when it's time." },
-    { "icon": "snowflake", "name": "Air Conditioning", "desc": "AC repair, recharge and new central air installs to keep you cool through humid Indiana summers." },
-    { "icon": "fan", "name": "Heat Pumps", "desc": "Efficient year-round heating and cooling. Installation, service and repair." },
-    { "icon": "gauge", "name": "Seasonal Tune-Ups", "desc": "Annual maintenance that catches problems early and keeps your system running efficiently." },
-    { "icon": "duct", "name": "Ductwork", "desc": "Duct repair, sealing and new runs so every room gets the air it should." },
-    { "icon": "building", "name": "Commercial HVAC", "desc": "Service and installation for shops, offices and light commercial buildings." }
+    {
+      "icon": "flame",
+      "name": "Furnace Repair & Replacement",
+      "desc": "Fast diagnosis and repair on gas and electric furnaces, plus high-efficiency replacements when it's time."
+    },
+    {
+      "icon": "snowflake",
+      "name": "Air Conditioning",
+      "desc": "AC repair, recharge and new central air installs to keep you cool through humid Indiana summers."
+    },
+    {
+      "icon": "fan",
+      "name": "Heat Pumps",
+      "desc": "Efficient year-round heating and cooling. Installation, service and repair."
+    },
+    {
+      "icon": "gauge",
+      "name": "Seasonal Tune-Ups",
+      "desc": "Annual maintenance that catches problems early and keeps your system running efficiently."
+    },
+    {
+      "icon": "duct",
+      "name": "Ductwork",
+      "desc": "Duct repair, sealing and new runs so every room gets the air it should."
+    },
+    {
+      "icon": "building",
+      "name": "Commercial HVAC",
+      "desc": "Service and installation for shops, offices and light commercial buildings."
+    }
   ],
   "faq": [
-    { "q": "How often should my furnace and AC be serviced?", "a": "Once a year for each is the standard recommendation: the furnace in early fall and the air conditioner in spring. A tune-up catches small problems before they become breakdowns and helps the system run efficiently." },
-    { "q": "Should I repair or replace my system?", "a": "It depends on the age of the equipment, the cost of the repair and how efficiently it runs. Most furnaces and AC units last roughly 15 to 20 years. If yours is near the end of that range and needs a major repair, replacing it is often the better value. We'll walk you through both options." },
-    { "q": "How often should I change my air filter?", "a": "Standard 1-inch filters should be checked monthly and replaced every 1 to 3 months, more often with pets or allergies. Thicker media filters can last 6 to 12 months." },
-    { "q": "What size system does my home need?", "a": "Proper sizing depends on square footage, insulation, windows and ductwork, not just the size of the old unit. An oversized or undersized system costs more to run and wears out sooner, so we size equipment to your home." }
+    {
+      "q": "How often should my furnace and AC be serviced?",
+      "a": "Once a year for each is the standard recommendation: the furnace in early fall and the air conditioner in spring. A tune-up catches small problems before they become breakdowns and helps the system run efficiently."
+    },
+    {
+      "q": "Should I repair or replace my system?",
+      "a": "It depends on the age of the equipment, the cost of the repair and how efficiently it runs. Most furnaces and AC units last roughly 15 to 20 years. If yours is near the end of that range and needs a major repair, replacing it is often the better value. We'll walk you through both options."
+    },
+    {
+      "q": "How often should I change my air filter?",
+      "a": "Standard 1-inch filters should be checked monthly and replaced every 1 to 3 months, more often with pets or allergies. Thicker media filters can last 6 to 12 months."
+    },
+    {
+      "q": "What size system does my home need?",
+      "a": "Proper sizing depends on square footage, insulation, windows and ductwork, not just the size of the old unit. An oversized or undersized system costs more to run and wears out sooner, so we size equipment to your home."
+    }
   ]
 }
