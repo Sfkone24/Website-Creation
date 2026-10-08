@@ -28,7 +28,8 @@ jobs:
           node-version: 22
       - run: node scripts/build.mjs all
       - name: Block indexing of the demo host
-        run: printf 'User-agent: *\nDisallow: /\n' > dist/robots.txt
+        run: |
+          printf 'User-agent: *\nDisallow: /\n' > dist/robots.txt
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
