@@ -29,3 +29,8 @@ Statuses: `new` > `demo_built` > `contacted` > `replied` > `won` / `lost`.
 - Use only real, public business details. Never invent reviews, licenses or years in business: leave them out of the config instead.
 - Don't copy a business's logo, photos or text without permission. Use placeholders in demos.
 - Comply with local email and cold-call laws (CAN-SPAM, CASL, GDPR, Do-Not-Call). Include your identity and an opt-out in every email.
+
+## Market: Bloomington, Indiana
+Priority trade: **HVAC** (hot humid summers and cold winters mean year-round demand, and high-ticket jobs). Secondary: plumbing, then electrical.
+Search Google Maps for: "HVAC Bloomington IN", "furnace repair Bloomington IN", "air conditioning repair Ellettsville / Martinsville / Bedford IN".
+Skip large established firms (e.g. Summers, Commercial Service). Target small owner-operators with no site or a weak one.
