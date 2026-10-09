@@ -36,22 +36,26 @@
     {
       "icon": "wrench",
       "name": "Plumbing Service & Repair",
-      "desc": "Leaks, fixtures, toilets and faucets, handled by the owner-plumber."
+      "desc": "Leaks, fixtures, toilets and faucets, handled by the owner-plumber.",
+      "id": "plumbing-repairs"
     },
     {
       "icon": "flame",
       "name": "Water Heaters",
-      "desc": "Water heater replacement and service."
+      "desc": "Water heater replacement and service.",
+      "id": "water-heaters"
     },
     {
       "icon": "duct",
       "name": "Water Lines",
-      "desc": "Water line installation and repair from the meter to your home."
+      "desc": "Water line installation and repair from the meter to your home.",
+      "id": "water-lines"
     },
     {
       "icon": "leaf",
       "name": "Water Treatment",
-      "desc": "Water treatment and filtration systems."
+      "desc": "Water treatment and filtration systems.",
+      "id": "water-treatment"
     }
   ],
   "highlights": [

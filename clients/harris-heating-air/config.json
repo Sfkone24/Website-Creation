@@ -10,33 +10,102 @@
   "city": "Bloomington",
   "zip": "47403",
   "hours": "Monday–Friday, 8:30am–4:30pm",
-  "colors": { "primary": "#0e5e6f", "accent": "#f08c00", "dark": "#082f38" },
-  "badges": ["Free estimates on new equipment", "All makes & models repaired", "35+ years in Bloomington"],
+  "colors": {
+    "primary": "#0e5e6f",
+    "accent": "#f08c00",
+    "dark": "#082f38"
+  },
+  "badges": [
+    "Free estimates on new equipment",
+    "All makes & models repaired",
+    "35+ years in Bloomington"
+  ],
   "services": [
-    { "icon": "flame", "name": "High-Efficiency Furnaces", "desc": "95% efficient Tempstar furnaces installed, plus repair on any make or model of furnace." },
-    { "icon": "snowflake", "name": "Air Conditioning", "desc": "Central AC installation, repair and seasonal checks to keep you cool all summer." },
-    { "icon": "earth", "name": "Geothermal Heating & Cooling", "desc": "ClimateMaster geothermal systems that use the steady temperature of the earth to heat and cool your home." },
-    { "icon": "gauge", "name": "Furnace & AC Check and Cleaning", "desc": "Seasonal inspections and cleanings that keep equipment efficient and catch problems early." },
-    { "icon": "droplet", "name": "Filters & Humidifiers", "desc": "Filter changes and humidifier media replacement for cleaner, more comfortable air." },
-    { "icon": "building", "name": "Commercial Units", "desc": "Service and installation for commercial systems from 5 to 20 tons." }
+    {
+      "icon": "flame",
+      "name": "High-Efficiency Furnaces",
+      "desc": "95% efficient Tempstar furnaces installed, plus repair on any make or model of furnace.",
+      "id": "furnace-repair-replacement"
+    },
+    {
+      "icon": "snowflake",
+      "name": "Air Conditioning",
+      "desc": "Central AC installation, repair and seasonal checks to keep you cool all summer.",
+      "id": "air-conditioning"
+    },
+    {
+      "icon": "earth",
+      "name": "Geothermal Heating & Cooling",
+      "desc": "ClimateMaster geothermal systems that use the steady temperature of the earth to heat and cool your home.",
+      "id": "geothermal"
+    },
+    {
+      "icon": "gauge",
+      "name": "Furnace & AC Check and Cleaning",
+      "desc": "Seasonal inspections and cleanings that keep equipment efficient and catch problems early.",
+      "id": "hvac-tune-ups"
+    },
+    {
+      "icon": "droplet",
+      "name": "Filters & Humidifiers",
+      "desc": "Filter changes and humidifier media replacement for cleaner, more comfortable air.",
+      "id": "indoor-air-quality"
+    },
+    {
+      "icon": "building",
+      "name": "Commercial Units",
+      "desc": "Service and installation for commercial systems from 5 to 20 tons.",
+      "id": "commercial-hvac"
+    }
   ],
   "highlights": [
-    { "icon": "tag", "title": "Free estimates", "desc": "No-cost estimates on installation of new heating and cooling equipment." },
-    { "icon": "wrench", "title": "All makes & models", "desc": "We service and repair every brand of heating and cooling equipment, not just the ones we sell." },
-    { "icon": "earth", "title": "Geothermal know-how", "desc": "ClimateMaster geothermal systems, one of the most efficient ways to heat and cool a home." },
-    { "icon": "family", "title": "Locally owned", "desc": "A Bloomington company serving Monroe County and south central Indiana for decades." }
+    {
+      "icon": "tag",
+      "title": "Free estimates",
+      "desc": "No-cost estimates on installation of new heating and cooling equipment."
+    },
+    {
+      "icon": "wrench",
+      "title": "All makes & models",
+      "desc": "We service and repair every brand of heating and cooling equipment, not just the ones we sell."
+    },
+    {
+      "icon": "earth",
+      "title": "Geothermal know-how",
+      "desc": "ClimateMaster geothermal systems, one of the most efficient ways to heat and cool a home."
+    },
+    {
+      "icon": "family",
+      "title": "Locally owned",
+      "desc": "A Bloomington company serving Monroe County and south central Indiana for decades."
+    }
   ],
   "aboutHeading": "Serving south central Indiana for over 35 years",
   "aboutParagraphs": [
     "Harris Heating & Air Conditioning is a locally owned Bloomington company that has kept Monroe County homes and businesses comfortable for more than three decades.",
     "We specialize in Tempstar heating and cooling systems and ClimateMaster geothermal equipment, including 95% efficient furnaces, central air conditioning and geothermal heat pumps. We also service and repair all makes and models, so you can call us no matter what's in your basement."
   ],
-  "brands": ["Tempstar", "ClimateMaster"],
+  "brands": [
+    "Tempstar",
+    "ClimateMaster"
+  ],
   "brandsNote": "Repairs on all makes and models of heating and cooling equipment.",
   "areaRegion": "Bloomington & Monroe County",
-  "serviceAreas": ["Bloomington", "Ellettsville", "Smithville", "Stanford", "Unionville"],
+  "serviceAreas": [
+    "Bloomington",
+    "Ellettsville",
+    "Smithville",
+    "Stanford",
+    "Unionville"
+  ],
   "faq": [
-    { "q": "Do you offer free estimates?", "a": "Yes. Estimates on the installation of new heating and cooling equipment are free. Call us to set up a visit." },
-    { "q": "Is geothermal worth it?", "a": "Geothermal systems use the stable temperature underground to heat and cool your home, which makes them among the most efficient systems available. They cost more up front than a conventional furnace and AC, so we'll help you compare long-term savings for your home and property." }
+    {
+      "q": "Do you offer free estimates?",
+      "a": "Yes. Estimates on the installation of new heating and cooling equipment are free. Call us to set up a visit."
+    },
+    {
+      "q": "Is geothermal worth it?",
+      "a": "Geothermal systems use the stable temperature underground to heat and cool your home, which makes them among the most efficient systems available. They cost more up front than a conventional furnace and AC, so we'll help you compare long-term savings for your home and property."
+    }
   ]
 }

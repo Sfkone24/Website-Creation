@@ -1,15 +1,223 @@
 {
   "preset": "hvac",
-  "demo": true,
+  "demo": false,
+  "sample": true,
+  "tier": "standard",
   "businessName": "Sample Heating & Air",
-  "shortName": "Sample",
+  "shortName": "Sample Heating & Air",
   "headline": "Heating & cooling you can count on",
-  "tagline": "Furnace, AC and heat pump repair, installation and tune-ups in Bloomington, Indiana.",
+  "tagline": "Furnace, AC and heat pump repair, installation and tune-ups for homes across Bloomington and Monroe County.",
   "phone": "(812) 555-0100",
+  "email": "hello@example.com",
   "city": "Bloomington",
   "zip": "47401",
-  "badges": ["Licensed & insured", "Homes & businesses"],
-  "aboutParagraphs": ["Replace with the real business's own description. Use only facts the owner provides or that are public."],
+  "siteUrl": "https://www.example.com",
+  "logo": "logo.svg",
+  "favicon": "logo.svg",
+  "ogImage": "hero.svg",
+  "heroImage": {
+    "src": "hero.svg",
+    "alt": "The Sample Heating & Air team with their service van"
+  },
+  "foundingYear": 2008,
+  "badges": [
+    "Family owned since 2008",
+    "Licensed & insured",
+    "Upfront pricing"
+  ],
+  "credentials": [
+    "Licensed & insured",
+    "EPA 608 certified technicians",
+    "Member, Greater Bloomington Chamber",
+    "Factory-trained on the brands we install"
+  ],
+  "highlights": [
+    {
+      "icon": "family",
+      "title": "Family owned",
+      "desc": "The owner still answers the phone and still runs calls."
+    },
+    {
+      "icon": "tag",
+      "title": "Upfront pricing",
+      "desc": "You approve the price before any work starts. No surprises on the bill."
+    },
+    {
+      "icon": "clock",
+      "title": "On-time arrival",
+      "desc": "A text when the technician is on the way, with a real arrival window."
+    },
+    {
+      "icon": "shield",
+      "title": "Work we stand behind",
+      "desc": "One-year labor guarantee on every repair and installation."
+    }
+  ],
+  "process": [
+    {
+      "title": "Call or request service",
+      "text": "Tell us what's going on. We'll ask a few quick questions and book a time that works for you."
+    },
+    {
+      "title": "Diagnosis & upfront price",
+      "text": "The technician finds the real problem and explains your options with a price before any work starts."
+    },
+    {
+      "title": "Fix it right",
+      "text": "Work is done cleanly, with shoe covers and drop cloths, and tested before we leave."
+    },
+    {
+      "title": "Follow-up",
+      "text": "We check in after the job to make sure everything is running the way it should."
+    }
+  ],
+  "aboutHeading": "A Bloomington family business since 2008",
+  "aboutParagraphs": [
+    "Sample Heating & Air started in 2008 with one truck and a simple idea: show up when you say you will, explain the problem in plain English, and charge a fair price you agree to before the work starts.",
+    "Today our small team handles furnaces, air conditioners, heat pumps and ductwork for homes across Bloomington and Monroe County, from century-old houses near downtown to new builds out in the county. Most of our work comes from neighbors who recommend us, and we'd like to keep it that way.",
+    "Whether it's a no-heat call on a January night or a new system for a home you just bought, you'll talk to people who live here and care about getting it right."
+  ],
+  "team": [
+    {
+      "name": "Owner Name",
+      "role": "Owner & lead technician",
+      "photo": "owner.svg",
+      "bio": "Started the company in 2008 after ten years in the trade. Still runs service calls most days and personally reviews every installation."
+    },
+    {
+      "name": "Team Member",
+      "role": "Service technician",
+      "photo": "tech.svg",
+      "bio": "Handles repairs and seasonal tune-ups across Monroe County. Known for explaining exactly what he found and why it matters."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "job-1.svg",
+      "alt": "New high-efficiency furnace installed in a basement",
+      "caption": "High-efficiency furnace replacement, Bloomington"
+    },
+    {
+      "src": "job-2.svg",
+      "alt": "New AC condenser on a concrete pad",
+      "caption": "Central AC install, Ellettsville"
+    },
+    {
+      "src": "job-3.svg",
+      "alt": "Sealed and insulated ductwork in an attic",
+      "caption": "Ductwork sealing and new returns"
+    },
+    {
+      "src": "job-4.svg",
+      "alt": "Heat pump outdoor unit beside a house",
+      "caption": "Heat pump conversion, Smithville"
+    },
+    {
+      "src": "job-5.svg",
+      "alt": "Technician performing a furnace tune-up",
+      "caption": "Fall furnace tune-up"
+    },
+    {
+      "src": "job-6.svg",
+      "alt": "Smart thermostat mounted on a wall",
+      "caption": "Thermostat upgrade"
+    }
+  ],
+  "reviews": [
+    {
+      "quote": "Our furnace quit on the coldest night of the year. They came out first thing, explained the problem, and had heat back on by noon. Fair price, too.",
+      "name": "Sample review, J.M.",
+      "source": "Google",
+      "rating": 5,
+      "permission": true
+    },
+    {
+      "quote": "Got three quotes for a new AC. They were the only ones who measured the house and explained why a smaller unit was the better fit.",
+      "name": "Sample review, R.T.",
+      "source": "Facebook",
+      "rating": 5,
+      "permission": true
+    },
+    {
+      "quote": "On time, wore shoe covers, cleaned up, and texted before arriving. That's all I want from a contractor.",
+      "name": "Sample review, L.K.",
+      "source": "Nextdoor",
+      "rating": 5,
+      "permission": true
+    }
+  ],
+  "reviewLinks": [
+    {
+      "label": "Read more reviews on Google",
+      "url": "https://www.google.com/maps"
+    }
+  ],
+  "guarantees": [
+    {
+      "title": "One-year labor guarantee",
+      "text": "If something we fixed fails within a year because of our workmanship, we come back and make it right at no charge."
+    },
+    {
+      "title": "Upfront, approved pricing",
+      "text": "You'll see and approve the price before any work starts. The price we quote is the price you pay."
+    }
+  ],
+  "payments": [
+    "Cash and check",
+    "All major credit cards",
+    "Financing on new systems"
+  ],
+  "financing": "Ask about monthly payment options on furnace, AC and heat pump replacements.",
+  "hoursTable": [
+    {
+      "days": "Monday–Friday",
+      "hours": "7:30am–5:00pm"
+    },
+    {
+      "days": "Saturday",
+      "hours": "8:00am–12:00pm"
+    },
+    {
+      "days": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "emergency": "No heat or no AC after hours? Call the main number and follow the prompts for emergency service.",
+  "social": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com"
+    },
+    {
+      "label": "Google",
+      "url": "https://www.google.com/maps"
+    }
+  ],
+  "mapEmbed": "https://www.google.com/maps?q=Bloomington,+IN&output=embed",
   "areaRegion": "Bloomington & Monroe County",
-  "serviceAreas": ["Bloomington", "Ellettsville", "Bedford", "Martinsville"]
+  "serviceAreas": [
+    "Bloomington",
+    "Ellettsville",
+    "Smithville",
+    "Unionville",
+    "Harrodsburg",
+    "Stinesville"
+  ],
+  "faq": [
+    {
+      "q": "Do you charge a trip fee?",
+      "a": "Sample answer: the business explains its service-call fee here, and whether it's applied to the repair."
+    },
+    {
+      "q": "Do you offer maintenance plans?",
+      "a": "Sample answer: describe the plan, what's included, and the price, or remove this question."
+    }
+  ],
+  "confirmed": {
+    "facts": true,
+    "photosPermission": true,
+    "reviewsPermission": true,
+    "copyApproved": true
+  },
+  "serviceAreaOnly": true
 }

@@ -25,32 +25,38 @@
     {
       "icon": "flame",
       "name": "Furnace Repair & Replacement",
-      "desc": "Fast diagnosis and repair on gas and electric furnaces, plus high-efficiency replacements when it's time."
+      "desc": "Fast diagnosis and repair on gas and electric furnaces, plus high-efficiency replacements when it's time.",
+      "id": "furnace-repair-replacement"
     },
     {
       "icon": "snowflake",
       "name": "Air Conditioning",
-      "desc": "AC repair, recharge and new central air installs to keep you cool through humid Indiana summers."
+      "desc": "AC repair, recharge and new central air installs to keep you cool through humid Indiana summers.",
+      "id": "air-conditioning"
     },
     {
       "icon": "fan",
       "name": "Heat Pumps",
-      "desc": "Efficient year-round heating and cooling. Installation, service and repair."
+      "desc": "Efficient year-round heating and cooling. Installation, service and repair.",
+      "id": "heat-pumps"
     },
     {
       "icon": "gauge",
       "name": "Seasonal Tune-Ups",
-      "desc": "Annual maintenance that catches problems early and keeps your system running efficiently."
+      "desc": "Annual maintenance that catches problems early and keeps your system running efficiently.",
+      "id": "hvac-tune-ups"
     },
     {
       "icon": "duct",
       "name": "Ductwork",
-      "desc": "Duct repair, sealing and new runs so every room gets the air it should."
+      "desc": "Duct repair, sealing and new runs so every room gets the air it should.",
+      "id": "ductwork"
     },
     {
       "icon": "building",
       "name": "Commercial HVAC",
-      "desc": "Service and installation for shops, offices and light commercial buildings."
+      "desc": "Service and installation for shops, offices and light commercial buildings.",
+      "id": "commercial-hvac"
     }
   ],
   "faq": [

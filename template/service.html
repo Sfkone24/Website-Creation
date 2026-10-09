@@ -1,0 +1,66 @@
+{{> head}}
+
+  <main id="top">
+    <section class="page-hero">
+      <div class="sec-in">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="{{base}}">Home</a> / <a href="{{base}}#services">Services</a> / <span>{{page.name}}</span></nav>
+        <div class="page-hero-row">
+          <div class="ico ico-lg">{{{page.iconSvg}}}</div>
+          <div>
+            <p class="eyebrow">{{trade}} · {{areaRegion}}</p>
+            <h1>{{page.name}}</h1>
+          </div>
+        </div>
+        <p class="lead">{{page.details.intro}}</p>
+        <div class="cta-row">
+          <a class="btn btn-accent btn-lg" href="tel:{{phoneDigits}}">{{{icons.phone}}}<span>Call {{phone}}</span></a>
+          <a class="btn btn-light btn-lg" href="#contact">Request service</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-in svc-layout">
+        <article class="prose">
+          {{#page.details.body}}<p>{{.}}</p>{{/page.details.body}}
+
+          {{#page.details.signs.length}}
+          <h2>Signs you need {{page.lowerName}}</h2>
+          <ul class="ticks">{{#page.details.signs}}<li>{{.}}</li>{{/page.details.signs}}</ul>
+          {{/page.details.signs.length}}
+
+          {{#page.details.whatToExpect.length}}
+          <h2>What to expect</h2>
+          <ol class="steps steps-compact">{{#page.details.whatToExpect}}<li><h3>{{title}}</h3><p>{{text}}</p></li>{{/page.details.whatToExpect}}</ol>
+          {{/page.details.whatToExpect.length}}
+
+          {{#page.details.tips.length}}
+          <h2>Homeowner tips</h2>
+          <ul class="ticks">{{#page.details.tips}}<li>{{.}}</li>{{/page.details.tips}}</ul>
+          {{/page.details.tips.length}}
+
+          {{#page.details.faq.length}}
+          <h2>Questions about {{page.lowerName}}</h2>
+          {{#page.details.faq}}<details><summary>{{q}}</summary><p>{{a}}</p></details>{{/page.details.faq}}
+          {{/page.details.faq.length}}
+        </article>
+
+        <aside class="svc-aside">
+          <div class="card cta-card">
+            <h3>Need {{page.lowerName}}?</h3>
+            <p>Talk to {{businessName}}, serving {{areaRegion}}.</p>
+            <a class="btn btn-accent" href="tel:{{phoneDigits}}">{{{icons.phone}}}<span>{{phone}}</span></a>
+            {{#hours}}<p class="muted">{{hours}}</p>{{/hours}}
+          </div>
+          <div class="card">
+            <h3>Other services</h3>
+            <ul class="foot-links dark">{{#otherServices}}<li><a href="{{base}}{{pageUrl}}">{{name}}</a></li>{{/otherServices}}</ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+{{> contact}}
+  </main>
+
+{{> footer}}

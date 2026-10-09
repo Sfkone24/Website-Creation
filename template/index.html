@@ -1,32 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{businessName}} | {{seoTrade}} in {{primaryArea}}, {{state}}</title>
-  <meta name="description" content="{{tagline}} Call {{phone}}.">
-  {{#demo}}<meta name="robots" content="noindex, nofollow">{{/demo}}
-  <meta property="og:title" content="{{businessName}}">
-  <meta property="og:description" content="{{tagline}}">
-  <meta name="theme-color" content="{{colors.primary}}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
-  <script type="application/ld+json">{{{jsonLd}}}</script>
-</head>
-<body>
-  {{#demo}}
-  <div class="demo-bar">Concept preview designed for <strong>{{businessName}}</strong>. Not the company's official website.</div>
-  {{/demo}}
-
-  <header class="top">
-    <div class="top-in">
-      <a class="brand" href="#top"><span class="brand-mark">{{{brandIconSvg}}}</span><span>{{businessName}}</span></a>
-      <nav class="nav"><a href="#services">Services</a><a href="#about">About</a><a href="#areas">Areas</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav>
-      <a class="btn btn-accent btn-sm" href="tel:{{phoneDigits}}">{{{icons.phone}}}<span>{{phone}}</span></a>
-    </div>
-  </header>
+{{> head}}
 
   <main id="top">
     <section class="hero">
@@ -43,19 +15,24 @@
             {{#badges}}<li>{{{icons.check}}}<span>{{.}}</span></li>{{/badges}}
           </ul>
         </div>
-        <div class="hero-card" aria-hidden="true">
+        <div class="hero-card{{#heroImage}} has-photo{{/heroImage}}">
+          {{#heroImage}}
+          <figure class="hero-photo"><img src="{{heroImage.src}}" alt="{{heroImage.alt}}" loading="eager">{{#heroImage.caption}}<figcaption>{{heroImage.caption}}</figcaption>{{/heroImage.caption}}</figure>
+          {{/heroImage}}
+          {{^heroImage}}
           {{#heroThermo}}
-          <div class="thermo">
+          <div class="thermo" aria-hidden="true">
             <div class="thermo-ring"><div class="thermo-face"><span class="thermo-temp">72°</span><span class="thermo-label">Comfort, all year</span></div></div>
             <div class="thermo-modes"><span class="mode heat">{{{icons.flame}}} Heat</span><span class="mode cool">{{{icons.snowflake}}} Cool</span></div>
           </div>
           {{/heroThermo}}
           {{#heroWater}}
-          <div class="thermo">
+          <div class="thermo" aria-hidden="true">
             <div class="thermo-ring water-ring"><div class="thermo-face water-face">{{{icons.droplet}}}<span class="thermo-label">{{heroLabel}}</span></div></div>
             <div class="thermo-modes">{{#heroChips}}<span class="mode cool">{{{icons.check}}} {{.}}</span>{{/heroChips}}</div>
           </div>
           {{/heroWater}}
+          {{/heroImage}}
         </div>
       </div>
     </section>
@@ -67,18 +44,24 @@
       </div>
     </section>
 
-    <section id="services" class="sec">
+    {{#credentials.length}}
+    <section class="creds" aria-label="Licensing and credentials">
+      <ul class="creds-in">{{#credentials}}<li>{{{icons.shield}}}<span>{{.}}</span></li>{{/credentials}}</ul>
+    </section>
+    {{/credentials.length}}
+
+    <section id="services" class="sec {{servicesBg}}">
       <div class="sec-in">
         <p class="kicker">What we do</p>
         <h2>{{servicesHeading}}</h2>
         <div class="grid {{servicesGrid}}">
-          {{#services}}<article class="card svc"><div class="ico">{{{iconSvg}}}</div><h3>{{name}}</h3><p>{{desc}}</p></article>{{/services}}
+          {{#services}}<article class="card svc"><div class="ico">{{{iconSvg}}}</div><h3>{{#pageUrl}}<a class="stretched" href="{{pageUrl}}">{{name}}</a>{{/pageUrl}}{{^pageUrl}}{{name}}{{/pageUrl}}</h3><p>{{desc}}</p>{{#pageUrl}}<p class="more">Learn more →</p>{{/pageUrl}}</article>{{/services}}
         </div>
       </div>
     </section>
 
     {{#highlights.length}}
-    <section class="sec sec-alt">
+    <section class="sec {{highlightsBg}}">
       <div class="sec-in">
         <p class="kicker">Why {{shortName}}</p>
         <h2>{{whyHeading}}</h2>
@@ -89,7 +72,17 @@
     </section>
     {{/highlights.length}}
 
-    <section id="about" class="sec">
+    {{#process.length}}
+    <section class="sec {{processBg}}">
+      <div class="sec-in">
+        <p class="kicker">How it works</p>
+        <h2>{{processHeading}}</h2>
+        <ol class="steps">{{#process}}<li><h3>{{title}}</h3><p>{{text}}</p></li>{{/process}}</ol>
+      </div>
+    </section>
+    {{/process.length}}
+
+    <section id="about" class="sec {{aboutBg}}">
       <div class="sec-in about">
         <div>
           <p class="kicker">About us</p>
@@ -104,29 +97,59 @@
         </aside>
         {{/brands.length}}
       </div>
+      {{#team.length}}
+      <div class="sec-in team">
+        {{#team}}<article class="person">{{#photo}}<img src="{{photo}}" alt="{{name}}" loading="lazy">{{/photo}}<div><h3>{{name}}</h3><p class="role">{{role}}</p><p>{{bio}}</p></div></article>{{/team}}
+      </div>
+      {{/team.length}}
     </section>
 
+    {{#gallery.length}}
+    <section class="sec {{galleryBg}}" id="work">
+      <div class="sec-in">
+        <p class="kicker">Our work</p>
+        <h2>Recent jobs</h2>
+        <div class="gallery">{{#gallery}}<figure><img src="{{src}}" alt="{{alt}}" loading="lazy">{{#caption}}<figcaption>{{caption}}</figcaption>{{/caption}}</figure>{{/gallery}}</div>
+      </div>
+    </section>
+    {{/gallery.length}}
+
     {{#hasReviews}}
-    <section class="sec sec-alt">
+    <section class="sec {{reviewsBg}}">
       <div class="sec-in">
         <p class="kicker">Reviews</p>
         <h2>What customers say</h2>
         <div class="grid grid-3">
-          {{#reviews}}<blockquote class="card quote"><div class="stars">★★★★★</div><p>“{{quote}}”</p><footer>— {{name}}</footer></blockquote>{{/reviews}}
+          {{#reviews}}<blockquote class="card quote"><div class="stars" aria-label="{{rating}} out of 5 stars">{{stars}}</div><p>“{{quote}}”</p><footer>{{name}}{{#source}} · <span class="muted">{{source}}</span>{{/source}}</footer></blockquote>{{/reviews}}
         </div>
+        {{#reviewLinks.length}}<p class="review-links">{{#reviewLinks}}<a class="btn btn-outline" href="{{url}}" rel="noopener">{{label}}</a>{{/reviewLinks}}</p>{{/reviewLinks.length}}
       </div>
     </section>
     {{/hasReviews}}
 
-    <section id="areas" class="sec sec-alt">
+    {{#hasGoodToKnow}}
+    <section class="sec {{goodBg}}">
+      <div class="sec-in">
+        <p class="kicker">Good to know</p>
+        <h2>Working with {{shortName}}</h2>
+        <div class="grid grid-3">
+          {{#guarantees}}<div class="card"><div class="ico ico-soft">{{{icons.shield}}}</div><h3>{{title}}</h3><p>{{text}}</p></div>{{/guarantees}}
+          {{#payments.length}}<div class="card"><div class="ico ico-soft">{{{icons.tag}}}</div><h3>Payment options</h3><ul class="ticks">{{#payments}}<li>{{.}}</li>{{/payments}}</ul>{{#financing}}<p>{{financing}}</p>{{/financing}}</div>{{/payments.length}}
+        </div>
+      </div>
+    </section>
+    {{/hasGoodToKnow}}
+
+    <section id="areas" class="sec {{areasBg}}">
       <div class="sec-in">
         <p class="kicker">Service area</p>
         <h2>Proudly serving {{areaRegion}}</h2>
         <ul class="chips">{{#serviceAreas}}<li>{{{icons.pin}}}{{.}}</li>{{/serviceAreas}}</ul>
+        {{#mapEmbed}}<iframe class="map" src="{{mapEmbed}}" title="Map of {{areaRegion}}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>{{/mapEmbed}}
       </div>
     </section>
 
-    <section id="faq" class="sec">
+    <section id="faq" class="sec {{faqBg}}">
       <div class="sec-in narrow">
         <p class="kicker">FAQ</p>
         <h2>Common questions</h2>
@@ -134,51 +157,7 @@
       </div>
     </section>
 
-    <section id="contact" class="sec sec-dark">
-      <div class="sec-in contact">
-        <div>
-          <p class="kicker">Get in touch</p>
-          <h2>Schedule service or request an estimate</h2>
-          <ul class="info">
-            <li>{{{icons.phone}}}<a href="tel:{{phoneDigits}}">{{phone}}</a></li>
-            {{#email}}<li>{{{icons.mail}}}<a href="mailto:{{email}}">{{email}}</a></li>{{/email}}
-            {{#address}}<li>{{{icons.pin}}}<span>{{address}}</span></li>{{/address}}
-            {{#hours}}<li>{{{icons.clock}}}<span>{{hours}}</span></li>{{/hours}}
-          </ul>
-        </div>
-        <form class="form" name="service-request" method="POST" data-netlify="true" {{#demo}}data-demo="true"{{/demo}}>
-          <input type="hidden" name="form-name" value="service-request">
-          <label>Name<input name="name" autocomplete="name" required></label>
-          <label>Phone<input name="phone" type="tel" autocomplete="tel" required></label>
-          <label>What do you need?
-            <select name="need">{{#requestOptions}}<option>{{.}}</option>{{/requestOptions}}<option>Other</option></select>
-          </label>
-          <label>Details<textarea name="message" rows="3"></textarea></label>
-          <button class="btn btn-accent btn-lg" type="submit">Send request</button>
-          <p class="form-note" hidden></p>
-        </form>
-      </div>
-    </section>
+{{> contact}}
   </main>
 
-  <footer class="foot">
-    <div class="sec-in foot-in">
-      <p><strong>{{businessName}}</strong><br>{{address}}<br><a href="tel:{{phoneDigits}}">{{phone}}</a></p>
-      <p>© {{year}} {{businessName}}. All rights reserved.{{#demo}}<br><span class="muted">Concept site, not affiliated with or endorsed by {{businessName}}.</span>{{/demo}}</p>
-    </div>
-  </footer>
-
-  <a class="sticky-call" href="tel:{{phoneDigits}}">{{{icons.phone}}} Call {{phone}}</a>
-
-  <script>
-    document.querySelectorAll('form[data-demo]').forEach(function (f) {
-      f.addEventListener('submit', function (e) {
-        e.preventDefault();
-        var n = f.querySelector('.form-note');
-        n.textContent = 'Preview only: on the live site this request goes straight to your inbox and phone.';
-        n.hidden = false;
-      });
-    });
-  </script>
-</body>
-</html>
+{{> footer}}

@@ -35,32 +35,38 @@
     {
       "icon": "droplet",
       "name": "Leak Detection & Repair",
-      "desc": "Find the leak, fix it right, and stop the water damage before it spreads."
+      "desc": "Find the leak, fix it right, and stop the water damage before it spreads.",
+      "id": "leak-detection"
     },
     {
       "icon": "flame",
       "name": "Water Heaters",
-      "desc": "Water heater service, repair and piping."
+      "desc": "Water heater service, repair and piping.",
+      "id": "water-heaters"
     },
     {
       "icon": "leaf",
       "name": "Water Softeners",
-      "desc": "Water softener installation and service."
+      "desc": "Water softener installation and service.",
+      "id": "water-treatment"
     },
     {
       "icon": "duct",
       "name": "Copper Pipe Replacement",
-      "desc": "Replace old or failing copper lines before the next leak."
+      "desc": "Replace old or failing copper lines before the next leak.",
+      "id": "repiping"
     },
     {
       "icon": "gauge",
       "name": "Gas Lines",
-      "desc": "Gas line installation and repair, including garage heater hookups."
+      "desc": "Gas line installation and repair, including garage heater hookups.",
+      "id": "gas-lines"
     },
     {
       "icon": "wrench",
       "name": "Plumbing Repairs",
-      "desc": "Faucets, toilets, fixtures and everything in between."
+      "desc": "Faucets, toilets, fixtures and everything in between.",
+      "id": "plumbing-repairs"
     }
   ],
   "highlights": [

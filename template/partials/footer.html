@@ -1,0 +1,39 @@
+  <footer class="foot">
+    <div class="sec-in foot-grid">
+      <div>
+        <p class="foot-name">{{businessName}}</p>
+        <p>{{#address}}{{address}}<br>{{/address}}<a href="tel:{{phoneDigits}}">{{phone}}</a>{{#email}}<br><a href="mailto:{{email}}">{{email}}</a>{{/email}}</p>
+        {{#social.length}}<p class="social">{{#social}}<a href="{{url}}" rel="noopener">{{label}}</a>{{/social}}</p>{{/social.length}}
+      </div>
+      {{#final}}
+      <div>
+        <p class="foot-h">Services</p>
+        <ul class="foot-links">{{#services}}{{#pageUrl}}<li><a href="{{base}}{{pageUrl}}">{{name}}</a></li>{{/pageUrl}}{{/services}}</ul>
+      </div>
+      {{/final}}
+      <div>
+        <p class="foot-h">Service area</p>
+        <p>{{areaRegion}}</p>
+        {{#credentials.length}}<ul class="foot-links">{{#credentials}}<li>{{.}}</li>{{/credentials}}</ul>{{/credentials.length}}
+      </div>
+    </div>
+    <div class="sec-in foot-bottom">
+      <p>© {{year}} {{businessName}}. All rights reserved.{{#final}} · <a href="{{base}}privacy/">Privacy policy</a>{{/final}}</p>
+      {{#demo}}<p class="muted">Concept site, not affiliated with or endorsed by {{businessName}}.</p>{{/demo}}
+    </div>
+  </footer>
+
+  <a class="sticky-call" href="tel:{{phoneDigits}}">{{{icons.phone}}} Call {{phone}}</a>
+
+  <script>
+    document.querySelectorAll('form[data-demo]').forEach(function (f) {
+      f.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var n = f.querySelector('.form-note');
+        n.textContent = 'Preview only: on the live site this request goes straight to your inbox and phone.';
+        n.hidden = false;
+      });
+    });
+  </script>
+</body>
+</html>

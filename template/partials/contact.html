@@ -1,0 +1,34 @@
+    <section id="contact" class="sec sec-dark">
+      <div class="sec-in contact">
+        <div>
+          <p class="kicker">Get in touch</p>
+          <h2>Schedule service or request an estimate</h2>
+          <ul class="info">
+            <li>{{{icons.phone}}}<a href="tel:{{phoneDigits}}">{{phone}}</a></li>
+            {{#email}}<li>{{{icons.mail}}}<a href="mailto:{{email}}">{{email}}</a></li>{{/email}}
+            {{#address}}<li>{{{icons.pin}}}<span>{{address}}</span></li>{{/address}}
+            {{^hoursTable}}{{#hours}}<li>{{{icons.clock}}}<span>{{hours}}</span></li>{{/hours}}{{/hoursTable}}
+          </ul>
+          {{#hoursTable.length}}
+          <table class="hours">
+            <caption>{{{icons.clock}}} Hours</caption>
+            {{#hoursTable}}<tr><th scope="row">{{days}}</th><td>{{hours}}</td></tr>{{/hoursTable}}
+          </table>
+          {{/hoursTable.length}}
+          {{#emergency}}<p class="emergency">{{{icons.clock}}}<span>{{emergency}}</span></p>{{/emergency}}
+        </div>
+        <form class="form" name="service-request" method="POST" data-netlify="true" netlify-honeypot="company" action="{{base}}thanks/" {{#formPreview}}data-demo="true"{{/formPreview}}>
+          <input type="hidden" name="form-name" value="service-request">
+          <p class="hp"><label>Company<input name="company" tabindex="-1" autocomplete="off"></label></p>
+          <label>Name<input name="name" autocomplete="name" required></label>
+          <label>Phone<input name="phone" type="tel" autocomplete="tel" required></label>
+          <label>What do you need?
+            <select name="need">{{#requestOptions}}<option>{{.}}</option>{{/requestOptions}}<option>Other</option></select>
+          </label>
+          <label>Details<textarea name="message" rows="3"></textarea></label>
+          <button class="btn btn-accent btn-lg" type="submit">Send request</button>
+          {{#final}}<p class="form-fine">By sending this form you agree to be contacted about your request. See our <a href="{{base}}privacy/">privacy policy</a>.</p>{{/final}}
+          <p class="form-note" hidden></p>
+        </form>
+      </div>
+    </section>

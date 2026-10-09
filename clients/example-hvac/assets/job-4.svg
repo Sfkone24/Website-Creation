@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14532d"/><stop offset="1" stop-color="#22a06b"/></linearGradient>
+<pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M0 40L40 0" stroke="#fff" stroke-opacity=".06" stroke-width="2"/></pattern></defs>
+<rect width="800" height="600" fill="url(#g)"/><rect width="800" height="600" fill="url(#p)"/>
+<g transform="translate(340.0,190.0) scale(5)" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2"/><path d="M12 10c0-4 1-7 4-7s3 4 0 6l-4 1zM14 12c4 0 7 1 7 4s-4 3-6 0l-1-4zM12 14c0 4-1 7-4 7s-3-4 0-6l4-1zM10 12c-4 0-7-1-7-4s4-3 6 0l1 4z"/></g>
+<text x="50%" y="370.0" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="38" font-weight="700" fill="#fff">Heat pump install</text>
+<text x="50%" y="412.0" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" fill="#fff" fill-opacity=".75">Placeholder: client job photo</text>
+</svg>

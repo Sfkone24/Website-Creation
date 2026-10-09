@@ -8,24 +8,77 @@
   "phone": "(812) 829-4760",
   "city": "Spencer",
   "zip": "47460",
-  "colors": { "primary": "#8a3b12", "accent": "#f2b705", "dark": "#3d1a08" },
+  "colors": {
+    "primary": "#8a3b12",
+    "accent": "#f2b705",
+    "dark": "#3d1a08"
+  },
   "heroLabel": "Dig to finish",
-  "heroChips": ["Plumbing", "Sewer & septic", "Excavation"],
-  "badges": ["Plumbing + excavation", "Sewer & septic work", "Spencer & Owen County"],
-  "requestOptions": ["Plumbing repair", "Sewer line problem", "Septic system", "Excavation work"],
+  "heroChips": [
+    "Plumbing",
+    "Sewer & septic",
+    "Excavation"
+  ],
+  "badges": [
+    "Plumbing + excavation",
+    "Sewer & septic work",
+    "Spencer & Owen County"
+  ],
+  "requestOptions": [
+    "Plumbing repair",
+    "Sewer line problem",
+    "Septic system",
+    "Excavation work"
+  ],
   "servicesHeading": "Plumbing & excavation services",
   "urgentLead": "Backed-up sewer or plumbing problem?",
   "services": [
-    { "icon": "wrench", "name": "Plumbing Service & Repair", "desc": "Plumbing repairs and installation for homes in Spencer and Owen County." },
-    { "icon": "duct", "name": "Sewer Line Repair", "desc": "Sewer line problems diagnosed, dug up and repaired." },
-    { "icon": "droplet", "name": "Septic Systems", "desc": "Septic system work from the house to the field." },
-    { "icon": "shovel", "name": "Excavation", "desc": "Digging and excavation done by the same company that does the plumbing." }
+    {
+      "icon": "wrench",
+      "name": "Plumbing Service & Repair",
+      "desc": "Plumbing repairs and installation for homes in Spencer and Owen County.",
+      "id": "plumbing-repairs"
+    },
+    {
+      "icon": "duct",
+      "name": "Sewer Line Repair",
+      "desc": "Sewer line problems diagnosed, dug up and repaired.",
+      "id": "sewer-line-repair"
+    },
+    {
+      "icon": "droplet",
+      "name": "Septic Systems",
+      "desc": "Septic system work from the house to the field.",
+      "id": "septic-systems"
+    },
+    {
+      "icon": "shovel",
+      "name": "Excavation",
+      "desc": "Digging and excavation done by the same company that does the plumbing.",
+      "id": "excavation"
+    }
   ],
   "highlights": [
-    { "icon": "shovel", "title": "One company, start to finish", "desc": "We dig it, plumb it and close it up, so you're not coordinating two contractors." },
-    { "icon": "duct", "title": "Sewer & septic", "desc": "Experience with the sewer and septic work rural properties depend on." },
-    { "icon": "pin", "title": "Owen County local", "desc": "Based in Spencer and serving homes throughout Owen County." },
-    { "icon": "phone", "title": "One number to call", "desc": "Reach us at (812) 829-4760 for plumbing or excavation." }
+    {
+      "icon": "shovel",
+      "title": "One company, start to finish",
+      "desc": "We dig it, plumb it and close it up, so you're not coordinating two contractors."
+    },
+    {
+      "icon": "duct",
+      "title": "Sewer & septic",
+      "desc": "Experience with the sewer and septic work rural properties depend on."
+    },
+    {
+      "icon": "pin",
+      "title": "Owen County local",
+      "desc": "Based in Spencer and serving homes throughout Owen County."
+    },
+    {
+      "icon": "phone",
+      "title": "One number to call",
+      "desc": "Reach us at (812) 829-4760 for plumbing or excavation."
+    }
   ],
   "aboutHeading": "A Spencer plumbing & excavation company",
   "aboutParagraphs": [
@@ -33,5 +86,8 @@
     "We serve homeowners in Spencer and across Owen County."
   ],
   "areaRegion": "Spencer & Owen County",
-  "serviceAreas": ["Spencer", "Owen County"]
+  "serviceAreas": [
+    "Spencer",
+    "Owen County"
+  ]
 }

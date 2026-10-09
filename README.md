@@ -11,6 +11,8 @@ We build modern websites for local businesses that have outdated or no websites,
 - `template/` is the one-page site (plain HTML/CSS, no dependencies): click-to-call, services, trust badges, FAQ, request form, schema.org local SEO
 - `presets/hvac.json` holds trade defaults (services, FAQ, colors) that a client config can override
 - `clients/<slug>/config.json` holds all per-client content. `"demo": true` adds the "concept preview" banner and `noindex`.
+- **Demo vs final.** Demos are one page built from public facts. Final versions (`"demo": false`) add the owner's story and photos, a team section, a job gallery, real reviews, credentials, process, payments, hours, a map, and privacy and thanks pages. The Standard tier also gets an in-depth page for every service from `content/services/`. See the full sample at `/example-hvac/`.
+- `sales/client-intake.md` lists what to collect from a paying client. `scripts/check-final.mjs <slug>` blocks launch until it's all there.
 - `scripts/build.mjs` renders sites into `dist/<slug>/`
 - `scripts/screenshot.mjs` saves desktop and mobile screenshots for outreach
 - `sales/` has the playbook, pricing, outreach templates, proposal, and launch checklist
@@ -19,6 +21,7 @@ We build modern websites for local businesses that have outdated or no websites,
 ```
 node scripts/build.mjs all          # or a single slug
 node scripts/screenshot.mjs all     # needs Playwright (preinstalled in Claude Code cloud sessions)
+node scripts/check-final.mjs <slug>  # launch gate for a paying client's final site
 ```
 New lead: copy `clients/example-hvac` to `clients/<slug>`, fill in only real public facts, and rebuild.
 

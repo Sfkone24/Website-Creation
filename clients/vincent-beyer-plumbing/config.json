@@ -33,7 +33,8 @@
     {
       "icon": "wrench",
       "name": "Plumbing Repairs",
-      "desc": "Leaks, drips, running toilets and fixture problems, diagnosed and fixed."
+      "desc": "Leaks, drips, running toilets and fixture problems, diagnosed and fixed.",
+      "id": "plumbing-repairs"
     },
     {
       "icon": "check",
