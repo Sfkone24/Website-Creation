@@ -1,0 +1,61 @@
+{
+  "id": "hvac-tune-ups",
+  "name": "Seasonal Tune-Ups",
+  "metaDescription": "Annual furnace and air conditioner tune-ups for south central Indiana homes. See what a seasonal maintenance check covers and how to prepare.",
+  "intro": "A seasonal tune-up is a hands-on check of a furnace or air conditioner before it faces its hardest work. It helps catch worn parts, safety issues, and efficiency problems early. This page explains what a typical tune-up covers and what homeowners can do between visits.",
+  "body": [
+    "Heating and cooling systems wear a little each season. Dust builds up, electrical parts weaken, and drains slowly clog. A tune-up gives a technician a chance to find these problems while the weather is mild, instead of during a cold snap or heat wave. The common timing is a furnace check in early fall and an air conditioner check in spring. Heat pumps run in both seasons, so they are often checked twice a year, including the reversing valve and defrost controls.",
+    "A gas furnace tune-up focuses on safe, clean burning and good airflow. The technician inspects the burners and flame, cleans the flame sensor, tests the igniter, and checks gas pressure. Venting and safety switches are tested, and the heat exchanger is inspected where it can be seen. A carbon monoxide check is often included. On high-efficiency furnaces, the condensate drain and trap are cleared so water cannot back up. Electric furnaces get checks of the heating elements, relays, and wiring instead.",
+    "An AC tune-up focuses on heat transfer and electrical health. The outdoor coil is cleaned so it can shed heat. The technician tests the capacitor and contactor, measures how much current the motors draw, and checks the refrigerant charge with gauges or temperature readings. The indoor drain line is cleared, and the temperature drop across the indoor coil is measured. Small findings, like a weak capacitor, can often be handled before they cause a breakdown on a hot day."
+  ],
+  "signs": [
+    "The system has not been checked in over a year",
+    "Heating or cooling bills are creeping up",
+    "Some rooms are less comfortable than they used to be",
+    "New noises, or a smell that lingers after the first startup of the season",
+    "The filter clogs quickly or the home seems dustier",
+    "Water around the indoor unit or a slow condensate drain"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Talk through any concerns",
+      "text": "The technician asks about problems, noises, or comfort issues since the last season. This points the visit toward anything unusual."
+    },
+    {
+      "title": "Shut off power and inspect",
+      "text": "Power to the equipment is shut off for safe access. The technician opens the cabinets and checks motors, wiring, and controls for wear, heat damage, or loose connections."
+    },
+    {
+      "title": "Clean and adjust",
+      "text": "Key parts are cleaned, such as the flame sensor on a gas furnace or the outdoor coil on an air conditioner. Drains are cleared and loose electrical connections are tightened."
+    },
+    {
+      "title": "Run and measure",
+      "text": "The system runs through a full cycle while the technician takes readings, such as temperature rise, gas pressure, refrigerant pressures, and motor current. Safety controls are tested to confirm they shut the system down when they should."
+    },
+    {
+      "title": "Report the findings",
+      "text": "The technician explains what was found and notes any parts that are wearing out. Urgent safety issues, such as a cracked heat exchanger or a venting problem, are pointed out right away, and the equipment may be shut off until they are fixed."
+    }
+  ],
+  "tips": [
+    "Check the air filter monthly and replace it when it looks dirty. Homes with pets or recent remodeling may need changes more often.",
+    "Keep the outdoor unit clear of leaves, grass clippings, and plants, and keep a clear path to the indoor equipment.",
+    "Test smoke and carbon monoxide alarms monthly, and make a point of it each fall when the heat comes on for the season.",
+    "Write down odd noises, smells, or blinking error codes when they happen, so the technician knows what to look for."
+  ],
+  "faq": [
+    {
+      "q": "Is a tune-up needed if my system runs fine?",
+      "a": "Many problems do not show up until they cause a breakdown. A tune-up can find a weak part, a clogged drain, or a safety issue before that happens. It can also help the system run efficiently. Many equipment makers recommend yearly professional maintenance."
+    },
+    {
+      "q": "What maintenance can I do myself?",
+      "a": "Homeowners can change filters, keep the outdoor unit clear, and keep vents open. Beyond changing a filter, work inside the equipment cabinets should be left to a trained technician. These systems carry high voltage, and gas furnaces have gas lines and burners that need proper tools to check safely."
+    },
+    {
+      "q": "How often should a furnace and AC be tuned up?",
+      "a": "Once a year for each is the common recommendation, with the furnace in fall and the AC in spring. Heat pumps run all year and are often checked in both seasons. Older systems or homes with heavy use may benefit from closer attention."
+    }
+  ]
+}

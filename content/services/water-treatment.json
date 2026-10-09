@@ -1,0 +1,61 @@
+{
+  "id": "water-treatment",
+  "name": "Water Treatment & Softeners",
+  "metaDescription": "Hard water, iron, odors and well water problems explained. Learn how water testing, softeners and filters work and how to keep them running well.",
+  "intro": "Water treatment improves the water that comes into your home. A softener removes the minerals that cause hard water scale, while filters and other systems can reduce sediment, odors, iron and, on wells, bacteria. The right setup starts with knowing what is actually in your water.",
+  "body": [
+    "South central Indiana sits on a lot of limestone, and well water here is often hard. Hard water carries dissolved calcium and magnesium. These minerals leave white scale on faucets and showerheads, spots on dishes, and buildup inside water heaters and pipes. City water hardness depends on the source. Public water utilities publish a yearly water quality report, often called a Consumer Confidence Report, and the utility can tell you its typical hardness.",
+    "A water softener works by ion exchange. Water passes through a tank of resin beads that trade the hardness minerals for sodium or potassium. When the beads are loaded with minerals, the system regenerates. It rinses them with salty water from a brine tank and sends the rinse water down a drain. Most softeners need a drain, a nearby electrical outlet and regular salt. Softened water contains some added sodium, which matters for some people on low-sodium diets.",
+    "Well water can bring other issues. Iron causes orange or reddish-brown stains and a metallic taste, and manganese can leave black stains. Hydrogen sulfide gives a rotten egg smell. If the smell comes only from hot water, the water heater may be the source. Acidic water can leave blue-green stains and corrode copper pipe. Bacteria cannot be seen or tasted, so testing is the only way to know. Many health agencies recommend testing private wells at least once a year for bacteria and nitrates."
+  ],
+  "signs": [
+    "White, crusty scale on faucets, showerheads or glass shower doors",
+    "Spots on dishes and glassware after washing",
+    "Soap and shampoo that do not lather well",
+    "Orange, brown, black or blue-green stains in sinks, tubs or toilets",
+    "A rotten egg, metallic or strong chlorine taste or smell",
+    "Cloudy, discolored or gritty water"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Test the water",
+      "text": "Treatment starts with a water test. Hardness, iron, pH and other basics can often be checked on site. For bacteria, nitrates and other health concerns, a sample is usually collected in a sterile bottle and sent to a lab."
+    },
+    {
+      "title": "Match the system to the problem",
+      "text": "Test results are reviewed along with your goals, household size and water use. Options may include a softener, sediment and carbon filters, iron filters, acid neutralizers, ultraviolet systems and reverse osmosis. Equipment is sized for your water and flow rate, and placed in the right order. For example, an ultraviolet light needs clear, filtered water to work well."
+    },
+    {
+      "title": "Install the equipment",
+      "text": "Whole-house systems are usually installed where the water line enters the house, after the pressure tank on a well and before the water heater. A bypass valve lets water keep flowing if the system needs service. Outdoor faucets are often left on untreated water. Drinking water units, like reverse osmosis, often go under one sink."
+    },
+    {
+      "title": "Set up and start",
+      "text": "The system is connected to a drain through an air gap where needed, so drain water cannot flow back into it. It is then filled, flushed and programmed. Settings such as hardness level and regeneration schedule are entered, and every connection is checked for leaks."
+    },
+    {
+      "title": "Explain upkeep",
+      "text": "The installer shows you how to add salt, use the bypass valve and change filters. Ongoing care depends on the equipment, and following the maker's maintenance schedule helps it keep working well."
+    }
+  ],
+  "tips": [
+    "Test before you buy. Treatment equipment works well when it is chosen for the problems actually in your water.",
+    "Check the salt in a softener's brine tank about once a month. Keep the salt level above the water, and gently break up any hard crust, often called a salt bridge, that forms.",
+    "Change filter cartridges and membranes on the schedule the maker recommends. An old filter can clog or stop doing its job.",
+    "If you have a well, test again after flooding, well repairs or any change in taste, smell or color. The county health department can often point you to a testing lab, and the lab can explain how to collect the sample."
+  ],
+  "faq": [
+    {
+      "q": "Do I need a water softener on city water?",
+      "a": "Not always. It depends on how hard your water is and whether scale and spotting bother you. Your water utility can tell you its hardness, often in grains per gallon or milligrams per liter, and one grain per gallon equals about 17.1 milligrams per liter. A simple test at the tap can also confirm it."
+    },
+    {
+      "q": "Is softened water safe to drink?",
+      "a": "Softened water is generally considered safe for most people, but it does contain some added sodium. People on low-sodium diets may want to ask their doctor. Some homes use potassium chloride pellets instead of regular softener salt, or keep one unsoftened or filtered tap for drinking."
+    },
+    {
+      "q": "Will a softener fix all well water problems?",
+      "a": "No. A softener is designed for hardness and can handle only small amounts of iron. Rotten egg odors, high iron, acidic water and bacteria usually need other treatment. A water test shows which systems are needed and in what order."
+    }
+  ]
+}

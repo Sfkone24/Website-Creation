@@ -1,0 +1,61 @@
+{
+  "id": "excavation",
+  "name": "Excavation",
+  "metaDescription": "Digging and trenching for water lines, sewer laterals, and septic work, and how Indiana 811 utility locates work before digging starts.",
+  "intro": "Excavation for plumbing means digging the trenches and pits needed to install, repair, or replace water lines, sewer laterals, septic parts, and other buried lines. Careful planning, utility locates, and safe trench practices protect people, property, and the lines already in the ground.",
+  "body": [
+    "In Indiana, anyone digging, including homeowners, must contact Indiana 811 at least two full working days before digging, not counting weekends and holidays. You can call 811 or file a request online. Utility companies then mark their buried lines with paint or flags in standard colors: red for electric, yellow for gas, orange for communications, blue for water, and green for sewer. White marks are often used to outline the planned dig area. Digging close to the marks is done by hand or with vacuum equipment, not a machine bucket.",
+    "Utility locates only cover lines owned by the utility companies, usually up to the meter. Private lines are usually not marked. These include buried lines to a detached garage or shop, well lines, septic lines, propane lines, sprinkler pipes, outdoor lighting wires, and invisible pet fences. Homeowners can help by sharing anything they know about these lines. Some excavators use their own locating equipment or hire a private locating service to find them before digging begins.",
+    "Local ground conditions shape the work. South central Indiana has a lot of clay, which gets sticky when wet and hard when dry. Limestone bedrock sits close to the surface in some places, and parts of the region have sinkholes. Water lines need to be buried below the frost line, at a depth set by local code, so they do not freeze in winter. Heavy rain, frozen ground, and high groundwater can all affect when digging is practical and how a trench needs to be protected."
+  ],
+  "signs": [
+    "A new or replacement water line from the meter or well",
+    "A broken or root-damaged sewer lateral that needs replacing",
+    "Septic tank, line, or absorption field repairs",
+    "A buried water line leaking somewhere in the yard",
+    "Water or sewer service for a new addition or outbuilding",
+    "Trenching for buried lines to a detached garage or shop"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Site visit and plan",
+      "text": "The route, depth, equipment access, and a place to pile soil are worked out ahead of time. Trees, fences, driveways, and septic fields along the way are noted so the route can avoid them where possible."
+    },
+    {
+      "title": "Locates and permits",
+      "text": "An Indiana 811 request is filed, and digging waits until the utilities have marked their lines or reported that they have none in the area. Permits are obtained where the work requires them, such as for water, sewer, or septic connections."
+    },
+    {
+      "title": "Dig the trench",
+      "text": "Equipment digs the trench while staying clear of marked lines, with hand digging near the marks. Trenches 5 feet deep or more generally need sloped sides, benching, or a trench box to protect workers from cave-ins. Soil is piled at least 2 feet back from the edge."
+    },
+    {
+      "title": "Install and inspect",
+      "text": "Pipe is laid on proper bedding at the right depth and slope, then connected. If an inspection is required, it happens while the trench is still open so the inspector can see the work."
+    },
+    {
+      "title": "Backfill and rough grade",
+      "text": "Soil goes back in layers and is compacted to reduce settling, with large rocks kept off the pipe. The surface is rough graded. Some settling over the trench is normal, and final lawn restoration varies by job, so it helps to ask what is included."
+    }
+  ],
+  "tips": [
+    "Before the crew arrives, flag sprinkler heads, pet fence wires, septic tank lids, and any private buried lines you know about.",
+    "Clear a path for equipment, including gates and fence sections, and move vehicles out of the way.",
+    "Keep children and pets away from open trenches and equipment, and never step into a trench yourself.",
+    "Expect the ground over a new trench to settle for a while. Adding soil and seed after it settles gives a smoother lawn."
+  ],
+  "faq": [
+    {
+      "q": "Who contacts Indiana 811, me or the contractor?",
+      "a": "The person or company doing the digging is responsible for the locate request. If a contractor is digging, the contractor files it. If you plan to dig yourself, even for a fence post or garden bed, contact 811 first."
+    },
+    {
+      "q": "How deep do water and sewer lines need to be?",
+      "a": "Water lines need to sit below the frost line so they do not freeze. Sewer lines must keep a steady downhill slope from the house to the main or septic tank, so their depth changes along the run. Local codes set the minimum depths."
+    },
+    {
+      "q": "What happens if the crew hits rock?",
+      "a": "Shallow limestone is common in parts of south central Indiana. Small amounts can often be dug out, while larger ledges may need a hydraulic hammer or a change in route or depth. Because rock can change the plan, it helps to talk ahead of time about how it would be handled."
+    }
+  ]
+}

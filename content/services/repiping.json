@@ -1,0 +1,61 @@
+{
+  "id": "repiping",
+  "name": "Copper Pipe Replacement & Repiping",
+  "metaDescription": "Replacing aging galvanized, polybutylene, or leaking copper water lines in older homes. Learn the warning signs, pipe choices, and how the job works.",
+  "intro": "Repiping replaces the water supply lines that carry fresh water to your faucets, fixtures, and appliances. It is often considered in older homes with galvanized steel, gray polybutylene, or copper lines that keep springing leaks. Drain pipes are a separate system and are usually handled as a separate job.",
+  "body": [
+    "Many older homes around Bloomington still have their original supply pipes. Galvanized steel was common in homes built before the 1960s. It rusts from the inside, which narrows the pipe, lowers water pressure, and can turn water brown. Gray plastic polybutylene was used in many homes from the late 1970s into the mid-1990s. It can become brittle and crack with little warning. Copper often lasts 50 years or more, but water chemistry can cause pinhole leaks much sooner.",
+    "Replacement lines are usually PEX plastic tubing or copper. PEX is flexible, so it can often be fed through walls with fewer openings. It handles freezing better than rigid pipe, though it can still burst, and it must be kept out of sunlight. Copper is rigid, long lasting, and holds up well to heat and sunlight. Homes on wells with acidic water may do better with plastic pipe, or with water treatment that protects copper. The right choice depends on the house, the water, and the budget.",
+    "Repiping touches more than pipes. Many homes with metal water pipe use it as part of the electrical grounding system. When metal pipe is replaced with plastic, an electrician should confirm the home is still properly grounded. It is also smart to ask about the service line that brings water in from the street or well. Some older service lines are galvanized or even lead. Many water utilities now keep records of service line materials and can tell you what is on file."
+  ],
+  "signs": [
+    "Low water pressure at several fixtures",
+    "Brown, rusty, or metallic-tasting water",
+    "Repeated pinhole leaks in copper lines",
+    "Gray plastic supply pipe stamped PB",
+    "Flaking rust or blue-green crust on pipes and fittings",
+    "A major remodel planned in an older home"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Inspect the system",
+      "text": "The plumber identifies the pipe materials, checks water pressure, and traces where lines run through the basement, crawlspace, and walls. Fixture shutoffs and water heater connections are checked too."
+    },
+    {
+      "title": "Plan the routes",
+      "text": "New lines are planned to reach every fixture with as few wall and ceiling openings as practical. Basements and crawlspaces often make access easier, while finished walls may need small openings."
+    },
+    {
+      "title": "Install in sections",
+      "text": "Work is often planned in sections to limit how long the water is off. New lines are secured with proper supports, kept away from cold outside walls where possible, and fitted with new shutoff valves at the fixtures."
+    },
+    {
+      "title": "Test and inspect",
+      "text": "The new piping is pressure tested to confirm there are no leaks. Where a permit is required, an inspector reviews the work before walls and ceilings are closed."
+    },
+    {
+      "title": "Flush and finish",
+      "text": "Lines are flushed to clear debris, faucet aerators are cleaned, and each fixture is checked for good flow. Drywall patching and painting are often handled separately, so it helps to ask about that up front."
+    }
+  ],
+  "tips": [
+    "Look at the pipe where the main line enters the house or near the water heater to see what you have. A magnet sticks to galvanized steel but not to copper or lead. Copper is penny colored. Lead is dull gray and soft, and a gentle scratch with a key shows shiny silver.",
+    "Ask about electrical grounding before work starts so an electrician can be lined up if needed.",
+    "If you are on a well, a water test can show whether corrosive or very hard water is shortening the life of your pipes.",
+    "Some home insurers ask about polybutylene or galvanized pipe, so keep records of when and how your lines were replaced."
+  ],
+  "faq": [
+    {
+      "q": "Does the whole house have to be repiped at once?",
+      "a": "Not always. Some homes replace the worst section first, such as a run of galvanized pipe in the basement. Doing it all at once can mean fewer visits and less patching overall. The plumber can explain the tradeoffs for your home."
+    },
+    {
+      "q": "Is PEX safe for drinking water?",
+      "a": "PEX made for drinking water is tested to national health standards for that use and is accepted by plumbing codes. New lines are flushed after installation. Some people notice a slight taste or smell at first that usually fades with use."
+    },
+    {
+      "q": "Will the water be off the whole time?",
+      "a": "Usually not. Many repipes keep the old lines working while new ones are run, then switch fixtures over in stages. There are still times when the water has to be off, so ask how those shutoffs will be scheduled."
+    }
+  ]
+}

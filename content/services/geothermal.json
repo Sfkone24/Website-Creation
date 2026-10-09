@@ -1,0 +1,61 @@
+{
+  "id": "geothermal",
+  "name": "Geothermal Heating & Cooling",
+  "metaDescription": "How geothermal heat pumps work, the loop types used in Indiana, and what to expect when a ground-source system is installed or serviced.",
+  "intro": "A geothermal heat pump heats and cools a home by trading heat with the ground. Several feet down, the earth stays at a fairly steady temperature all year. That makes the ground a steady source of heat in winter and a place to send heat in summer.",
+  "body": [
+    "A ground-source heat pump has two main parts. Outside, a loop of plastic pipe is buried in the yard, run down drilled holes or sunk in a pond. Inside, a heat pump unit connects to that loop and to the home's ductwork. Water or an antifreeze mix flows through the loop. In winter it picks up heat from the ground. In summer it carries heat from the house back into the ground. In Indiana, the ground well below the frost line often stays in the 50s Fahrenheit.",
+    "There are several loop types. Horizontal loops are laid in trenches, often 4 feet deep or more, and need a fair amount of open land. Vertical loops run down boreholes that are often a few hundred feet deep, which suits smaller lots. Pond loops rest near the bottom of a pond deep enough not to freeze. Open loops pump well water through the heat pump and then return it to the ground. The right choice depends on the lot, soil, bedrock, water supply and state and local rules.",
+    "Geothermal systems are known for long life and steady comfort. The buried loop is often cited to last 50 years or more. The indoor unit often lasts 20 years or more. Many systems have a desuperheater, which uses spare heat to help warm water for the water heater. Many also have backup electric heat for the coldest days or for when the heat pump is down. Service focuses on loop pressure, water flow, antifreeze strength, filters and the refrigerant side, much like other heat pumps."
+  ],
+  "signs": [
+    "Backup electric heat runs often, or winter electric bills jump",
+    "The system shuts down and shows a lockout or error code",
+    "Pumps in the flow center are loud, gurgling or not running",
+    "The home will not reach the set temperature in hot or cold weather",
+    "Water leaking near the indoor unit or the loop pipes",
+    "An aging furnace, air conditioner or heat pump is due for replacement"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Review the site and the home",
+      "text": "The installer looks at the lot, soil, bedrock, equipment access and any water well. In parts of south central Indiana, limestone bedrock with sinkholes or caves can affect where and how to drill. A load calculation shows how much heating and cooling the home needs, and the loop is sized to match that load."
+    },
+    {
+      "title": "Install the ground loop",
+      "text": "Crews dig trenches or drill boreholes, then lay high-density polyethylene pipe. Joints are heat-fused rather than glued. Boreholes are filled with grout to seal them and protect groundwater. The pipe is pressure tested and brought into the house through sealed openings. Lawn areas are disturbed and need time to recover."
+    },
+    {
+      "title": "Set the indoor unit",
+      "text": "The heat pump is set in place, often where the old furnace stood. It connects to the loop through a flow center with pumps, and to the ductwork. A condensate drain, wiring and controls are connected, and a desuperheater may be tied into the water heater."
+    },
+    {
+      "title": "Flush, purge and fill the loop",
+      "text": "The loop is flushed at high flow to push out air and debris. It is then filled with water or an antifreeze mix. Closed loops in Indiana often need antifreeze, because the loop fluid can get close to or below freezing during long winter run times. Air left in a loop can cause noise and poor performance."
+    },
+    {
+      "title": "Start up and measure",
+      "text": "The technician checks loop temperatures, flow and pressure, along with airflow and refrigerant readings. On service calls, these same readings show whether a problem is in the loop, the pumps or the heat pump itself."
+    }
+  ],
+  "tips": [
+    "Avoid deep thermostat setbacks. Warming the house back up quickly can call for backup electric heat, which costs more to run.",
+    "Call 811 before any digging. It marks public utility lines but not private lines like a geothermal loop, so keep a drawing of where the loop runs.",
+    "Change the air filter on schedule and keep the area around the indoor unit and flow center clear.",
+    "With an open loop on well water, ask about water quality. Iron and hard water can build up scale in the heat exchanger over time."
+  ],
+  "faq": [
+    {
+      "q": "Does geothermal work in Indiana's cold winters?",
+      "a": "Yes. The ground below the frost line stays much warmer than winter air, so the heat pump has a steady heat source. Many systems also have backup electric heat for the coldest days. A properly sized loop and unit can handle typical Indiana winters."
+    },
+    {
+      "q": "Why does the air from the vents feel cooler than a furnace?",
+      "a": "A heat pump sends out warm air at a lower temperature than a gas furnace, often around the 90s Fahrenheit. It runs longer, gentler cycles to keep the house even. As long as the home holds its set temperature, this is normal."
+    },
+    {
+      "q": "Can an existing home switch to geothermal?",
+      "a": "Often, yes. Many homes with ductwork can switch, though the ducts may need changes to carry the airflow a heat pump needs. The lot must have room for trenches or drilling, or access to a suitable pond or well. Homes heated by radiators or radiant floors may use a water-to-water unit, but older radiators may not give off enough heat at the lower water temperatures a heat pump makes."
+    }
+  ]
+}

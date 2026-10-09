@@ -1,0 +1,61 @@
+{
+  "id": "hvac-system-design",
+  "name": "System Design",
+  "metaDescription": "HVAC system design for Indiana homes: Manual J load calculations, proper equipment sizing and duct design for even, efficient comfort.",
+  "intro": "Good comfort starts with a plan. System design figures out how much heating and cooling a home actually needs, picks equipment to match and lays out ducts that deliver the right amount of air to each room. It replaces guesswork and rules of thumb with real numbers.",
+  "body": [
+    "The first step is a load calculation. A common industry-standard method is Manual J. It adds up how much heat a home loses on a cold winter design day and gains on a hot, humid summer design day. The math looks at each room's size, insulation, windows and which way they face. It also counts air leaks, where the ducts run, the number of people and heat from appliances. Local design temperatures for south central Indiana are part of the inputs. The summer load includes moisture as well as heat.",
+    "Next comes equipment sizing, often guided by Manual S. The goal is to match the unit's real output to the home's load at local conditions. Bigger is not better. An oversized air conditioner cools the air quickly and shuts off before it removes much moisture. In humid Indiana summers, that can leave a home cool but clammy. It also turns on and off more often, which adds wear. An undersized system may run nonstop and fall behind on the hottest or coldest days.",
+    "Duct design, often done with Manual D, sizes the ducts so each room gets the airflow it needs. Ducts are sized for how much air the blower can move against the resistance of the whole system. Undersized or poorly laid out ducts can cause noisy vents, weak rooms and high static pressure that strains the blower. Older homes with additions, finished basements, new windows or added insulation often have loads that no longer match the original system."
+  ],
+  "signs": [
+    "Some rooms are always too hot or too cold",
+    "The home feels cool but clammy in summer",
+    "The system turns on and off every few minutes",
+    "Vents whistle or the system sounds loud when the blower runs",
+    "An addition, finished basement or major remodel is planned",
+    "A replacement system is being sized only by the old unit's label"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Walk-through and measurements",
+      "text": "The designer measures rooms, ceiling heights and windows. Insulation levels, air sealing and duct locations are noted. Some designers run a blower door test to measure air leakage instead of estimating it. The homeowner's comfort complaints, room by room, are part of the picture."
+    },
+    {
+      "title": "Load calculation",
+      "text": "The measurements go into load calculation software that follows Manual J. The results show heat loss and heat gain for the whole home and for each room, including how much moisture must be removed in summer."
+    },
+    {
+      "title": "Equipment selection",
+      "text": "Equipment is chosen so its capacity at local conditions matches the load. The designer checks that a cooling unit can handle both the heat and the moisture load. For heat pumps, cold-weather output and backup heat are also considered."
+    },
+    {
+      "title": "Duct design",
+      "text": "Supply and return ducts are sized for each room's airflow. Static pressure on the existing system may be measured and compared to what the blower is rated for. This shows whether the current ducts can be reused or need changes."
+    },
+    {
+      "title": "Review the plan",
+      "text": "The designer walks through the numbers and the layout so the homeowner understands why a certain size and duct plan was chosen."
+    }
+  ],
+  "tips": [
+    "List changes made to the home, like new windows, added insulation or an addition. These can raise or lower the load.",
+    "Ask to see the load calculation results, not just the recommended equipment size.",
+    "Note which rooms are uncomfortable and at what times of day. That helps pinpoint duct and balancing problems.",
+    "Be cautious of sizing based only on square footage. Two homes of the same size can need very different equipment."
+  ],
+  "faq": [
+    {
+      "q": "Why not just install the same size as the old unit?",
+      "a": "The old unit may have been sized wrong from the start, or the home may have changed since. New windows, insulation and air sealing often lower the load. A load calculation shows what the home needs today."
+    },
+    {
+      "q": "What is the difference between Manual J, Manual S and Manual D?",
+      "a": "Manual J calculates how much heating and cooling the home needs. Manual S guides the choice of equipment that matches that need. Manual D sizes the ductwork to deliver the right airflow to each room. Together, they cover the house, the equipment and the air delivery."
+    },
+    {
+      "q": "Is an oversized system really a problem?",
+      "a": "In many cases, yes. An oversized air conditioner runs in short bursts and removes less humidity, so the home can feel clammy. Short cycles also mean more wear on parts and bigger temperature swings."
+    }
+  ]
+}

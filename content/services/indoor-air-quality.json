@@ -1,0 +1,61 @@
+{
+  "id": "indoor-air-quality",
+  "name": "Filters, Humidifiers & Indoor Air",
+  "metaDescription": "Furnace filter changes, whole-house humidifier pads and indoor air tips for Indiana homes, from dry winter air to humid summers.",
+  "intro": "Clean filters and the right humidity make a home more comfortable and help the heating and cooling system run as it should. Indiana homes deal with dry air in winter and sticky, humid air in summer. Simple upkeep on filters and humidifiers goes a long way.",
+  "body": [
+    "The air filter protects the blower and coil from dust. It also catches some of the particles in the air people breathe. A clogged filter cuts airflow. That can make the system work harder, freeze the air conditioner coil or cause a furnace to overheat and shut off. Standard 1-inch filters are often replaced every 1 to 3 months. Thicker 4 or 5 inch media filters often last 6 to 12 months. Pets, allergies and remodeling dust can call for more frequent changes.",
+    "Filters are rated by MERV, short for minimum efficiency reporting value. A higher number catches smaller particles. Many homes use filters in the MERV 8 to 13 range. A very dense filter can choke airflow on some systems, so it is worth checking what the system can handle. A whole-house humidifier adds moisture in winter. Bypass and fan-powered models pass warm air over a water panel, often called a pad. Minerals build up on the pad, so it is commonly replaced at least once each heating season.",
+    "Hard water, common in wells in this limestone region, can clog a humidifier pad faster. Summer brings the opposite problem. A properly sized air conditioner removes moisture as it cools. When indoor humidity stays high anyway, as in many basements, a whole-house dehumidifier may help. Some concerns need other solutions. Furnace filters do not remove radon or carbon monoxide, and testing is the only way to know a home's radon level. Homes with gas appliances, fireplaces or attached garages should have working carbon monoxide alarms."
+  ],
+  "signs": [
+    "Dust builds up quickly on furniture, even after cleaning",
+    "Static shocks, dry skin or a scratchy throat in winter",
+    "Heavy condensation or frost on the inside of windows",
+    "Musty smells or a damp, clammy feel in summer",
+    "The filter looks gray and clogged every time it is checked",
+    "White crust, scale or mold on the humidifier pad"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Ask about the home",
+      "text": "The technician asks about dust, dryness, odors, allergies and pets. These details help decide which filter and humidity setting fit the home."
+    },
+    {
+      "title": "Check the filter and airflow",
+      "text": "The technician checks the filter size, type and condition, and confirms which way the airflow arrow points. A filter that fits poorly or restricts air too much can be swapped for a better match. Gaps around the filter slot let dust slip past, so they may be sealed."
+    },
+    {
+      "title": "Service the humidifier",
+      "text": "The water panel is replaced and scale is cleaned out of the housing. The water supply valve, solenoid and drain line are checked so water flows in and drains out properly. Steam humidifiers do not use a pad, so their canister or water chamber is cleaned or replaced instead."
+    },
+    {
+      "title": "Set the humidity control",
+      "text": "The humidistat is set to add comfort without wetting the windows. Some controls use an outdoor sensor to lower the setting as the weather gets colder. On bypass models, the damper is set for the season: open for winter and closed for summer."
+    },
+    {
+      "title": "Look at the bigger picture",
+      "text": "If dust, odors or humidity are still a problem, the technician may look at duct leaks, return air, bath and kitchen exhaust fans, ventilation or air conditioner sizing. Options such as media air cleaners, dehumidifiers or fresh-air ventilators are explained so the homeowner can choose what fits the home."
+    }
+  ],
+  "tips": [
+    "Write the filter size and change date where it is easy to see. When putting in a new filter, point the airflow arrow toward the blower.",
+    "Many sources suggest keeping indoor humidity around 30 to 50 percent. On very cold days, turn the humidifier down to avoid wet windows.",
+    "If a carbon monoxide alarm sounds, get everyone out of the house and call 911 from outside. Do not go back in until responders say it is safe.",
+    "Be wary of air cleaners that produce ozone. Ozone can irritate the lungs."
+  ],
+  "faq": [
+    {
+      "q": "What MERV rating should I use?",
+      "a": "Many homes do well with MERV 8 to 13 filters. Higher ratings catch finer particles like smoke and some allergens, but they can restrict airflow on systems not built for them. A technician can check whether the system can handle a higher-rated filter. Thicker media filters often allow a higher rating with less restriction."
+    },
+    {
+      "q": "How often should a humidifier pad be replaced?",
+      "a": "Commonly once each heating season, often in the fall. Homes with hard water may need a new pad more often because minerals clog it. A pad that is crusty, stiff or moldy should be replaced."
+    },
+    {
+      "q": "Do I need an air purifier?",
+      "a": "Not always. A well-fitting filter, changed on schedule, handles a lot of everyday dust. Households dealing with allergies, asthma or smoke may benefit from extra filtration, such as a higher-rated media filter or a portable HEPA unit in a bedroom. Avoid devices that produce ozone."
+    }
+  ]
+}

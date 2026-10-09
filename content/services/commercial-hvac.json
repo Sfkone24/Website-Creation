@@ -1,0 +1,61 @@
+{
+  "id": "commercial-hvac",
+  "name": "Commercial HVAC",
+  "metaDescription": "Rooftop and packaged HVAC for shops, offices and restaurants: what maintenance, repair and replacement of light commercial units involve.",
+  "intro": "Many shops, offices, restaurants and small commercial buildings are heated and cooled by rooftop or packaged units. When one of these units fails, workers and customers feel it right away. Regular maintenance, prompt repair and careful replacement planning help keep the space comfortable and the business running.",
+  "body": [
+    "A packaged rooftop unit holds the whole system in one weatherproof cabinet. Inside are the compressor, coils, fans, blower and controls. Many units also have a gas heat section, and some work as heat pumps or use electric heat. Light commercial units, often somewhere between about 3 and 25 tons, are common on offices, shops, strip centers and restaurants. Most sit on a roof curb that connects them to the supply and return ducts below. Because they live outdoors, they take a beating from sun, wind, hail and debris.",
+    "Commercial units have parts that most home systems do not. Many have an economizer, a set of dampers that brings in cool outdoor air when the weather allows. Most units also bring in a set amount of fresh air for the people inside, as building codes often require. Larger blowers often run on belts that stretch and wear over time. Many units run on three-phase power. Controls may follow a schedule with one setting for open hours and another for closed hours. Each of these parts needs attention during service.",
+    "Indiana weather is hard on rooftop equipment. Hot, humid summers push the cooling side hard. Cottonwood fluff, leaves and dust can clog outdoor coils, and grease from kitchen exhaust fans can coat coils on restaurant roofs. In winter, the heat section has to keep up through cold snaps. Many owners schedule maintenance at least twice a year, before cooling season and before heating season. Filters often need changing more often than that. Many rooftop units last roughly 15 to 20 years with good care, though harsh conditions can shorten that."
+  ],
+  "signs": [
+    "Some areas of the building run hot or cold while others feel fine",
+    "Water dripping from ceiling tiles near a unit or supply vent",
+    "Squealing, grinding or banging from the roof when a unit runs",
+    "A unit runs nonstop or turns on and off every few minutes",
+    "Utility bills climb with no change in business hours or use",
+    "Stale, stuffy air or odors that linger in the space"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Talk through the building",
+      "text": "The technician asks about business hours, problem areas and recent changes. Knowing which unit serves which space helps narrow down the cause. Safe roof access is arranged, often through a roof hatch or by ladder, and roof edges and skylights are noted before work starts."
+    },
+    {
+      "title": "Inspect the unit on the roof",
+      "text": "The technician checks filters, belts, coils, the drain pan and electrical parts. On the heating side, burners, flame, the heat exchanger and venting are checked. On the cooling side, refrigerant pressures and temperatures are measured to see whether the charge and airflow look right."
+    },
+    {
+      "title": "Check controls and outdoor air",
+      "text": "The thermostat schedule, economizer dampers and sensors are tested. A stuck economizer can let in hot, humid air in summer or cold air in winter. Control problems are a common cause of comfort complaints, so wiring and settings get a close look."
+    },
+    {
+      "title": "Repair or plan a replacement",
+      "text": "Worn parts like belts, capacitors, motors and contactors can often be replaced. If a unit is old or needs a major repair, the technician explains the options. Replacing a rooftop unit usually involves a crane lift, plus a curb adapter if the new unit has a different footprint. Local permits may apply, and the roofing around the curb may need attention."
+    },
+    {
+      "title": "Test and record",
+      "text": "After repairs or a new install, the unit is run in both heating and cooling. Temperatures, airflow and safety controls are checked. Notes on each unit's condition help plan future maintenance and budgets."
+    }
+  ],
+  "tips": [
+    "Keep a simple log of service visits, filter changes and repairs for each unit. It makes it easier to spot a unit that is wearing out.",
+    "Setting the thermostat far past the desired temperature rarely makes the space comfortable much faster. It often overshoots and wastes energy. Set the temperature actually wanted and let the schedule do the rest.",
+    "Leave roof work to trained people using fall protection. Roof edges and skylights are serious fall hazards. Report standing water or leaks around a unit's curb.",
+    "If anyone smells gas inside or near a unit, get everyone out of the building without flipping switches or using phones inside. Call the gas utility or 911 from outside. If a carbon monoxide alarm sounds, get everyone out and call 911."
+  ],
+  "faq": [
+    {
+      "q": "How often should a rooftop unit be serviced?",
+      "a": "Many building owners schedule service at least twice a year, in spring for cooling and in fall for heating. Busy or dusty spaces, like restaurants and shops, may need filter changes and coil cleaning more often. Regular visits catch worn belts, dirty coils and clogged drains before they cause a breakdown."
+    },
+    {
+      "q": "What is an economizer?",
+      "a": "An economizer is a set of dampers and controls found on many rooftop units. When outdoor air is cool and dry enough, it brings that air in to cool the building so the compressor runs less. If it sticks open or closed, it can waste energy or let in uncomfortable air. Checking it is a normal part of commercial service."
+    },
+    {
+      "q": "Should an old rooftop unit be repaired or replaced?",
+      "a": "It depends on the unit's age, its overall condition and the size of the repair. Many rooftop units last roughly 15 to 20 years, and when an older unit needs a major part like a compressor, replacement is often worth considering. Units that use R-22 refrigerant are harder to keep running, since new R-22 is no longer produced or imported in the United States. A technician can lay out both options so the owner can decide."
+    }
+  ]
+}

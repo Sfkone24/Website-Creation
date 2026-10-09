@@ -1,0 +1,61 @@
+{
+  "id": "plumbing-repairs",
+  "name": "Plumbing Repairs",
+  "metaDescription": "Dripping faucets, running toilets and small leaks explained. Learn the warning signs, what a repair visit involves and how to prevent water damage.",
+  "intro": "Most plumbing problems start small. A dripping faucet, a running toilet or a slow leak under a sink can waste water and damage floors and cabinets over time. A plumber finds the cause, fixes or replaces the worn part, and checks that everything is sealed and working.",
+  "body": [
+    "Everyday repairs cover the faucets, toilets and pipes a household uses most. Faucets drip when washers, O-rings or cartridges wear out. Toilets run when the flapper or fill valve stops sealing. A toilet that rocks can break the wax ring that seals it to the drain, which lets water leak at the base. Supply lines, drain traps and shutoff valves under sinks can also loosen, crack or corrode. Fixing these early is usually simpler than repairing the water damage they can cause later.",
+    "Many homes around Bloomington are decades old, and their plumbing often shows it. Older houses may have a mix of galvanized steel, copper, cast iron and plastic pipe from past repairs. Galvanized pipe tends to rust from the inside, which can lower water pressure and cause leaks at threaded joints. Where copper is joined directly to steel, the joint can corrode faster. Old shutoff valves may be stuck or may not close all the way. A careful repair looks at the whole area, not just the part that failed.",
+    "Cold winters add another risk. Pipes in outside walls, crawl spaces, garages and unheated porches can freeze and split in a hard cold snap. Even a freeze-resistant outdoor faucet can burst inside the wall if a hose is left on, because water cannot drain out. A split pipe may not leak until it thaws. If a pipe bursts, shut off the main water valve right away. If water is near outlets, light fixtures or the electrical panel, stay out of the wet area and do not touch anything electrical."
+  ],
+  "signs": [
+    "A faucet that drips or leaks around the handle",
+    "A toilet that runs, refills on its own or rocks on the floor",
+    "Water stains, soft spots or a musty smell under a sink or around a toilet",
+    "Low water pressure at one fixture or throughout the house",
+    "Banging or hammering noises when a faucet or appliance shuts off",
+    "A higher water bill with no clear reason, or a well pump that runs when no water is in use"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Find the source",
+      "text": "The plumber asks what you have noticed, then checks the fixture and the pipes around it. Water often runs along pipes and framing before it drips, so it can show up far from where the leak starts. The plumber traces it back to the true source."
+    },
+    {
+      "title": "Explain the options",
+      "text": "Before starting, the plumber explains what failed and what the choices are. Sometimes a worn part can be replaced. Other times, an old fixture with hard-to-find parts is a better candidate for replacement."
+    },
+    {
+      "title": "Shut off the water",
+      "text": "Water is turned off at the fixture's shutoff valve or at the main valve. If an old valve is stuck or leaking, the plumber may suggest replacing it while the water is already off."
+    },
+    {
+      "title": "Make the repair",
+      "text": "The plumber replaces worn parts such as washers, cartridges, flappers, fill valves, supply lines or wax rings, or installs a new fixture. Joints are sealed and connections are tightened snugly without overtightening, which can crack fittings."
+    },
+    {
+      "title": "Test and check for leaks",
+      "text": "Water is turned back on slowly. The plumber runs the fixture, checks each connection for drips, and confirms normal flow and drainage before cleaning up the work area."
+    }
+  ],
+  "tips": [
+    "Learn where your main water shutoff valve is before you need it, and show others in your home. It is often where the water line enters the house, such as in a basement or crawl space. On a well, it is usually near the pressure tank.",
+    "To check for a silent toilet leak, put a few drops of food coloring in the tank and wait about 15 minutes without flushing. If color shows up in the bowl, the flapper or the seat it rests on is likely leaking. Flush afterward so the color does not stain.",
+    "Look under your sinks and behind your toilets with a flashlight every few months. Catching a slow drip early can prevent cabinet and floor damage.",
+    "Before the first hard freeze, disconnect garden hoses from outdoor faucets. If an outdoor faucet has its own shutoff valve inside, close it and open the outdoor faucet to drain. During very cold snaps, open cabinet doors on outside walls so warm air can reach the pipes."
+  ],
+  "faq": [
+    {
+      "q": "Should I repair or replace a leaky faucet?",
+      "a": "It depends on the faucet's age, condition and parts. Many drips can be fixed by replacing a washer, O-ring or cartridge. If the faucet is old, corroded or its parts are hard to find, replacing it may make more sense. A plumber can explain both options."
+    },
+    {
+      "q": "Why does my toilet keep running?",
+      "a": "A running toilet usually means water is leaking from the tank into the bowl, or the tank is overfilling into the overflow tube. Common causes are a worn flapper, a fill valve that does not shut off, or a float set too high. These parts wear out over time and can usually be replaced."
+    },
+    {
+      "q": "What should I do if water is coming through the ceiling?",
+      "a": "Shut off the main water valve right away, and stay away from any wet light fixtures, outlets or switches. If the ceiling is sagging, keep everyone out from under it, because it can hold water and give way. Move valuables and catch dripping water only if it is safe to do so. Then call a plumber to find and fix the leak."
+    }
+  ]
+}

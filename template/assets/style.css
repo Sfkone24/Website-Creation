@@ -134,6 +134,7 @@ details p{color:var(--muted);margin:12px 0 0}
 }
 @media (max-width:600px){
   .grid-2,.grid-3,.grid-4{grid-template-columns:1fr}
+  .page-hero-row .ico-lg{display:none}
   .demo-bar{font-size:.75rem;padding:6px 12px}
   .eyebrow{font-size:.72rem}
   .top-in .btn span{display:none}

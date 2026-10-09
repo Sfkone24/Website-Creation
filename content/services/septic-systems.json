@@ -1,0 +1,61 @@
+{
+  "id": "septic-systems",
+  "name": "Septic Systems",
+  "metaDescription": "Repairs and line work for rural septic tanks and absorption fields in south central Indiana, with warning signs, safety, and care tips.",
+  "intro": "A septic system treats household wastewater on your own property instead of sending it to a city sewer. When a tank, pipe, distribution box, pump, or absorption field fails, repairs focus on finding the cause and getting wastewater to flow and soak into the soil the right way again.",
+  "body": [
+    "A typical system has a buried tank where solids settle to the bottom and grease and lighter waste float to the top. The clearer liquid, called effluent, flows out to a distribution box or pump chamber and then into perforated pipes in an absorption field, also called a leach field. There, the soil does the final treatment. Problems can start anywhere along that path: a broken baffle, a crushed pipe, roots in a line, a failed pump, or soil that can no longer soak up water.",
+    "South central Indiana soils add challenges. Many properties have heavy clay, shallow limestone bedrock, or seasonally high groundwater, and all of these limit how well a field drains. Parts of the region also have sinkholes, which can carry poorly treated wastewater into groundwater. That is why some properties need mound systems or pumps instead of a simple gravity field. In Indiana, the county health department oversees septic repairs and replacements, and many repairs need a permit. A soil evaluation is often required before a new field is designed.",
+    "Good habits help a system last. Tanks commonly need pumping every three to five years, depending on tank size and household use. An absorption field can often last 20 years or more with good care, but too much water, grease, or solids can shorten that. Septic tanks hold toxic gases and may lack oxygen, which can be deadly. Never enter a tank or lean into an open one. If someone collapses in or near a tank, call 911 and do not go in after them. Keep lids secured."
+  ],
+  "signs": [
+    "Slow drains throughout the house, not just one fixture",
+    "Gurgling sounds from drains or toilets",
+    "Sewage odors in the yard or near the tank",
+    "Soggy ground, standing water, or extra-green grass over the field",
+    "Sewage backing up into a floor drain or the lowest fixture",
+    "A pump alarm sounding on a system with a pump"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Locate and open the system",
+      "text": "The technician finds the tank, lids, and lines, often with help from county permit records, a probe, or a locator. The tank is usually pumped so its walls, baffles, inlet, and outlet can be inspected."
+    },
+    {
+      "title": "Find the cause",
+      "text": "Lines may be checked with a camera, and the distribution box is opened to see whether flow is even. The field is checked for saturated soil or surfacing water. On systems with pumps, the pump, floats, and alarm are tested."
+    },
+    {
+      "title": "Permit and plan",
+      "text": "If the repair needs a permit, the plan goes to the county health department. Larger repairs, such as a new field, may need a soil evaluation and a design first. Indiana 811 is contacted before any digging."
+    },
+    {
+      "title": "Make the repair",
+      "text": "Common repairs include replacing baffles or outlet tees, adding an effluent filter, fixing cracked lids, adding risers, replacing a distribution box, repairing crushed or root-filled lines, and replacing a failed pump. A failed field may need new trenches or a new area."
+    },
+    {
+      "title": "Inspect, backfill, and grade",
+      "text": "Where an inspection is required, the work is checked before it is covered. The area is then backfilled and graded so rain and surface water drain away from the tank and field."
+    }
+  ],
+  "tips": [
+    "Keep a simple map of where the tank, lids, and field are, along with your pumping and repair records. Keep lids secured so children and pets cannot fall in.",
+    "Do not drive, park, or build over the tank or field, and keep trees and large shrubs away from the lines.",
+    "Spread out laundry loads, fix running toilets and dripping faucets, and send gutter and sump pump water away from the field.",
+    "Keep grease, wipes, paper towels, medicines, and harsh chemicals out of the drains. Septic additives are generally not needed for a healthy system."
+  ],
+  "faq": [
+    {
+      "q": "Will pumping the tank fix my septic problem?",
+      "a": "Pumping can help for a while, but it does not fix a broken pipe, a failed baffle, or a saturated field. If problems come back soon after pumping, something else in the system usually needs attention. An inspection can find the actual cause."
+    },
+    {
+      "q": "Can a failing absorption field be repaired, or does it need to be replaced?",
+      "a": "It depends on the cause. A crushed line, a clogged distribution box, or root damage can often be repaired. A field where the soil itself is clogged may need partial or full replacement. The county health department sets the rules for what a replacement must include."
+    },
+    {
+      "q": "Why is my septic alarm going off?",
+      "a": "On systems with a pump, the alarm usually means the water level in the pump chamber is too high. The pump, the float, or the power to the pump may have failed. Many alarms have a silence button, but silencing the alarm does not fix the problem, so cut back on water use right away and call for service. Do not open the chamber or work on the pump's electrical parts yourself."
+    }
+  ]
+}

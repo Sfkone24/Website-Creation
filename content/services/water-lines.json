@@ -1,0 +1,61 @@
+{
+  "id": "water-lines",
+  "name": "Water Lines",
+  "metaDescription": "Learn the signs of a leaking or failing water service line, how repair and replacement work, and what to know about meters, wells and older pipe.",
+  "intro": "The water service line is the buried pipe that brings water into your home, either from the meter on public water or from a private well. When it leaks, breaks or wears out, it can lower water pressure, raise water bills and soak the yard or basement. A plumber can find the problem and repair or replace the line.",
+  "body": [
+    "On public water, whether from a city or a rural water system, the utility usually owns the main in the street and the meter. The line from the meter to the house is often the homeowner's responsibility, but rules vary, so check with your water utility. On a well system, the line usually runs underground from the well to a pressure tank inside the house. Some well work, such as servicing the pump, may be handled by a well contractor instead of a plumber.",
+    "Service lines are meant to be buried below the frost line, but some older lines sit shallower, and no pipe lasts forever. Older homes may have galvanized steel lines that rust from the inside, older plastic lines that can turn brittle and crack, or copper that has thinned over the years. Some older homes still have lead service lines. Your water utility may have records on your line's material, and a plumber can also identify it where it enters the house.",
+    "Leaks in a buried line can be hard to spot. Water may follow the pipe into the basement or crawl space, or come up as a soggy strip in the yard. Before any digging, utility-owned lines such as gas, electric and communication lines must be marked through the 811 system. Private lines, including the water service line itself, are usually not marked. Depending on the site, a new line may go in an open trench, or be pulled or bored underground to limit damage to the yard."
+  ],
+  "signs": [
+    "Low water pressure throughout the whole house",
+    "A water bill that jumps with no change in how much water you use",
+    "A wet, soggy or unusually green strip of lawn between the meter or well and the house",
+    "Water seeping into the basement or crawl space where the line comes in",
+    "Rusty or discolored water, especially when you first turn on the tap",
+    "On a well, a pump that turns on often even when no water is being used"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Confirm and locate the leak",
+      "text": "The plumber checks water pressure and looks for signs of a leak. With all water turned off, a moving meter dial points to a leak somewhere. On a well, a pressure gauge that keeps dropping tells a similar story. Listening tools and a pipe locator can help pinpoint the leak and trace the line's path."
+    },
+    {
+      "title": "Mark utilities and plan the work",
+      "text": "Before digging, utility-owned lines are marked through the 811 system. The plumber plans the route, the depth needed to protect the pipe from freezing, and any permit or utility steps that apply."
+    },
+    {
+      "title": "Shut off the water and dig",
+      "text": "Water is shut off at the curb stop, the meter or the well. Some utilities require their own staff to operate the curb stop or meter valve. A trench or small access pits are dug, depending on whether one section is being repaired or the whole line is being replaced."
+    },
+    {
+      "title": "Repair or replace the line",
+      "text": "A damaged section is cut out and replaced with new pipe and fittings. For a full replacement, new pipe is laid in the trench or pulled through underground, then connected at both ends. Pipe in a trench is bedded in soil or sand with no sharp rocks that could damage it."
+    },
+    {
+      "title": "Test, flush and backfill",
+      "text": "The new line is pressure tested and flushed to clear out debris and air. On a well, the system may also be disinfected after the work. After any required inspection, the trench is backfilled and water service is restored."
+    }
+  ],
+  "tips": [
+    "Know where your main shutoff valve is inside the house, and where your meter or well is outside.",
+    "To check for a hidden leak, turn off every faucet and water-using appliance, then watch the meter's dial or leak indicator. If it keeps moving, water is going somewhere. Many meters sit in a pit under a heavy lid, so ask your utility if you cannot see the meter safely. On a well, watch whether the pressure gauge drops or the pump turns on while nothing is running.",
+    "Never dig in your yard without contacting 811 first, even for fence posts or a new tree. In Indiana, the law calls for at least two full working days of notice before digging. Keep in mind that private lines, like your water service line, are usually not marked.",
+    "Avoid planting trees or large shrubs right over the water line. Roots and heavy landscaping can damage the pipe and make future repairs harder."
+  ],
+  "faq": [
+    {
+      "q": "Can a water line be replaced without digging up my whole yard?",
+      "a": "Sometimes. Depending on the soil, distance and obstacles, a new line may be pulled or bored underground between small access pits. In other cases, an open trench is the practical choice. The plumber can explain which method fits your property."
+    },
+    {
+      "q": "How can I tell if I have a lead service line?",
+      "a": "Your water utility may have records on your service line material, and a plumber can also check the pipe where it enters the house. Lead pipe is usually dull gray and soft, and a magnet will not stick to it. If you gently scratch it with a key, the scratch looks shiny silver. If you are concerned, ask your utility about having your water tested, and use only cold water for drinking and cooking until you know more."
+    },
+    {
+      "q": "Why is my water pressure low everywhere in the house?",
+      "a": "Whole-house low pressure can come from a leak in the service line, a partly closed valve, a failing pressure-reducing valve if the home has one, or old pipe clogged with rust and scale. On a well, the pump, pressure switch, pressure tank or a clogged whole-house filter may be the cause. A plumber can test the pressure and narrow it down."
+    }
+  ]
+}

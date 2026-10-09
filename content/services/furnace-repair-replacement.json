@@ -1,0 +1,61 @@
+{
+  "id": "furnace-repair-replacement",
+  "name": "Furnace Repair & Replacement",
+  "metaDescription": "Gas and electric furnace repair and high-efficiency furnace replacement in south central Indiana. Learn the warning signs and what to expect.",
+  "intro": "A furnace that will not start, runs nonstop, or makes new noises needs attention before the coldest nights arrive. This page explains how gas and electric furnaces are repaired, when replacement makes more sense, and what changes when a home moves to a high-efficiency furnace.",
+  "body": [
+    "Gas furnaces burn natural gas or propane to warm air. Electric furnaces use heating elements, a bit like the coils in a toaster. Both rely on a blower, a thermostat, and safety controls. Many no-heat problems trace back to one part. On a gas furnace, that is often a dirty flame sensor, a failed igniter, or a pressure switch problem. On an electric furnace, it may be a burned-out element or relay. A clogged filter can make either type overheat and trip a safety switch.",
+    "In south central Indiana, a furnace may run for hours a day from late fall into spring. Some older homes in the area have furnaces that have run for decades. Furnaces often last roughly 15 to 20 years, though upkeep and use make a big difference. A cracked heat exchanger is a safety problem, because it can let combustion gases, including carbon monoxide, mix with the air in the home. A technician who finds one will usually shut the furnace off. In an older furnace, it often means replacement.",
+    "High-efficiency furnaces, also called condensing furnaces, have an AFUE rating of 90 percent or higher. AFUE estimates how much of the fuel becomes usable heat over a heating season. A second heat exchanger pulls extra heat from the exhaust, cooling it enough to form water. That water drains away, and the exhaust leaves through plastic pipes instead of a chimney. Switching can mean new vent pipes, a condensate drain or pump, and sometimes a chimney liner for a gas water heater left venting into the old chimney alone."
+  ],
+  "signs": [
+    "No heat, weak heat, or cold air from the vents",
+    "The furnace turns on and off every few minutes",
+    "Banging, squealing, rattling, or scraping sounds",
+    "A yellow or wavering burner flame, or soot near the burners",
+    "A burning or electrical smell that lingers after the first startup of the season",
+    "Frequent repairs or rising bills on a furnace about 15 years old or older"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Describe the problem",
+      "text": "The technician asks what the furnace is doing, when it started, and whether a light is blinking on the control board. Many newer furnaces flash an error code that points toward the problem area. If the furnace door has a small window, noting the blink pattern before the visit can help."
+    },
+    {
+      "title": "Safety and diagnostic checks",
+      "text": "The technician tests the thermostat, ignition, flame sensor, blower, and safety switches. On a gas furnace, this usually includes checking gas pressure, venting, and the burner flame, and often testing for carbon monoxide. On an electric furnace, the heating elements, relays, and wiring are tested with a meter."
+    },
+    {
+      "title": "Review the findings",
+      "text": "The technician explains what failed and why. When a furnace is older or has a safety problem, it helps to compare repair and replacement side by side, looking at age, condition, safety, and efficiency, before deciding."
+    },
+    {
+      "title": "Repair and test",
+      "text": "Worn or failed parts are replaced, and the furnace is run through full heating cycles. The technician checks that the burners light smoothly, the blower moves enough air, the temperature rise falls within the range on the furnace label, and the safety controls work."
+    },
+    {
+      "title": "Replacement, when needed",
+      "text": "A new furnace should be sized with a heat load calculation, not just matched to the old one. Older furnaces are often larger than the home needs, especially after insulation or window upgrades. The work includes gas and electrical connections, venting, a condensate drain for high-efficiency models, and a startup test. Local rules may require a permit and inspection."
+    }
+  ],
+  "tips": [
+    "Check the air filter monthly during heating season and change it when it looks dirty. Many 1-inch filters need changing every 1 to 3 months. Make sure the arrow on the filter points toward the furnace.",
+    "Keep paint, solvents, and cleaning supplies away from the furnace and water heater, and store gasoline outside the house. Fumes can catch fire, and some chemical fumes can corrode furnace parts.",
+    "If the furnace vents through plastic pipes on an outside wall, keep snow, ice, leaves, and nests clear of them. A blocked intake or exhaust pipe can shut the furnace down.",
+    "Put carbon monoxide alarms on each level of the home and near sleeping areas, test them regularly, and replace them when the maker says to. If one sounds, get everyone outside into fresh air and call 911 from there."
+  ],
+  "faq": [
+    {
+      "q": "What should I do if I smell gas?",
+      "a": "Natural gas and propane have a rotten-egg smell added so leaks are easy to notice. If you smell it, leave the house right away and take everyone with you. Do not turn lights or appliances on or off, light anything, or use a phone inside. Once outside and away from the home, call the gas utility, the propane supplier, or 911, and do not go back in until they say it is safe."
+    },
+    {
+      "q": "Should I repair or replace my furnace?",
+      "a": "It depends on the furnace's age, the cost of the repair, its safety, and how well it heats the home. A newer furnace with one failed part is often worth fixing. An older furnace that needs a major repair, or has a cracked heat exchanger, is often a candidate for replacement. Energy costs and comfort goals, such as quieter or more even heat, can also factor in."
+    },
+    {
+      "q": "Why is there water near my furnace?",
+      "a": "High-efficiency furnaces make water as part of normal operation, and it drains away through a small tube or pump. A leak often means a clogged drain line or trap, a failed condensate pump, or a loose fitting. An air conditioner coil sitting on the furnace, or a whole-house humidifier mounted on it, can also leak. If water keeps pooling, have the system checked, because water can damage the furnace's controls."
+    }
+  ]
+}

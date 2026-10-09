@@ -1,0 +1,61 @@
+{
+  "id": "gas-lines",
+  "name": "Gas Lines",
+  "metaDescription": "Gas piping for ranges, dryers, water heaters, generators, and garage heaters on natural gas or propane, plus what to do if you smell gas.",
+  "intro": "Gas piping carries natural gas or propane from the meter or tank to each gas appliance in the home. Adding an appliance, moving one, or fixing a damaged line takes careful sizing, tight connections, and testing before the gas is turned back on. It is never a do-it-yourself project.",
+  "body": [
+    "Safety comes first. If you smell gas, which has a rotten egg odor, or hear hissing near a gas line, leave the house right away. Do not flip light switches, use phones, light anything, or start a car in an attached garage on your way out. Once you are outside and away from the building, call the gas utility's emergency line or 911. On propane, also call your propane supplier. Propane is heavier than air and can collect in basements. Stay out until responders say it is safe.",
+    "Gas piping has to be sized for the total demand of every appliance on the system and the length of each run. A line that worked fine for a furnace and water heater may be too small once a range, dryer, garage heater, or standby generator is added. Undersized piping can starve appliances of gas, so they may run poorly, light unreliably, or shut down. That is why new work starts by adding up appliance ratings and planning the route before any pipe is cut.",
+    "In south central Indiana, homes in town are often on natural gas, while many rural homes use propane. With natural gas, the utility typically owns the meter and the line leading to it, and the piping after the meter belongs to the homeowner. With propane, the supplier often owns the tank. Common piping includes black steel pipe, flexible stainless steel tubing that must be bonded to the home's electrical grounding, and plastic pipe used only for buried outdoor runs."
+  ],
+  "signs": [
+    "Adding a gas range, dryer, water heater, fireplace, grill, or generator",
+    "Planning a gas heater for a garage or shop",
+    "Moving a gas appliance during a remodel",
+    "Rust, corrosion, or damage on visible gas piping",
+    "Old, uncoated brass flexible connectors behind appliances",
+    "Appliances that struggle when several gas appliances run at once"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Plan the load and route",
+      "text": "The plumber lists every gas appliance and its input rating, measures the pipe runs, and checks the size of the existing piping. This shows whether the current line can carry the added load or whether a larger line is needed. For a large load such as a standby generator, the gas utility may need to confirm the meter can supply enough gas. On propane, the tank and regulator size matter too."
+    },
+    {
+      "title": "Permit and shutoff",
+      "text": "New gas piping commonly needs a permit and inspection. Before any pipe is opened, the gas to that section is shut off. Appliances on that line stop working for a while, and any standing pilot lights will need to be relit afterward."
+    },
+    {
+      "title": "Install the piping",
+      "text": "New pipe is run and supported, with a shutoff valve near each appliance and a sediment trap where required. In garages, codes generally require appliances with an ignition source to be raised, typically at least 18 inches off the floor, and protected from vehicles, because gasoline vapors settle low. Buried plastic pipe changes to metal before it comes above ground."
+    },
+    {
+      "title": "Pressure test and inspect",
+      "text": "The new piping is capped and pressure tested to confirm it holds with no leaks. Where an inspection is required, the inspector often checks the test before gas is turned on."
+    },
+    {
+      "title": "Connect, purge, and check",
+      "text": "Appliances are connected, air is purged from the lines in a controlled way, and each joint is leak checked. Pilots are relit, and each appliance is checked to make sure it lights, burns properly, and vents correctly."
+    }
+  ],
+  "tips": [
+    "Install carbon monoxide alarms on every level of the home and outside sleeping areas. Test them monthly, and replace them at the age the maker recommends, which is often somewhere between 5 and 10 years.",
+    "After snow or ice storms, gently brush snow away from the gas meter and from furnace and water heater vent pipes on outside walls. Do not chip or kick ice off the meter or regulator.",
+    "Buried gas lines past the meter, such as lines to a detached garage, grill, or pool heater, are usually not marked by Indiana 811. Tell anyone digging on the property that they exist.",
+    "Never move, extend, or reconnect a gas line or appliance connector yourself. Small mistakes in gas work can lead to leaks, fires, or carbon monoxide problems."
+  ],
+  "faq": [
+    {
+      "q": "Can a gas line be run to my garage for a heater?",
+      "a": "Usually, yes, if the existing piping can carry the extra load or is upsized. The heater also needs proper venting, safe clearances from cars and stored items, and a mounting location that meets code. Having the piping checked before buying a heater helps avoid surprises."
+    },
+    {
+      "q": "Do I need a permit for gas piping work?",
+      "a": "In many areas, new gas piping and many gas repairs require a permit and inspection. The rules vary by city and county. The inspection is a second check that the piping was installed and tested correctly."
+    },
+    {
+      "q": "What should I do if my carbon monoxide alarm goes off?",
+      "a": "Get everyone out of the house right away, including pets, and call 911 from outside. Tell the dispatcher if anyone has a headache, dizziness, nausea, or confusion, since these can be signs of carbon monoxide poisoning. Do not go back in until responders say it is safe. Have the gas appliances and their venting checked before using them again."
+    }
+  ]
+}

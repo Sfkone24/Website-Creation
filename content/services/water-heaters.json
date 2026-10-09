@@ -1,0 +1,61 @@
+{
+  "id": "water-heaters",
+  "name": "Water Heaters",
+  "metaDescription": "Repair and replacement of gas and electric tank and tankless water heaters, plus tips on hard well water, safety and upkeep.",
+  "intro": "A water heater works every day, so most people only notice it when the hot water runs out or a leak appears. Gas and electric tank models and tankless units each have their own parts and problems. Knowing the warning signs helps homeowners decide between repair and replacement.",
+  "body": [
+    "A tank water heater keeps a supply of hot water ready, often 40 to 50 gallons in a typical home. Gas models use a burner under the tank and a flue through the middle that carries exhaust to a vent. Electric models use one or two heating elements inside the tank. Most tanks have an anode rod that slows rust. Every tank should have a temperature and pressure relief valve that opens if heat or pressure gets too high. Many tank water heaters last roughly 8 to 12 years.",
+    "A tankless water heater heats water only while hot water is flowing. It does not run out of stored hot water, but it can only heat so many gallons per minute. Running several showers and appliances at once can push it past its limit. When incoming water is colder in winter, the flow it can deliver drops. Gas tankless units often need a larger gas line and special venting. Electric tankless units need a lot of electrical capacity. With regular descaling, tankless units often last around 20 years.",
+    "Many wells in this limestone region have hard water. Minerals settle in tanks as sediment and build up as scale inside tankless units. Sediment can cause rumbling and popping and makes a tank heat less efficiently. In some well water, bacteria react with the anode rod and cause a rotten-egg smell. In older homes, a gas water heater may share a chimney with the furnace. If a new high-efficiency furnace vents through plastic pipe instead, the chimney may need a liner so the water heater still vents safely."
+  ],
+  "signs": [
+    "Water pooling around the base of the tank",
+    "Hot water runs out faster than it used to",
+    "Rumbling, popping or banging sounds while the water heats",
+    "Rusty or discolored hot water",
+    "A rotten-egg smell from the hot water taps only",
+    "A pilot light that will not stay lit, or a tankless unit showing an error code"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Find the problem",
+      "text": "The technician checks the burner or elements, controls, venting and relief valve. On tankless units, error codes and water flow are checked. The age and condition of the unit help decide between repair and replacement."
+    },
+    {
+      "title": "Repair when it makes sense",
+      "text": "Parts like thermocouples, flame sensors, gas valves, elements, thermostats and anode rods can often be replaced. A leak from the tank itself cannot be repaired, so the unit needs to be replaced."
+    },
+    {
+      "title": "Remove the old unit",
+      "text": "For a replacement, the gas or power and the water are shut off. The tank is drained, disconnected and removed. A tank with heavy sediment can drain slowly."
+    },
+    {
+      "title": "Install and connect",
+      "text": "The new unit is set in place and connected to water, gas or electric power, and venting. Gas connections are leak tested. The relief valve gets a proper discharge pipe, and an expansion tank may be added where the plumbing calls for one. A drain pan may be added where a leak could damage finished space. Local permits may apply."
+    },
+    {
+      "title": "Fill, start and test",
+      "text": "The tank is filled completely before it is turned on, since heating an empty electric tank can ruin the elements. Air is bled from the hot water lines. Venting draft is checked on gas units, the temperature is set and hot water is confirmed at the taps."
+    }
+  ],
+  "tips": [
+    "If you smell gas, leave the house right away without flipping switches or using a phone inside. Call the gas utility or 911 from outside. If a carbon monoxide alarm sounds, get everyone out and call 911.",
+    "Keep gasoline, paint thinner and other flammable products away from a gas water heater, and keep the space around it clear.",
+    "A setting of about 120 degrees Fahrenheit is commonly recommended to lower the risk of scalding.",
+    "With hard well water, ask about flushing sediment from the tank and checking the anode rod during service."
+  ],
+  "faq": [
+    {
+      "q": "Should I choose a tank or a tankless water heater?",
+      "a": "It depends on how the household uses hot water and what the home can support. Tankless units save space and do not run out of stored hot water, but they need enough gas line, venting or electrical capacity, plus regular descaling. Tank models are simpler and are often a direct swap for the old unit."
+    },
+    {
+      "q": "Why does my hot water smell like rotten eggs?",
+      "a": "This often happens with well water. Bacteria in the water can react with the tank's anode rod and create a sulfur smell. A different type of anode rod or water treatment often helps. A gas smell in the air near the heater is different: leave the house and call the gas utility or 911 from outside."
+    },
+    {
+      "q": "Why is the relief valve on my water heater dripping?",
+      "a": "The temperature and pressure relief valve opens when heat or pressure in the tank gets too high. A drip can point to high water pressure, thermal expansion or a worn valve. Never cap or plug the valve or its discharge pipe. Have a technician find the cause."
+    }
+  ]
+}

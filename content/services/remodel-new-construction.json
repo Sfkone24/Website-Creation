@@ -1,0 +1,61 @@
+{
+  "id": "remodel-new-construction",
+  "name": "Remodels & New Construction",
+  "metaDescription": "How rough-in and finish plumbing work for kitchen and bath remodels, additions and new homes, plus planning tips to help your project go smoothly.",
+  "intro": "Remodels and new homes need plumbing installed in two main stages. Rough-in plumbing goes in while walls and floors are open, and finish plumbing comes after walls, cabinets and tile are done. Careful planning at the start makes it easier to put fixtures where you want them and to meet local code.",
+  "body": [
+    "Rough-in is the hidden part of the job. The plumber runs drain, waste and vent pipes, along with hot and cold water lines, through walls, floors and ceilings. Drain pipes must slope steadily, often about a quarter inch per foot for smaller lines, so waste flows away. Vent pipes let air into the system so drains flow smoothly and the traps that block sewer gas stay full. Fixture locations and heights are set at this stage, so they must match the fixtures you choose.",
+    "Remodeling an older home brings its own challenges. Opening walls may reveal galvanized or cast iron pipe, undersized drains, or fixtures that were never properly vented. It often makes sense to update these while the walls are open. Moving a toilet or sink may mean cutting into a concrete slab or routing pipe around floor joists, which can only be notched or drilled within set limits. Adding a bathroom below the sewer line, such as in a basement, may require a pump to lift waste up to the main drain.",
+    "Some details deserve attention early. Septic systems are typically sized by the number of bedrooms, so adding bedrooms or bathrooms on septic may need a review by the local health department. Water lines should be kept out of outside walls when possible to lower the risk of freezing. Moving a gas line for a range or dryer must be done by a qualified professional. If you ever smell gas, leave the house right away without using switches, then call the gas utility, propane supplier or 911 from outside."
+  ],
+  "signs": [
+    "Planning a kitchen or bathroom remodel",
+    "Moving a sink, toilet, shower or appliance to a new spot",
+    "Adding a bathroom, laundry room or wet bar",
+    "Finishing a basement that needs plumbing",
+    "Building a new home or an addition",
+    "Replacing old galvanized or cast iron pipe while walls are open"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Plan the layout",
+      "text": "The plumber reviews the plans and your fixture choices, checks the existing pipes, and maps out drain, vent and water line routes. Permits are typically arranged at this stage when the project needs them."
+    },
+    {
+      "title": "Install the rough-in",
+      "text": "With walls and floors open, the plumber installs drains, vents, water lines and shower valve bodies. Pipes are secured and set at the right heights and locations for each fixture. Metal plates are added where pipes pass close to the face of studs, to protect them from drywall screws and nails."
+    },
+    {
+      "title": "Test and inspect",
+      "text": "The new piping is tested for leaks, often by filling it with water or air under pressure, as local code and the pipe type allow. Where permits apply, an inspector usually checks the rough-in before the walls are closed."
+    },
+    {
+      "title": "Set the finish plumbing",
+      "text": "After drywall, tile and cabinets are in place, the plumber installs sinks, faucets, toilets and shower trim, and connects appliances such as dishwashers, disposals and ice makers."
+    },
+    {
+      "title": "Final test and walkthrough",
+      "text": "Each fixture is run and checked for leaks, proper drainage, and correct hot and cold supply. A final inspection may follow, depending on local rules."
+    }
+  ],
+  "tips": [
+    "Choose your fixtures before rough-in starts. Faucets, shower valves, stand-alone tubs and toilets each have specific measurements the piping must match. Keep the installation sheets handy for the plumber.",
+    "Most toilets use a 12-inch rough-in, measured from the finished wall to the center of the bolts that hold the toilet to the floor. Some older homes have 10-inch or 14-inch spacing, so measure before buying a new toilet.",
+    "Take photos of the open walls before drywall goes up. They help you find pipes later and avoid hitting them with nails or screws.",
+    "Ask about an access panel behind shower and tub valves where possible, and a shutoff valve at each sink and toilet. Both make future repairs much easier."
+  ],
+  "faq": [
+    {
+      "q": "What is the difference between rough-in and finish plumbing?",
+      "a": "Rough-in is the piping inside walls, floors and ceilings, installed before they are closed up. Finish plumbing is installing and connecting the fixtures you see, like sinks, faucets and toilets. Rough-in usually happens early in a project, and finish plumbing happens near the end."
+    },
+    {
+      "q": "Do I need a permit for plumbing work in a remodel?",
+      "a": "Many remodels that add or move plumbing need a permit and inspection. Rules differ between cities and counties, so check with your local building department. A plumber can explain what is usually required for your type of project."
+    },
+    {
+      "q": "Can I add a bathroom in my basement?",
+      "a": "Often, yes. If the new drains sit above the main sewer line where it leaves the house, waste may flow out by gravity. If they sit below it, a sealed basin with a pump, often called a sewage ejector, is typically used to lift waste up to the sewer or septic line. Venting, slab work, drain locations and power for the pump all need careful planning."
+    }
+  ]
+}

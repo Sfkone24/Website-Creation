@@ -1,0 +1,61 @@
+{
+  "id": "ductwork",
+  "name": "Ductwork",
+  "metaDescription": "Duct repair, sealing, new duct runs, and airflow balancing for more even comfort in south central Indiana homes. Learn the signs of duct problems.",
+  "intro": "Ductwork carries heated and cooled air to every room, so duct problems show up as uneven temperatures, noise, dust, and wasted energy. This page covers duct repair, sealing, adding new runs, and balancing airflow, with notes on issues common in older homes.",
+  "body": [
+    "Ducts often run through attics, crawl spaces, garages, and basements. Leaks in attics, crawl spaces, and garages send heated and cooled air outside the living space. Joints pull apart, flexible ducts sag or get crushed, and old tape dries out. Many older homes also use the spaces between floor joists as return ducts, and these often leak. Return leaks can pull in dust, damp crawl space air, or hot attic air. Near gas appliances that vent into a chimney, they can even draw exhaust back indoors.",
+    "Duct sealing is usually done with mastic, a thick paste, or with foil tape made for ductwork. Regular cloth duct tape is a poor choice because it breaks down over time. Ducts in unconditioned spaces should also be insulated. That keeps heat in during winter and helps stop condensation, or sweating, during humid summers. Some older homes have duct wrap or tape that contains asbestos. That material should be left alone until a sample has been tested by a qualified professional.",
+    "Balancing makes sure each room gets the airflow it needs. A technician may measure airflow at the registers and pressure in the ducts, then adjust dampers to send more air where it is needed. In two-story homes, dampers are sometimes set one way for summer and another for winter. New runs may be added for a finished basement, an addition, or a room that never got enough air. Each new run should be sized for the room and the system, or it can starve other rooms."
+  ],
+  "signs": [
+    "Some rooms are much hotter or colder than others",
+    "Weak airflow from certain vents",
+    "Whistling, rattling, or popping sounds from the ducts",
+    "More dust in the home than usual",
+    "Crushed, sagging, or disconnected ducts in the attic or crawl space",
+    "Ducts that sweat or drip water in summer"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Walk through comfort problems",
+      "text": "The technician asks which rooms are uncomfortable and when. Notes about a hot upstairs, cold bedrooms, or noisy vents help narrow down the cause."
+    },
+    {
+      "title": "Inspect and measure",
+      "text": "Accessible ducts are inspected in the basement, attic, or crawl space. Static pressure readings show whether the ducts are too restrictive, and airflow readings show how much air reaches each room. Some jobs also include a duct leakage test, which uses a calibrated fan to pressurize the ducts and measure how much air escapes."
+    },
+    {
+      "title": "Repair and seal",
+      "text": "Disconnected or damaged sections are reattached or replaced and supported so they do not sag. Joints and seams are sealed with mastic or duct-rated tape, and ducts in unconditioned spaces are insulated as needed."
+    },
+    {
+      "title": "Add or resize runs",
+      "text": "When rooms need more air, new supply or return runs may be added. Returns matter as much as supplies, since a system that cannot pull in enough air may be noisy and work harder."
+    },
+    {
+      "title": "Balance and verify",
+      "text": "Dampers are adjusted, or added to key runs if there are none, and airflow is measured again. The goal is steadier comfort from room to room and airflow that suits the equipment."
+    }
+  ],
+  "tips": [
+    "Keep supply registers and return grilles open and clear of furniture and rugs.",
+    "Do not patch ducts with cloth duct tape. It tends to dry out and fail.",
+    "If an older home has white, paper-like wrap on ducts or joints, do not cut, sand, or scrape it until it has been tested for asbestos.",
+    "When finishing a basement or adding a room, plan the heating and cooling early, before walls and ceilings close in the ducts."
+  ],
+  "faq": [
+    {
+      "q": "Will sealing my ducts lower my energy bills?",
+      "a": "It often helps, especially when ducts run through attics, crawl spaces, or garages. Sealed ducts deliver more of the heated or cooled air to the rooms. Results vary with how leaky the ducts were and where they run. Sealing return leaks can also cut down on dust and damp air pulled into the system."
+    },
+    {
+      "q": "Can closing vents in unused rooms save energy?",
+      "a": "Usually not much, and it can cause problems. Closing many vents raises pressure in the ducts, which can increase leaks, reduce airflow, and strain the blower. Balancing the system so each room gets the right amount of air is a better approach."
+    },
+    {
+      "q": "Why is my upstairs always hot in summer?",
+      "a": "Heat rises, and upper floors often sit under a hot attic. The ducts serving those rooms may also be undersized, run long distances, leak in the attic, or lack enough return air. Sealing, balancing, or adding returns can often improve comfort upstairs. Attic insulation and air sealing can matter as much as the ducts."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "heat-pumps",
+  "name": "Heat Pumps",
+  "metaDescription": "Air-source heat pump installation, service, and repair, including dual-fuel systems that pair a heat pump with a furnace for cold Indiana winters.",
+  "intro": "A heat pump heats and cools a home by moving heat instead of burning fuel. This page explains how air-source and dual-fuel heat pumps work in south central Indiana's climate, common problems, and what installation and repair involve.",
+  "body": [
+    "In summer, an air-source heat pump works like a central air conditioner. In winter, a reversing valve sends the refrigerant the other way, so the system pulls heat from outdoor air and moves it inside. Even cold air holds some heat. Because a heat pump moves heat rather than making it, in most weather it delivers more heat than the electricity it uses. Its air often feels lukewarm compared with furnace air, and it tends to run longer, steadier cycles to keep the house warm.",
+    "As outdoor temperatures drop, a heat pump has less heat to work with and must run longer. Many systems have backup heat for the coldest days, often electric heat strips in the indoor unit. Those strips may also come on briefly during defrost. A dual-fuel system pairs the heat pump with a gas or propane furnace instead. The heat pump handles milder weather, and the furnace takes over below a set outdoor temperature. That switch point is chosen based on the equipment and local energy costs.",
+    "In winter, frost can build up on the outdoor coil. The heat pump clears it with a defrost cycle, which may stop the outdoor fan, make a whooshing sound, and send up steam for a few minutes. That is normal. Heat pumps often last roughly 10 to 15 years, partly because they run in both seasons. Cold-climate models are designed to keep heating well at lower temperatures, which matters on the coldest Indiana nights."
+  ],
+  "signs": [
+    "Air that feels cool, not just lukewarm, in heat mode for long stretches",
+    "Thick ice that stays on the outdoor unit after defrost",
+    "The backup or AUX heat light comes on often in mild weather",
+    "Grinding, rattling, or buzzing sounds from the outdoor unit",
+    "The system will not switch between heating and cooling",
+    "Higher electric bills than past years with similar weather"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Review the system and settings",
+      "text": "The technician checks the thermostat setup, including backup heat and, for dual-fuel systems, the switchover temperature. Wrong settings can make backup heat run far more than needed."
+    },
+    {
+      "title": "Check the outdoor unit",
+      "text": "The coil, fan, compressor, electrical parts, and defrost controls are inspected. The technician also confirms the unit can drain and is not buried by snow or ice."
+    },
+    {
+      "title": "Measure refrigerant and airflow",
+      "text": "Pressures and temperatures show whether the refrigerant charge is right and whether the reversing valve is shifting properly. Indoor airflow is checked too, since heat pumps are sensitive to dirty filters and restrictive ducts."
+    },
+    {
+      "title": "Repair and test both modes",
+      "text": "After a repair, the system is run in heating and, when outdoor temperatures allow, cooling. The backup heat is tested, and defrost operation may also be checked."
+    },
+    {
+      "title": "Plan a new install carefully",
+      "text": "A new heat pump should be sized with a load calculation for both heating and cooling. The outdoor unit is usually set on a raised pad or stand so defrost water can drain and snow does not block the coil. The installer runs refrigerant lines and wiring, and sets up the thermostat to control the heat pump and backup heat correctly."
+    }
+  ],
+  "tips": [
+    "Keep snow, ice, and leaves clear of the outdoor unit, and make sure a roof edge or downspout does not drip onto it. Do not chip ice off the coil with tools, because the thin fins and tubing damage easily.",
+    "Use the emergency heat setting only if the heat pump stops working, and call for service. Running on electric backup heat alone usually costs more.",
+    "Avoid big thermostat setbacks unless the thermostat is designed for heat pumps. A large jump in temperature can bring on the backup heat.",
+    "Check the filter often. Heat pumps run in both heating and cooling seasons and depend on good airflow."
+  ],
+  "faq": [
+    {
+      "q": "Do heat pumps work in Indiana winters?",
+      "a": "Yes, they can. Heating output drops as it gets colder, so many systems are paired with backup heat or a furnace for the coldest days. Cold-climate heat pumps hold up better at low temperatures. Proper sizing, correct setup, and a well-sealed home all make a big difference in comfort."
+    },
+    {
+      "q": "What is a dual-fuel system?",
+      "a": "Dual-fuel pairs an electric heat pump with a gas or propane furnace. The heat pump heats in milder weather, and the furnace takes over when it gets colder. The two usually do not heat at the same time. This can be a good fit for homes that already have a furnace and ductwork, including rural homes that heat with propane."
+    },
+    {
+      "q": "Why is steam coming from my outdoor unit?",
+      "a": "That is usually a defrost cycle. The heat pump briefly warms the outdoor coil to melt frost, and the melting frost can rise as steam. The outdoor fan may stop during this time. If thick ice stays on the unit for hours, have it checked."
+    }
+  ]
+}

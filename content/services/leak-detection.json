@@ -1,0 +1,61 @@
+{
+  "id": "leak-detection",
+  "name": "Leak Detection & Repair",
+  "metaDescription": "How hidden leaks under floors, slabs, walls, and crawlspaces are found and repaired, plus warning signs and simple leak checks you can do at home.",
+  "intro": "A hidden leak can waste water and quietly damage floors, walls, and framing long before you see a puddle. Leak detection uses testing and special tools to find where water is escaping. That way the repair can be targeted, with as little opening of floors and walls as practical.",
+  "body": [
+    "Water lines run through places you rarely see: under concrete slabs, inside walls, beneath floors, and through crawlspaces. A small leak in one of these spots can run for weeks or months before anyone notices. Supply lines are under pressure all the time, so a leak there loses water around the clock, even when nobody is using any. Drain lines are not under pressure, so they usually leak only when water goes down them. Knowing which kind of line is leaking helps narrow the search.",
+    "Many older homes around Bloomington have aging copper or galvanized pipe. Many also have crawlspaces or basements where lines run along cold outside walls. A hard freeze can split a pipe that only starts leaking after it thaws. On a private well, a common clue is a pump that turns on when no one is using water. On public water, a meter that keeps moving with every fixture off is a strong sign of a leak. Many meters also have a small leak indicator that spins with slow leaks.",
+    "Finding the leak is only half the job. Once it is pinpointed, the plumber can talk through repair choices. A single damaged spot can often be cut out and repaired. When a line under a slab has failed, rerouting a new line through walls or ceilings is sometimes more practical than breaking up the floor. New lines should stay in heated space where possible so they do not freeze. If pipes have leaked in several places, replacing a larger section may beat chasing one leak after another."
+  ],
+  "signs": [
+    "A water bill that jumps without a change in use",
+    "The sound of running water when everything is off",
+    "Warm spots on a floor, which can point to a hot water leak under a slab",
+    "Damp drywall, stains, peeling paint, or warped flooring",
+    "Musty odors, mold, or wet insulation in a crawlspace",
+    "A well pump that turns on when no water is being used"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Confirm there is a leak",
+      "text": "The plumber usually starts at the water meter or the well's pressure tank. With every fixture and water-using appliance off, a moving meter or a dropping pressure gauge shows that water is escaping somewhere. On a well, a worn check valve can also let pressure drop, so that is ruled out too."
+    },
+    {
+      "title": "Narrow down the area",
+      "text": "Shutoff valves and pressure tests help separate the hot side, the cold side, outdoor lines, and individual branches. Toilets, the water heater, and outdoor faucets are common sources that are checked early. This keeps the search focused before any tools go on walls or floors."
+    },
+    {
+      "title": "Pinpoint the leak",
+      "text": "Depending on the situation, the plumber may use acoustic listening equipment, thermal imaging, moisture meters, or a non-toxic tracer gas. Thermal imaging is most useful on hot water lines. Drain leaks may call for a camera inspection or a test where the drain is plugged, filled with water, and watched to see if the level drops."
+    },
+    {
+      "title": "Open up and repair",
+      "text": "A small, targeted opening is made at the leak. The damaged pipe is cut out and repaired, or a new line is routed around the problem area when that is more practical."
+    },
+    {
+      "title": "Test and wrap up",
+      "text": "The line is put back under pressure and checked before walls or floors are closed. The plumber can point out wet framing, insulation, or drywall that needs drying or removal, since damp materials can grow mold. Finish work such as drywall, flooring, or concrete patching varies by job, so it helps to ask who handles it."
+    }
+  ],
+  "tips": [
+    "Try a meter test: turn off every faucet and water-using appliance, including an ice maker, water softener, or sprinkler system. Write down the meter reading, wait an hour or two without using water, and check again. Any change points to a leak.",
+    "Check toilets by putting a few drops of food coloring in the tank. If color shows up in the bowl within about 15 minutes without flushing, the flapper or flush valve is likely leaking. Flush afterward so the color does not stain.",
+    "Learn where your main water shutoff is. On a well, it is usually near the pressure tank. If the valve is stiff or crusted, do not force it, because old valves can break. Have a plumber check or replace it instead.",
+    "During hard freezes, keep the heat on, open sink cabinet doors on outside walls, disconnect garden hoses, and close up drafts into the crawlspace. On the coldest nights, letting a faucet on an outside wall drip can help."
+  ],
+  "faq": [
+    {
+      "q": "Will my floors or walls have to be torn up to find the leak?",
+      "a": "Usually not to find it. Testing and listening tools can narrow the leak down to a small area first. An opening is still needed to make the repair, but it is often much smaller than guessing would require."
+    },
+    {
+      "q": "What should I do if water is coming up through the floor?",
+      "a": "If water is near outlets, cords, appliances, or the electrical panel, do not walk into it, and call the electric utility or an electrician to make the area safe. If the main water valve can be reached safely, shut it off to stop the flow, then call a plumber. If water keeps coming in with the main off, it may be groundwater or a drain backup instead. Those problems need a different fix than a supply leak."
+    },
+    {
+      "q": "Can the leak be in the line outside the house?",
+      "a": "Yes. The buried line between the meter or well and the house can leak too. Clues include a soggy or extra-green strip of lawn, low water pressure, or a meter that moves or a well pump that runs while the main valve in the house is closed. Finding it uses similar tools, and Indiana 811 must be contacted before any digging."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "custom-ductwork-fabrication",
+  "name": "Sheet Metal & Custom Ductwork",
+  "metaDescription": "Custom sheet metal duct fittings, transitions and plenums made to fit older homes, tight spaces and new heating and cooling equipment.",
+  "intro": "Not every duct connection can be made with parts off the shelf. Sheet metal fabrication creates fittings to exact sizes, like transitions, offsets and plenums. Custom pieces help new equipment connect cleanly to existing ducts and help ducts fit tight spaces in older homes.",
+  "body": [
+    "Many duct systems, especially main trunks and fittings, are made of galvanized sheet steel. Standard parts come in set sizes, but real homes rarely line up perfectly. A new furnace or coil may have a different opening than the old one. A duct may need to jog around a beam, a pipe or a floor joist. Flat sheet metal is cut, bent and seamed into the exact shape needed. Common custom pieces include transitions, offsets, plenums, takeoffs, end caps, elbows and boots.",
+    "Fit matters for airflow. Sharp turns, sudden size changes and crushed sections add resistance. That makes the blower work harder and can leave rooms short on air. A well-shaped transition changes size gradually, so air moves smoothly. Custom pieces are fastened with sheet metal screws and then sealed at every joint, commonly with mastic or foil tape made for ducts. Ducts in attics, crawlspaces and garages are usually insulated to cut heat loss and to keep moisture from condensing on them in humid summers.",
+    "Older homes in this area often have unusual layouts. Some have old gravity heating ducts, ducts added decades later, or tight basements and crawlspaces. Custom fittings help work around these limits without crushing or kinking the duct. Some older duct systems have joint tape or wrap that may contain asbestos. It often looks like white or gray paper. If it is damaged or must be removed, it should be tested and handled by qualified professionals."
+  ],
+  "signs": [
+    "A new furnace, air handler or coil does not line up with the existing ducts",
+    "Ducts are crushed, sagging, kinked or pulled apart at the joints",
+    "Rooms at the end of a duct run get weak airflow",
+    "Ducts boom, pop or rattle when the blower starts or stops",
+    "A remodel or finished basement means ducts must be moved or boxed in",
+    "Rust, dents or loose cloth tape at duct joints"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Field measurements",
+      "text": "The technician measures the openings, clearances and obstacles where the fitting will go. Photos and sketches record angles and offsets that are hard to see later."
+    },
+    {
+      "title": "Layout and fabrication",
+      "text": "The pattern is laid out on flat sheet metal, in a shop or on site. The metal is cut, bent on a brake and joined with locking seams. Sizes are checked against the field measurements before the piece goes in."
+    },
+    {
+      "title": "Installation",
+      "text": "The new pieces are fitted, fastened with screws and supported with hangers or straps. Connections to existing ducts and equipment are made snug and square. Ducts that pass through an attached garage are built with no openings into the garage, which helps keep car exhaust out of the home."
+    },
+    {
+      "title": "Seal and insulate",
+      "text": "Every joint is sealed with mastic or duct-rated tape. Ducts in unconditioned spaces are wrapped with insulation as needed."
+    },
+    {
+      "title": "Check the airflow",
+      "text": "The system is run and airflow is checked in the affected rooms. Static pressure may be measured to confirm the change helped. Dampers may be adjusted to balance air between rooms."
+    }
+  ],
+  "tips": [
+    "Cloth duct tape tends to dry out and peel off ducts. Mastic or foil tape made for ducts holds up much longer.",
+    "Keep supply vents and return grilles clear of furniture, rugs and curtains.",
+    "Closing many supply vents can raise pressure in the ducts and strain the blower. Ask before shutting off rooms.",
+    "Do not cut, sand or tear old duct wrap or joint tape that might contain asbestos. Leave it alone and have it tested."
+  ],
+  "faq": [
+    {
+      "q": "Why use sheet metal instead of flexible duct?",
+      "a": "Flexible duct has its place, but it can sag, kink or get crushed, which cuts airflow. Sheet metal holds its shape and has a smooth inside surface. Many systems use sheet metal for main trunks and fittings, with short, well-supported flex runs where they make sense."
+    },
+    {
+      "q": "Does a new furnace need custom ductwork?",
+      "a": "Often a new transition is needed where the furnace meets the duct system. New equipment may be a different height, width or opening size than the old unit. A custom fitting connects the two without gaps or sharp size changes."
+    },
+    {
+      "q": "Can ducts be added to an older home that never had them?",
+      "a": "In many cases, yes, but it takes planning. Ducts have to fit through closets, attics, basements or chases without weakening the structure. A load calculation and duct design help size the runs, and custom fittings help them fit tight spaces. Where full-size ducts will not fit, small-duct high-velocity systems or ductless units may be other options."
+    }
+  ]
+}

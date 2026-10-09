@@ -1,0 +1,61 @@
+{
+  "id": "air-conditioning",
+  "name": "Air Conditioning",
+  "metaDescription": "Central AC repair, refrigerant leak checks, and new central air installation for hot, humid Indiana summers. Learn the signs and what to expect.",
+  "intro": "Central air cools a home and pulls moisture out of the air during hot, humid Indiana summers. This page covers common AC problems, how refrigerant issues are handled, and what goes into installing a new central air system.",
+  "body": [
+    "A central air conditioner moves heat from inside the home to the outdoors. Refrigerant picks up heat at the indoor coil, then the outdoor unit releases it with the help of a compressor and fan. The cold coil also pulls moisture from the air, which drips into a pan and drains away. Many hot-day breakdowns come from worn electrical parts, such as a capacitor or contactor. Others come from a dirty filter, a dirty coil, or low refrigerant, which can freeze the indoor coil into a block of ice.",
+    "Refrigerant runs in a sealed loop and is not used up. If a system is low, it almost always has a leak. Adding refrigerant without finding the leak is only a short-term fix. A technician can test for leaks, repair them when practical, and set the charge by measurement. Many systems installed before about 2010 use R-22, which is no longer made or imported in the US. Supplies are limited, so major repairs on those units are often hard to justify. Newer refrigerants cannot be mixed with R-22.",
+    "A new central air system should be sized for the home, not just matched to the old unit. An oversized unit cools fast but shuts off before it removes much moisture, which can leave rooms cool but clammy. The indoor coil and outdoor unit should be a matched pair. Adding central air is often simpler in homes with a furnace and ducts, since the new coil sits on the furnace and shares its blower. The ducts should still be checked, because cooling often needs more airflow than heating."
+  ],
+  "signs": [
+    "Warm or weak air coming from the vents",
+    "The outdoor unit hums but the fan does not spin",
+    "Ice on the refrigerant lines or indoor coil",
+    "Water leaking near the indoor unit or furnace",
+    "The home feels sticky or damp even when it is cool",
+    "Running nonstop on mild days, or turning on and off often"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Check airflow and the thermostat",
+      "text": "The technician confirms the thermostat settings and checks the filter, blower, and vents. Many cooling problems start with restricted airflow, so this is often the first place to look."
+    },
+    {
+      "title": "Test electrical parts",
+      "text": "With power shut off as needed, the technician tests the capacitor, contactor, motors, and wiring at the outdoor unit. These parts take a lot of heat and stress in summer, and a weak capacitor can keep the fan or compressor from starting."
+    },
+    {
+      "title": "Measure the refrigerant side",
+      "text": "Gauges and temperature readings show whether the system has the right refrigerant charge. If it is low, the next step is finding the leak, often with an electronic detector, bubble solution, or a pressure test using nitrogen."
+    },
+    {
+      "title": "Clean coils and clear drains",
+      "text": "The condensate drain is checked and cleared so water flows away from the indoor coil. If the system has a safety float switch that shuts it off when the drain backs up, that is tested too. A dirty outdoor coil may be cleaned so the unit can shed heat properly."
+    },
+    {
+      "title": "Install and start up new systems",
+      "text": "For a new system, the old refrigerant is recovered with special equipment, since federal rules prohibit releasing it into the air. The electrical circuit and outdoor disconnect are checked to make sure they suit the new unit. After the new units are set, the refrigerant lines are pressure tested and pulled into a deep vacuum to remove air and moisture. The charge is then set by measurement and the system is tested in cooling mode."
+    }
+  ],
+  "tips": [
+    "Keep about 2 feet of clear space around the outdoor unit. Trim plants, and aim the mower so grass clippings do not blow onto the coil.",
+    "If you see ice on the lines or coil, set the thermostat to off and the fan to on to help it thaw, then call for service. Melting ice makes extra water, so watch for overflow near the indoor unit.",
+    "Change the filter regularly in summer. A clogged filter is a common cause of weak airflow and a frozen coil.",
+    "If the outdoor unit hums but the fan is not spinning, turn the system off at the thermostat and call for service. Never open the electrical panel on the outdoor unit, because capacitors can hold a dangerous charge even after the power is off."
+  ],
+  "faq": [
+    {
+      "q": "Why does my AC need refrigerant every year?",
+      "a": "It should not. Refrigerant stays in a sealed loop, so needing more means there is a leak. Finding and repairing the leak, when practical, is a longer-lasting fix than topping it off each summer. Running low on refrigerant can also reduce cooling and put extra wear on the compressor."
+    },
+    {
+      "q": "How long does a central air conditioner last?",
+      "a": "Many central air conditioners last roughly 12 to 20 years. Upkeep, installation quality, and how hard the unit works all play a part. A unit near the end of that range with a major failure, especially one that uses R-22, is often a candidate for replacement."
+    },
+    {
+      "q": "Can a home without ducts get central air?",
+      "a": "Central air needs ducts to move cool air through the home. Some older homes heated by boilers or baseboard heat have no ducts. Adding ductwork through an attic, closets, or chases is sometimes possible, and ductless mini-split systems are another option. A site visit helps show what will work in that home."
+    }
+  ]
+}

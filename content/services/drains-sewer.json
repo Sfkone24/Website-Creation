@@ -1,0 +1,61 @@
+{
+  "id": "drains-sewer",
+  "name": "Drains & Sewer Lines",
+  "metaDescription": "Slow drains, backups and sewer line clogs explained. See the warning signs, how drain cleaning and camera inspections work, and how to prevent clogs.",
+  "intro": "In most homes, every drain flows into one main line that carries waste to the city sewer or a septic tank. One slow drain usually means a clog close to that fixture, while several drains backing up at once often points to the main line. A plumber clears the blockage and, when needed, uses a camera to see what caused it.",
+  "body": [
+    "Most single-drain clogs build up slowly. In kitchens, grease, oil and food scraps cool and stick to the pipe walls, even in homes with a garbage disposal. In bathrooms, hair and soap scum collect in tub, shower and sink drains. Toilets often clog from too much paper or from items that should not be flushed, such as wipes, paper towels and hygiene products. Wipes labeled as flushable may still not break apart the way toilet paper does.",
+    "Main line problems are different. Tree roots can grow into small cracks and joints in older clay, cast iron or fiber sewer pipe, especially in established neighborhoods with mature trees. Pipes can also sag, shift or crack as the soil settles. Trouble often shows up at the lowest drains first, like a basement floor drain or a first-floor tub. A camera inspection lets the plumber see inside the line and find the cause.",
+    "Many homes outside town use a septic system instead of a city sewer. In these homes, a backup may come from a clog in the line to the tank, a clogged outlet filter, a tank that needs pumping, or a drain field that no longer soaks up water. Septic pumping and drain field work are often handled by a separate septic service. Wherever the line goes, sewage carries germs. Avoid contact, keep children and pets away, and avoid running water until the line is cleared."
+  ],
+  "signs": [
+    "Water drains slowly from a sink, tub or shower",
+    "Gurgling sounds from drains or the toilet",
+    "Several drains are slow or backing up at the same time",
+    "Water comes up in a tub, shower or floor drain when a toilet flushes or the washer drains",
+    "Sewage odors inside the house or in the yard",
+    "Soggy, sunken or unusually green patches of lawn over the sewer line or septic drain field"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Ask questions and check fixtures",
+      "text": "The plumber asks which drains are affected and when the trouble started. Checking which fixtures back up helps show whether the clog is in one branch line or in the main line."
+    },
+    {
+      "title": "Find an access point",
+      "text": "Clogs are cleared through a drain opening or a cleanout, which is a capped access pipe on the drain line. If there is no cleanout, the plumber may remove a toilet to reach the line, or work through a roof vent."
+    },
+    {
+      "title": "Clear the blockage",
+      "text": "A cable machine, often called a snake or auger, is fed into the line to break up or pull out the clog. For heavy grease, sludge or roots, a water jetter may be used to scour the pipe walls with high-pressure water, as long as the pipe is in sound enough shape."
+    },
+    {
+      "title": "Inspect with a camera",
+      "text": "For repeat clogs or main line problems, a small waterproof camera is pushed through the pipe. The plumber can see roots, cracks, sags or broken joints, and a locator can show where they are and how deep they sit in the yard."
+    },
+    {
+      "title": "Test and review findings",
+      "text": "Water is run through the fixtures to confirm the line drains well. The plumber explains what was found and whether regular cleaning or a pipe repair should be considered."
+    }
+  ],
+  "tips": [
+    "Pour cooled grease into a can or jar and put it in the trash. Use strainers in sinks, tubs and showers to catch food and hair.",
+    "Flush only toilet paper. Put wipes, paper towels and hygiene products in the trash, even if the package says flushable. In homes on septic, this also helps protect the tank and drain field.",
+    "Find your main cleanout and keep it uncovered and easy to reach. It is often a capped pipe in the basement, crawl space or yard near the house.",
+    "If you used a chemical drain cleaner, tell the plumber before work starts. These products can burn skin and eyes and may splash back during cleaning."
+  ],
+  "faq": [
+    {
+      "q": "Are chemical drain cleaners safe to use?",
+      "a": "Harsh chemical cleaners can be hard on older pipes and often do not clear the whole blockage. They are also dangerous to skin and eyes. In homes on septic, heavy use can also harm the helpful bacteria in the tank. If a drain clogs again and again, it is usually worth having the line cleared and checked."
+    },
+    {
+      "q": "What is a sewer camera inspection?",
+      "a": "A small waterproof camera on a flexible cable is pushed into the drain line. It shows the inside of the pipe on a screen, so the plumber can see roots, cracks, sags and buildup. It is useful for repeat clogs, and it is also common to have one done before buying an older home."
+    },
+    {
+      "q": "Who is responsible for the sewer line?",
+      "a": "In many areas, the homeowner is responsible for the private sewer line from the house to the city main, and the utility maintains the main itself. Rules vary, so check with your local sewer utility. Homeowners with septic systems are responsible for the whole system on their property. Before any digging, contact 811 so buried utility lines can be marked."
+    }
+  ]
+}

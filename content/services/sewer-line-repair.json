@@ -1,0 +1,61 @@
+{
+  "id": "sewer-line-repair",
+  "name": "Sewer Line Repair",
+  "metaDescription": "Repairing broken, sagging, or root-damaged sewer lines between your home and the main, from camera inspection to dig-and-replace.",
+  "intro": "The sewer lateral is the pipe that carries all of a home's wastewater out to the public sewer main. When it cracks, sags, separates, or fills with roots, drains throughout the house can back up. Repair starts with a camera to see the problem and often ends with digging up and replacing the damaged pipe.",
+  "body": [
+    "Many older Bloomington-area homes have sewer laterals made of clay tile, cast iron, or a tar-soaked fiber pipe. Clay tile has a joint every few feet, and tree roots can work their way in through tiny gaps. Cast iron can rust and build up scale inside. Fiber pipe, used in some homes built from the 1940s into the 1970s, can soften and flatten over time. Shifting soil and freeze-thaw cycles can also crack pipe, pull joints apart, or create low spots.",
+    "Clearing roots with a drain machine can get water flowing again, but roots usually grow back through the same cracks. A camera inspection shows what is really going on inside the pipe: roots, breaks, offset joints, or a belly where the pipe sags and holds waste. When the damage is serious or keeps coming back, digging down and replacing the damaged section, or the whole line, with modern plastic sewer pipe is a common long-term fix.",
+    "Who is responsible for which part of the line depends on the local utility. In many places, the homeowner owns the lateral from the house to the main, and sometimes the connection at the main too. Work in a street or sidewalk often needs a separate permit and coordination with the city. If sewage backs up into the house, stop using water and keep children and pets away. Stay out of standing water near outlets or appliances. Wear gloves and boots for cleanup, and wash well afterward."
+  ],
+  "signs": [
+    "Backups in the lowest drains, such as a basement floor drain",
+    "Several drains running slow at the same time",
+    "Gurgling toilets when the washer drains or a tub empties",
+    "Sewer odors inside the house or in the yard",
+    "Root clogs that need clearing again and again",
+    "Soggy spots, sinking soil, or a dip in the yard along the sewer path"
+  ],
+  "whatToExpect": [
+    {
+      "title": "Camera inspection",
+      "text": "A camera is fed through a cleanout or other access point to view the inside of the line. The video shows the type and location of damage and helps decide whether a spot repair or a full replacement makes sense."
+    },
+    {
+      "title": "Locate and mark the line",
+      "text": "A small transmitter on the camera lets the technician trace the pipe's path and depth from above ground. Indiana 811 is contacted so buried utilities are marked before digging, and permits are obtained where required."
+    },
+    {
+      "title": "Excavate",
+      "text": "A trench or pit is dug to expose the damaged pipe. Trenches 5 feet deep or more generally need sloped sides, shoring, or a trench box to protect workers from cave-ins. Soil is piled at least 2 feet back from the edge, and the open hole is blocked off."
+    },
+    {
+      "title": "Replace the pipe",
+      "text": "Damaged pipe is cut out and replaced with plastic sewer pipe laid on proper bedding with a steady downhill slope, commonly about 1/8 to 1/4 inch of drop per foot depending on pipe size and local code. Connections to the old pipe use couplings made for joining different materials, and a cleanout may be added for easier access later."
+    },
+    {
+      "title": "Test, inspect, and backfill",
+      "text": "The new pipe is tested and, where required, inspected before it is buried. A final camera pass can confirm the line is clear. The trench is backfilled in layers and compacted, and the soil may settle and need topping off later."
+    }
+  ],
+  "tips": [
+    "Find your sewer cleanout, a capped pipe often near the foundation or in the basement, and keep it easy to reach.",
+    "Do not flush wipes, even ones labeled flushable, and keep cooking grease out of the drains.",
+    "Plant trees and large shrubs well away from the path of the sewer line.",
+    "Before buying an older home, consider a sewer camera inspection. It is usually not part of a standard home inspection, and sewer problems can be hidden underground."
+  ],
+  "faq": [
+    {
+      "q": "Can a damaged sewer line be fixed without digging?",
+      "a": "Sometimes. Trenchless methods such as pipe lining or pipe bursting can work for certain lines, but not every pipe or yard is a good fit, and not every company offers them. Bad sags, collapsed pipe, and some connection problems often still require digging. A camera inspection is the first step either way."
+    },
+    {
+      "q": "Why do roots keep coming back after the line is cleared?",
+      "a": "Clearing cuts the roots inside the pipe, but the crack or joint they came through is still there. Roots grow toward the moisture and nutrients that seep from the line, so they come back. Repairing or replacing the damaged pipe removes the opening they use."
+    },
+    {
+      "q": "Should I pour chemical drain cleaner down a main line clog?",
+      "a": "It is not recommended. Chemicals rarely clear a main line blockage and can harm older pipes. They also make the work hazardous for whoever opens the line next. If several drains are backing up, stop using water and call for service."
+    }
+  ]
+}
