@@ -12,7 +12,9 @@ export function loadConfig(slug) {
   const cfg = JSON.parse(readFileSync(cfgPath, "utf8"));
   if (!cfg.preset) return cfg;
   const preset = JSON.parse(readFileSync(join(root, "presets", `${cfg.preset}.json`), "utf8"));
-  return { ...preset, ...cfg, colors: { ...preset.colors, ...cfg.colors }, faq: [...(cfg.faq ?? []), ...(preset.faq ?? [])] };
+  // "faqExclude" drops preset questions that don't fit this business (e.g. a service it doesn't offer).
+  const presetFaq = (preset.faq ?? []).filter((f) => !(cfg.faqExclude ?? []).includes(f.q));
+  return { ...preset, ...cfg, colors: { ...preset.colors, ...cfg.colors }, faq: [...(cfg.faq ?? []), ...presetFaq] };
 }
 
 // Service page content library: content/services/<id>.json.

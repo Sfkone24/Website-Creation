@@ -26,7 +26,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node scripts/build.mjs all
+      - name: Build demos and previews (launched client sites are skipped)
+        run: node scripts/build.mjs all
+        env:
+          DEMO_HOST: "1"
       - name: Block indexing of the demo host
         run: |
           printf 'User-agent: *\nDisallow: /\n' > dist/robots.txt

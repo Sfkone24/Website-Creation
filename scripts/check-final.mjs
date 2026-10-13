@@ -70,6 +70,8 @@ need(cfg.faq?.length >= 6, `FAQ needs 6+ questions including business-specific o
 want(cfg.emergency, "emergency: what customers should do after hours");
 want(cfg.social?.length, "social: Facebook or Google profile links");
 want(cfg.mapEmbed, "mapEmbed: Google Maps embed of the service area");
+want(cfg.ogImage, "ogImage: a 1200x630 share image for link previews (e.g. the hero photo)");
+want(!cfg.metaDescription || cfg.metaDescription.length <= 160, `metaDescription is ${cfg.metaDescription?.length} characters; keep it under 160`);
 
 // Sign-off
 const c = cfg.confirmed ?? {};

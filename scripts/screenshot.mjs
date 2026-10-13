@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Usage: node scripts/screenshot.mjs <client-slug|all>
-// Saves desktop + mobile screenshots of dist/<slug>/ into dist/<slug>/screenshots/ (for outreach messages).
+// Saves desktop + mobile screenshots of dist/<slug>/ into screenshots/<slug>/ (for outreach messages).
+// Kept outside dist/ so they never get deployed with the site.
 import { readdirSync, mkdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
@@ -20,7 +21,7 @@ const slugs = arg === "all" ? readdirSync(join(root, "dist")) : [arg];
 const browser = await playwright.chromium.launch();
 for (const slug of slugs) {
   const url = pathToFileURL(join(root, "dist", slug, "index.html")).href;
-  const out = join(root, "dist", slug, "screenshots");
+  const out = join(root, "screenshots", slug);
   mkdirSync(out, { recursive: true });
   for (const [name, viewport, mobile] of [["desktop", { width: 1366, height: 860 }, false], ["mobile", { width: 390, height: 844 }, true]]) {
     const page = await browser.newPage({ viewport, isMobile: mobile, deviceScaleFactor: mobile ? 2 : 1 });
@@ -29,6 +30,6 @@ for (const slug of slugs) {
     await page.screenshot({ path: join(out, `${name}-full.png`), fullPage: true });
     await page.close();
   }
-  console.log(`Screenshots: dist/${slug}/screenshots/`);
+  console.log(`Screenshots: screenshots/${slug}/`);
 }
 await browser.close();

@@ -2,7 +2,7 @@
 
 **Live demo:** https://sfkone24.github.io/Website-Creation/next-door-plumbing-pros/
 **Recommended offer:** Starter $500 + Care Plan $39/mo (a new business watches cash; upsell Standard for listings cleanup)
-**Status:** demo built. Confirm they're operating on the first call before sending the link.
+**Status:** full final-version preview built: https://sfkone24.github.io/Website-Creation/next-door-plumbing-pros-full/ (6 service pages, To-be-added slots for Chris's details). Send him `5-next-door-plumbing-pros-intake.md` to fill the gaps.
 
 ## Why they're a strong buyer
 - **A new, growing business with no website.** It only appears on two Nextdoor pages and one Yelp listing (5.0 from 1 review). New businesses actively want customers.

@@ -2,7 +2,7 @@
 
 **Demo:** `clients/terrell-heating-ac/`, built to `dist/terrell-heating-ac/`
 **Live preview:** https://sfkone24.github.io/Website-Creation/terrell-heating-ac/
-**Screenshot to send:** `dist/terrell-heating-ac/screenshots/mobile.png`
+**Screenshot to send:** `screenshots/terrell-heating-ac/mobile.png`
 **Recommended offer:** Standard $900 + Care Plan $39/mo
 
 ## Why they're a strong prospect

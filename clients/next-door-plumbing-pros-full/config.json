@@ -9,41 +9,128 @@
   "tagline": "Family-run plumbing based in central Indiana: leak repair, water heaters, water softeners, copper repipes and gas lines, with help available 24 hours a day.",
   "phone": "(812) 558-1967",
   "city": "Bloomington",
-  "zip": "47401",
   "serviceAreaOnly": true,
   "hours": "Open 24 hours a day",
   "emergency": "Plumbing emergency at night or on the weekend? We're open 24 hours a day. Call (812) 558-1967.",
-  "colors": { "primary": "#0f766e", "accent": "#f97316", "dark": "#0b3b37" },
+  "colors": {
+    "primary": "#0f766e",
+    "accent": "#f97316",
+    "dark": "#0b3b37"
+  },
   "heroLabel": "Family-run & local",
-  "heroChips": ["Leaks", "Water heaters", "Repipes"],
-  "badges": ["Family-run & local", "Open 24 hours", "Recommended on Nextdoor"],
-  "requestOptions": ["Leak or repair", "Water heater", "Water softener or treatment", "Gas line", "Repipe estimate"],
+  "heroChips": [
+    "Leaks",
+    "Water heaters",
+    "Repipes"
+  ],
+  "badges": [
+    "Family-run & local",
+    "Open 24 hours",
+    "Recommended on Nextdoor"
+  ],
+  "requestOptions": [
+    "Leak or repair",
+    "Water heater",
+    "Water softener or treatment",
+    "Gas line",
+    "Repipe estimate"
+  ],
   "services": [
-    { "id": "leak-detection", "icon": "droplet", "name": "Leak Detection & Repair", "desc": "Hidden leaks under the house, in walls or under sinks, found and fixed before they cost you more." },
-    { "id": "water-heaters", "icon": "flame", "name": "Water Heaters", "desc": "Water heater service and repair, including correct piping at the top of the tank." },
-    { "id": "water-treatment", "icon": "leaf", "name": "Water Softeners & Treatment", "desc": "Water softener and water treatment installation and service." },
-    { "id": "repiping", "icon": "duct", "name": "Copper Pipe Replacement", "desc": "Old, failing lines cut out and replaced with new copper before the next leak." },
-    { "id": "gas-lines", "icon": "gauge", "name": "Gas Lines", "desc": "Gas line installation and repair, including gas hookups for garage heaters." },
-    { "id": "plumbing-repairs", "icon": "wrench", "name": "Plumbing Repairs", "desc": "Faucets, toilets, fixtures and the everyday plumbing problems every house runs into." }
+    {
+      "id": "leak-detection",
+      "icon": "droplet",
+      "name": "Leak Repair",
+      "desc": "Leaks under the house, in walls or under sinks, tracked down and fixed before they cost you more."
+    },
+    {
+      "id": "water-heaters",
+      "icon": "flame",
+      "name": "Water Heaters",
+      "desc": "Water heater service and repair, including correct piping at the top of the tank."
+    },
+    {
+      "id": "water-treatment",
+      "icon": "leaf",
+      "name": "Water Softeners & Treatment",
+      "desc": "Water softener and water treatment installation and service.",
+      "seoName": "Water Softeners"
+    },
+    {
+      "id": "repiping",
+      "icon": "duct",
+      "name": "Copper Pipe Replacement",
+      "desc": "Old, failing lines cut out and replaced with new copper before the next leak.",
+      "seoName": "Copper Repiping"
+    },
+    {
+      "id": "gas-lines",
+      "icon": "gauge",
+      "name": "Gas Lines",
+      "desc": "Gas line installs and gas hookups, including in garages."
+    },
+    {
+      "id": "plumbing-repairs",
+      "icon": "wrench",
+      "name": "Plumbing Repairs",
+      "desc": "Faucets, toilets, fixtures and the everyday plumbing problems every house runs into."
+    }
   ],
   "highlights": [
-    { "icon": "family", "title": "Family-run", "desc": "A local, family-run plumbing company based in central Indiana." },
-    { "icon": "clock", "title": "Open 24 hours", "desc": "We're open 24 hours a day and can always help, nights and weekends included." },
-    { "icon": "user", "title": "Polite, professional, fast", "desc": "That's how customers on Yelp describe our plumber, Chris." },
-    { "icon": "building", "title": "Older homes welcome", "desc": "Neighbors on Nextdoor recommend us for tracking down problems in older homes." }
+    {
+      "icon": "family",
+      "title": "Family-run",
+      "desc": "A local, family-run plumbing company based in central Indiana."
+    },
+    {
+      "icon": "clock",
+      "title": "Open 24 hours",
+      "desc": "We're open 24 hours a day and can always help, nights and weekends included."
+    },
+    {
+      "icon": "user",
+      "title": "Polite, professional, fast",
+      "desc": "That's how a customer on Yelp described our plumber, Chris."
+    },
+    {
+      "icon": "building",
+      "title": "Older homes welcome",
+      "desc": "A Nextdoor neighbor recommended us after we quickly fixed a problem in their older home."
+    }
   ],
   "aboutHeading": "Bloomington's neighborhood plumbers",
   "aboutParagraphs": [
     "Next Door Plumbing Pros is a local, family-run plumbing company based in central Indiana, serving Bloomington and the surrounding area. We handle the plumbing problems homeowners call about most: hidden leaks, water heaters, water softeners and treatment, copper repipes and gas lines.",
-    "Customers know our plumber, Chris, by name. On Yelp and Nextdoor they describe same-day help with leaks, problems in older homes solved quickly, and work that's polite, professional and fast.",
+    "Customers know our plumber, Chris, by name. Reviews on Yelp and Nextdoor describe a same-day fix for a leak under the house, an older home's problem solved quickly, and work that's polite, professional and fast.",
     "Plumbing problems don't keep business hours, so we don't either. We're open 24 hours a day. Call or send a request any time, and we'll get back to you."
   ],
   "areaRegion": "Bloomington & the surrounding area",
-  "serviceAreas": ["Bloomington", "Monroe County", "Central Indiana"],
-  "social": [{ "label": "Nextdoor", "url": "https://nextdoor.com/pages/nextdoor-plumbing-pros-llc-bloomington-in/" }],
+  "serviceAreas": [
+    "Bloomington"
+  ],
+  "social": [
+    {
+      "label": "Nextdoor",
+      "url": "https://nextdoor.com/pages/nextdoor-plumbing-pros-llc-bloomington-in/"
+    }
+  ],
   "faq": [
-    { "q": "Do you handle plumbing emergencies after hours?", "a": "Yes. We're open 24 hours a day, including nights and weekends. Call (812) 558-1967. If water is actively leaking, shut off the main water valve first to limit the damage." },
-    { "q": "How do I protect my outdoor faucets this winter?", "a": "Before the first hard freeze, disconnect garden hoses from your wall hydrants and yard hydrants. A hose left attached can trap water that freezes, cracks the hose bib and causes a leak inside the wall. If your home has an indoor shutoff for the outdoor faucet, close it and drain the line." },
-    { "q": "What areas do you serve?", "a": "Bloomington and the surrounding area in central Indiana. Not sure if you're in our area? Call and ask." }
+    {
+      "q": "Do you handle plumbing emergencies after hours?",
+      "a": "Yes. We're open 24 hours a day, including nights and weekends. Call (812) 558-1967. If water is actively leaking, shut off the main water valve first to limit the damage."
+    },
+    {
+      "q": "How do I protect my outdoor faucets this winter?",
+      "a": "Before the first hard freeze, disconnect garden hoses from your wall hydrants and yard hydrants. A hose left attached can trap water that freezes, cracks the hose bib and causes a leak inside the wall. If your home has an indoor shutoff for the outdoor faucet, close it and drain the line."
+    },
+    {
+      "q": "What areas do you serve?",
+      "a": "Bloomington and the surrounding area in central Indiana. Not sure if you're in our area? Call and ask."
+    }
+  ],
+  "urgentLead": "Leak or no hot water?",
+  "metaDescription": "Family-run Bloomington plumber, open 24 hours: leak repair, water heaters, softeners, copper repipes and gas lines. Call (812) 558-1967.",
+  "privacyUpdated": "October 13, 2026",
+  "faqExclude": [
+    "Are chemical drain cleaners safe for my pipes?"
   ]
 }

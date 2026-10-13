@@ -2,7 +2,7 @@
 
 **Demo:** `clients/durham-heating-cooling/`, built to `dist/durham-heating-cooling/`
 **Live preview (once Pages is on):** https://sfkone24.github.io/Website-Creation/durham-heating-cooling/
-**Screenshot to send:** `dist/durham-heating-cooling/screenshots/mobile.png`
+**Screenshot to send:** `screenshots/durham-heating-cooling/mobile.png`
 **Recommended offer:** Standard $900 + Care Plan $39/mo
 
 ## Why they're the #1 prospect

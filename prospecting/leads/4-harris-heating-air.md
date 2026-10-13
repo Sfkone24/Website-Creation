@@ -2,7 +2,7 @@
 
 **Demo:** `clients/harris-heating-air/`, built to `dist/harris-heating-air/`
 **Live preview:** https://sfkone24.github.io/Website-Creation/harris-heating-air/
-**Screenshot to send:** `dist/harris-heating-air/screenshots/mobile.png` (a side-by-side with their current site on a phone is even better)
+**Screenshot to send:** `screenshots/harris-heating-air/mobile.png` (a side-by-side with their current site on a phone is even better)
 **Recommended offer:** Standard $900 + Care Plan $39/mo
 
 ## Why they're a prospect

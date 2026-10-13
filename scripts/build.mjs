@@ -40,6 +40,21 @@ function loadTemplate(name) {
 
 const ld = (data) => JSON.stringify(data, null, 2).replace(/</g, "\\u003c");
 
+// WCAG contrast helpers: brand accents are often too light for white button text or small labels.
+const rgb = (hex) => hex.replace("#", "").match(/../g).map((h) => parseInt(h, 16));
+const hex = (c) => "#" + c.map((v) => Math.round(v).toString(16).padStart(2, "0")).join("");
+const lum = (c) => c.map((v) => v / 255).map((v) => (v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4)).reduce((a, v, i) => a + v * [0.2126, 0.7152, 0.0722][i], 0);
+const contrast = (a, b) => { const [x, y] = [lum(rgb(a)), lum(rgb(b))].sort((m, n) => n - m); return (x + 0.05) / (y + 0.05); };
+const mix = (a, b, t) => hex(rgb(a).map((v, i) => v + (rgb(b)[i] - v) * t));
+// Step the color toward `toward` until it reaches 4.5:1 against every background given.
+function accessible(color, toward, backgrounds) {
+  for (let t = 0; t <= 1; t += 0.02) {
+    const c = mix(color, toward, t);
+    if (backgrounds.every((bg) => contrast(c, bg) >= 4.5)) return c;
+  }
+  return toward;
+}
+
 function businessLd(cfg) {
   return {
     "@context": "https://schema.org",
@@ -49,9 +64,10 @@ function businessLd(cfg) {
     description: cfg.tagline,
     telephone: cfg.phone,
     ...(cfg.email && { email: cfg.email }),
-    ...(cfg.street && {
-      address: { "@type": "PostalAddress", streetAddress: cfg.street, addressLocality: cfg.city, addressRegion: cfg.state, postalCode: cfg.zip, addressCountry: "US" },
+    ...((cfg.street || cfg.city) && {
+      address: { "@type": "PostalAddress", ...(cfg.street && { streetAddress: cfg.street }), addressLocality: cfg.city, addressRegion: cfg.state, ...(cfg.zip && { postalCode: cfg.zip }), addressCountry: "US" },
     }),
+    ...(cfg.openingHours && { openingHours: cfg.openingHours }),
     areaServed: cfg.serviceAreas,
     ...(cfg.foundingYear && { foundingDate: String(cfg.foundingYear) }),
     ...(cfg.siteUrl && cfg.logo && { logo: `${cfg.siteUrl}/${cfg.logo}` }),
@@ -68,6 +84,12 @@ const clientAsset = (p) => (p ? `assets/client/${p}` : p);
 function build(slug, library) {
   const cfg = loadConfig(slug);
   cfg.final = !cfg.demo;
+  // The GitHub Pages demo host only carries demos, previews and the sample. A launched client site
+  // lives on its own domain; publishing a second, indexable copy here would compete with it.
+  if (process.env.DEMO_HOST && cfg.final && !cfg.preview && !cfg.sample) {
+    console.log(`Skipped ${slug} (launched site, not published on the demo host)`);
+    return;
+  }
   // "preview": final-version layout shown to the client before launch, with "To be added" slots.
   cfg.preview = Boolean(cfg.final && cfg.preview);
   cfg.noindex = Boolean(cfg.demo || cfg.sample || cfg.preview);
@@ -75,7 +97,7 @@ function build(slug, library) {
   cfg.phoneDigits = String(cfg.phone).replace(/\D/g, "");
   cfg.address ??= [cfg.street, cfg.city, [cfg.state, cfg.zip].filter(Boolean).join(" ")].filter(Boolean).join(", ");
   cfg.year = new Date().getFullYear();
-  cfg.buildDate = new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+  cfg.privacyUpdated ??= new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
   cfg.primaryArea = cfg.serviceAreas?.[0] ?? cfg.city;
   cfg.processHeading ??= "What to expect when you call";
   cfg.siteUrl = cfg.siteUrl?.replace(/\/$/, "");
@@ -127,6 +149,14 @@ function build(slug, library) {
   cfg.heroWater = cfg.heroCard === "water";
   cfg.heroThermo = !cfg.heroWater;
   cfg.icons = icons;
+  // Darkened accent for white text and small labels on light backgrounds; lightened accent for dark sections.
+  cfg.colors.accentStrong = accessible(cfg.colors.accent, "#000000", ["#ffffff", "#f4f7fb"]);
+  cfg.colors.accentOnDark = accessible(cfg.colors.accent, "#ffffff", [cfg.colors.dark]);
+  // Accent buttons: white text if the accent only needs a little darkening; bright accents (yellows,
+  // light oranges) keep their color and get dark text instead, which stays closer to the brand.
+  const nearWhiteOk = contrast(mix(cfg.colors.accent, "#000000", 0.2), "#ffffff") >= 4.5;
+  cfg.colors.btnBg = nearWhiteOk ? accessible(cfg.colors.accent, "#000000", ["#ffffff"]) : cfg.colors.accent;
+  cfg.colors.btnInk = nearWhiteOk ? "#ffffff" : "#16202c";
 
   // Alternate section backgrounds across whichever optional sections are present.
   const order = [
@@ -137,12 +167,17 @@ function build(slug, library) {
   for (const [key, present] of order) if (present) { cfg[key] = alt ? "sec-alt" : ""; alt = !alt; }
 
   const out = join(root, "dist", slug);
-  // Keep screenshots between builds; regenerate everything else.
-  for (const f of existsSync(out) ? readdirSync(out) : []) if (f !== "screenshots") rmSync(join(out, f), { recursive: true, force: true });
+  rmSync(out, { recursive: true, force: true });
   mkdirSync(join(out, "assets"), { recursive: true });
   writeFileSync(join(out, "assets", "style.css"), render(readFileSync(join(root, "template", "assets", "style.css"), "utf8"), cfg));
   const clientAssets = join(root, "clients", slug, "assets");
   if (existsSync(clientAssets)) cpSync(clientAssets, join(out, "assets", "client"), { recursive: true });
+  // Fallback favicon: the brand icon in white on the primary color.
+  if (!cfg.favicon) {
+    const inner = cfg.brandIconSvg.replace(/^<svg[^>]*>|<\/svg>$/g, "");
+    writeFileSync(join(out, "assets", "favicon.svg"), `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="${cfg.colors.primary}"/><g transform="translate(4 4)" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${inner}</g></svg>`);
+    cfg.favicon = "assets/favicon.svg";
+  }
 
   const pages = [];
   const page = (tplName, path, base, extra) => {
@@ -156,7 +191,7 @@ function build(slug, library) {
 
   page("index", "", "", {
     pageTitle: `${cfg.businessName} | ${cfg.seoTrade} in ${cfg.primaryArea}, ${cfg.state}`,
-    pageDescription: `${cfg.tagline} Call ${cfg.phone}.`,
+    pageDescription: cfg.metaDescription ?? `${cfg.tagline} Call ${cfg.phone}.`,
     canonical: canonical(""),
     pageJsonLd: ld(businessLd(cfg)),
   });
@@ -167,7 +202,7 @@ function build(slug, library) {
       page("service", s.pageUrl, "../../", {
         page: s,
         otherServices: withPages.filter((o) => o !== s),
-        pageTitle: `${s.name} in ${cfg.primaryArea}, ${cfg.state} | ${cfg.businessName}`,
+        pageTitle: `${s.seoName ?? s.name} in ${cfg.primaryArea}, ${cfg.state} | ${cfg.businessName}`,
         pageDescription: s.details.metaDescription || s.details.intro,
         canonical: canonical(s.pageUrl),
         pageJsonLd: ld({
@@ -176,7 +211,8 @@ function build(slug, library) {
           name: s.name,
           description: s.details.intro,
           areaServed: cfg.serviceAreas,
-          provider: cfg.siteUrl ? { "@id": `${cfg.siteUrl}/#business` } : { "@type": cfg.schemaType, name: cfg.businessName, telephone: cfg.phone },
+          ...(cfg.siteUrl && { url: canonical(s.pageUrl) }),
+          provider: { "@type": cfg.schemaType, ...(cfg.siteUrl && { "@id": `${cfg.siteUrl}/#business` }), name: cfg.businessName, telephone: cfg.phone },
         }),
       });
     }

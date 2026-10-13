@@ -34,7 +34,7 @@
   <header class="top">
     <div class="top-in">
       <a class="brand" href="{{base}}#top">{{#logo}}<img class="brand-logo" src="{{base}}{{logo}}" alt="{{businessName}} logo">{{/logo}}{{^logo}}<span class="brand-mark">{{{brandIconSvg}}}</span>{{/logo}}<span>{{businessName}}</span></a>
-      <nav class="nav"><a href="{{base}}#services">Services</a><a href="{{base}}#about">About</a><a href="{{base}}#areas">Areas</a><a href="{{base}}#faq">FAQ</a><a href="{{base}}#contact">Contact</a></nav>
-      <a class="btn btn-accent btn-sm" href="tel:{{phoneDigits}}">{{{icons.phone}}}<span>{{phone}}</span></a>
+      <nav class="nav" aria-label="Main"><a href="{{base}}#services">Services</a><a href="{{base}}#about">About</a><a href="{{base}}#areas">Areas</a><a href="{{base}}#faq">FAQ</a><a href="{{base}}#contact">Contact</a></nav>
+      <a class="btn btn-accent btn-sm" href="tel:{{phoneDigits}}" aria-label="Call {{phone}}">{{{icons.phone}}}<span>{{phone}}</span></a>
     </div>
   </header>

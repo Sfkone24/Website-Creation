@@ -2,7 +2,7 @@
 
 **Demo:** `clients/allens-independence-air/`, built to `dist/allens-independence-air/`
 **Live preview:** https://sfkone24.github.io/Website-Creation/allens-independence-air/
-**Screenshot to send:** `dist/allens-independence-air/screenshots/mobile.png`
+**Screenshot to send:** `screenshots/allens-independence-air/mobile.png`
 **Recommended offer:** Starter $500 + Care Plan $39/mo (a solo owner is price-sensitive, but the care plan is easy recurring revenue)
 
 ## Why they're a strong prospect
