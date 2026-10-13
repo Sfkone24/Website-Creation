@@ -68,8 +68,10 @@ const clientAsset = (p) => (p ? `assets/client/${p}` : p);
 function build(slug, library) {
   const cfg = loadConfig(slug);
   cfg.final = !cfg.demo;
-  cfg.noindex = Boolean(cfg.demo || cfg.sample);
-  cfg.formPreview = Boolean(cfg.demo || cfg.sample);
+  // "preview": final-version layout shown to the client before launch, with "To be added" slots.
+  cfg.preview = Boolean(cfg.final && cfg.preview);
+  cfg.noindex = Boolean(cfg.demo || cfg.sample || cfg.preview);
+  cfg.formPreview = Boolean(cfg.demo || cfg.sample || cfg.preview);
   cfg.phoneDigits = String(cfg.phone).replace(/\D/g, "");
   cfg.address ??= [cfg.street, cfg.city, [cfg.state, cfg.zip].filter(Boolean).join(" ")].filter(Boolean).join(", ");
   cfg.year = new Date().getFullYear();
@@ -91,7 +93,19 @@ function build(slug, library) {
     return { ...r, rating, stars: "★".repeat(rating) + "☆".repeat(5 - rating) };
   });
   cfg.hasReviews = cfg.reviews.length > 0;
-  cfg.hasGoodToKnow = Boolean(cfg.guarantees?.length || cfg.payments?.length);
+  const pending = (has) => cfg.preview && !has;
+  cfg.pendingCredentials = pending(cfg.credentials?.length);
+  cfg.pendingProcess = pending(cfg.process?.length);
+  cfg.pendingTeam = pending(cfg.team.length);
+  cfg.pendingGallery = pending(cfg.gallery.length);
+  cfg.pendingTiles = cfg.pendingGallery ? [1, 2, 3, 4] : [];
+  cfg.pendingReviews = pending(cfg.hasReviews);
+  cfg.pendingPayments = pending(cfg.payments?.length);
+  cfg.pendingHours = pending(cfg.hoursTable?.length || cfg.hours);
+  cfg.pendingEmail = pending(cfg.email);
+  cfg.showProcess = Boolean(cfg.process?.length || cfg.pendingProcess);
+  cfg.showGallery = Boolean(cfg.gallery.length || cfg.pendingGallery);
+  cfg.hasGoodToKnow = Boolean(cfg.guarantees?.length || cfg.payments?.length || cfg.pendingPayments);
 
   cfg.services = (cfg.services ?? []).map((s) => {
     const details = s.details ?? (s.id && library[s.id]) ?? null;
@@ -116,8 +130,8 @@ function build(slug, library) {
 
   // Alternate section backgrounds across whichever optional sections are present.
   const order = [
-    ["servicesBg", true], ["highlightsBg", cfg.highlights.length], ["processBg", cfg.process?.length], ["aboutBg", true],
-    ["galleryBg", cfg.gallery.length], ["reviewsBg", cfg.hasReviews], ["goodBg", cfg.hasGoodToKnow], ["areasBg", true], ["faqBg", true],
+    ["servicesBg", true], ["highlightsBg", cfg.highlights.length], ["processBg", cfg.showProcess], ["aboutBg", true],
+    ["galleryBg", cfg.showGallery], ["reviewsBg", cfg.hasReviews || cfg.pendingReviews], ["goodBg", cfg.hasGoodToKnow], ["areasBg", true], ["faqBg", true],
   ];
   let alt = false;
   for (const [key, present] of order) if (present) { cfg[key] = alt ? "sec-alt" : ""; alt = !alt; }
@@ -181,7 +195,7 @@ function build(slug, library) {
     pageJsonLd: ld(businessLd(cfg)),
   });
 
-  if (cfg.final && cfg.siteUrl && !cfg.sample) {
+  if (cfg.final && cfg.siteUrl && !cfg.sample && !cfg.preview) {
     const urls = pages.filter((p) => p !== "thanks/").map((p) => `  <url><loc>${cfg.siteUrl}/${p}</loc></url>`).join("\n");
     writeFileSync(join(out, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
     writeFileSync(join(out, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${cfg.siteUrl}/sitemap.xml\n`);

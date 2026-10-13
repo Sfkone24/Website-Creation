@@ -49,6 +49,11 @@
       <ul class="creds-in">{{#credentials}}<li>{{{icons.shield}}}<span>{{.}}</span></li>{{/credentials}}</ul>
     </section>
     {{/credentials.length}}
+    {{#pendingCredentials}}
+    <section class="creds" aria-label="Licensing and credentials">
+      <p class="creds-in pending-inline">{{{icons.shield}}}<span><strong>To be added:</strong> license number, insurance and certifications</span></p>
+    </section>
+    {{/pendingCredentials}}
 
     <section id="services" class="sec {{servicesBg}}">
       <div class="sec-in">
@@ -72,15 +77,16 @@
     </section>
     {{/highlights.length}}
 
-    {{#process.length}}
+    {{#showProcess}}
     <section class="sec {{processBg}}">
       <div class="sec-in">
         <p class="kicker">How it works</p>
         <h2>{{processHeading}}</h2>
-        <ol class="steps">{{#process}}<li><h3>{{title}}</h3><p>{{text}}</p></li>{{/process}}</ol>
+        {{#process.length}}<ol class="steps">{{#process}}<li><h3>{{title}}</h3><p>{{text}}</p></li>{{/process}}</ol>{{/process.length}}
+        {{#pendingProcess}}<div class="pending">{{{icons.clipboard}}}<p><strong>To be added:</strong> the 3–4 steps of how a job goes with {{shortName}}, from the first call to the finished work.</p></div>{{/pendingProcess}}
       </div>
     </section>
-    {{/process.length}}
+    {{/showProcess}}
 
     <section id="about" class="sec {{aboutBg}}">
       <div class="sec-in about">
@@ -97,6 +103,9 @@
         </aside>
         {{/brands.length}}
       </div>
+      {{#pendingTeam}}
+      <div class="sec-in team"><div class="pending">{{{icons.user}}}<p><strong>To be added:</strong> owner photo, name and a short bio (plus any team members).</p></div></div>
+      {{/pendingTeam}}
       {{#team.length}}
       <div class="sec-in team">
         {{#team}}<article class="person">{{#photo}}<img src="{{photo}}" alt="{{name}}" loading="lazy">{{/photo}}<div><h3>{{name}}</h3><p class="role">{{role}}</p><p>{{bio}}</p></div></article>{{/team}}
@@ -104,15 +113,16 @@
       {{/team.length}}
     </section>
 
-    {{#gallery.length}}
+    {{#showGallery}}
     <section class="sec {{galleryBg}}" id="work">
       <div class="sec-in">
         <p class="kicker">Our work</p>
         <h2>Recent jobs</h2>
-        <div class="gallery">{{#gallery}}<figure><img src="{{src}}" alt="{{alt}}" loading="lazy">{{#caption}}<figcaption>{{caption}}</figcaption>{{/caption}}</figure>{{/gallery}}</div>
+        {{#gallery.length}}<div class="gallery">{{#gallery}}<figure><img src="{{src}}" alt="{{alt}}" loading="lazy">{{#caption}}<figcaption>{{caption}}</figcaption>{{/caption}}</figure>{{/gallery}}</div>{{/gallery.length}}
+        {{#pendingGallery}}<div class="gallery">{{#pendingTiles}}<div class="pending pending-tile">{{{icons.droplet}}}<p><strong>Job photo {{.}}</strong><br>To be added</p></div>{{/pendingTiles}}</div>{{/pendingGallery}}
       </div>
     </section>
-    {{/gallery.length}}
+    {{/showGallery}}
 
     {{#hasReviews}}
     <section class="sec {{reviewsBg}}">
@@ -127,6 +137,16 @@
     </section>
     {{/hasReviews}}
 
+    {{#pendingReviews}}
+    <section class="sec {{reviewsBg}}">
+      <div class="sec-in">
+        <p class="kicker">Reviews</p>
+        <h2>What customers say</h2>
+        <div class="pending">{{{icons.star}}}<p><strong>To be added:</strong> 3–6 customer reviews from Yelp, Nextdoor, Google or Facebook, quoted with permission.</p></div>
+      </div>
+    </section>
+    {{/pendingReviews}}
+
     {{#hasGoodToKnow}}
     <section class="sec {{goodBg}}">
       <div class="sec-in">
@@ -135,6 +155,7 @@
         <div class="grid grid-3">
           {{#guarantees}}<div class="card"><div class="ico ico-soft">{{{icons.shield}}}</div><h3>{{title}}</h3><p>{{text}}</p></div>{{/guarantees}}
           {{#payments.length}}<div class="card"><div class="ico ico-soft">{{{icons.tag}}}</div><h3>Payment options</h3><ul class="ticks">{{#payments}}<li>{{.}}</li>{{/payments}}</ul>{{#financing}}<p>{{financing}}</p>{{/financing}}</div>{{/payments.length}}
+          {{#pendingPayments}}<div class="pending">{{{icons.tag}}}<p><strong>To be added:</strong> payment methods accepted, and any warranty or workmanship guarantee you offer.</p></div>{{/pendingPayments}}
         </div>
       </div>
     </section>

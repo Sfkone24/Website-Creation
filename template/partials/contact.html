@@ -8,6 +8,8 @@
             {{#email}}<li>{{{icons.mail}}}<a href="mailto:{{email}}">{{email}}</a></li>{{/email}}
             {{#address}}<li>{{{icons.pin}}}<span>{{address}}</span></li>{{/address}}
             {{^hoursTable}}{{#hours}}<li>{{{icons.clock}}}<span>{{hours}}</span></li>{{/hours}}{{/hoursTable}}
+            {{#pendingHours}}<li class="pending-line">{{{icons.clock}}}<span>Hours: to be added</span></li>{{/pendingHours}}
+            {{#pendingEmail}}<li class="pending-line">{{{icons.mail}}}<span>Email for website requests: to be added</span></li>{{/pendingEmail}}
           </ul>
           {{#hoursTable.length}}
           <table class="hours">

@@ -21,6 +21,7 @@ const asset = (f) => f && existsSync(join(root, "clients", slug, "assets", f));
 // Mode
 need(cfg.demo === false, `"demo" must be false for the final version`);
 need(!cfg.sample, `"sample" is only for the fictional showcase site`);
+need(!cfg.preview, `remove "preview": true once every "To be added" slot is filled and the owner has approved`);
 
 // Contact basics, all confirmed with the owner
 need(cfg.phone, "phone");

@@ -245,3 +245,14 @@ details p{color:var(--muted);margin:12px 0 0}
   .person{grid-template-columns:1fr}
   .person img{width:100%;height:auto;aspect-ratio:4/3}
 }
+
+/* ---------- Preview placeholders (final draft awaiting client details) ---------- */
+.pending{display:flex;gap:14px;align-items:flex-start;border:2px dashed #c4ccd8;background:repeating-linear-gradient(135deg,#fafbfd,#fafbfd 12px,#f3f6fa 12px,#f3f6fa 24px);border-radius:var(--radius);padding:20px;color:#4a5668;margin-top:24px}
+.pending svg{width:26px;height:26px;color:var(--accent);flex:none}
+.pending p{margin:0}
+.pending-tile{flex-direction:column;align-items:center;justify-content:center;text-align:center;aspect-ratio:4/3;margin:0}
+.pending-tile svg{width:36px;height:36px}
+.grid .pending{margin-top:0}
+.pending-inline{display:flex;align-items:center;gap:8px;color:#4a5668;font-size:.92rem}
+.pending-inline svg{width:20px;height:20px;color:var(--accent)}
+.pending-line{opacity:.75;font-style:italic}
