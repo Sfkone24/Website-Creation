@@ -60,7 +60,7 @@
         <p class="kicker">What we do</p>
         <h2>{{servicesHeading}}</h2>
         <div class="grid {{servicesGrid}}">
-          {{#services}}<article class="card svc"><div class="ico">{{{iconSvg}}}</div><h3>{{#pageUrl}}<a class="stretched" href="{{pageUrl}}">{{name}}</a>{{/pageUrl}}{{^pageUrl}}{{name}}{{/pageUrl}}</h3><p>{{desc}}</p>{{#pageUrl}}<p class="more">Learn more →</p>{{/pageUrl}}</article>{{/services}}
+          {{#services}}<article class="card svc"><div class="ico">{{{iconSvg}}}</div><h3>{{#pageUrl}}<a class="stretched" href="{{pageUrl}}">{{name}}</a>{{/pageUrl}}{{^pageUrl}}{{name}}{{/pageUrl}}</h3><p>{{desc}}</p>{{#cardSigns.length}}<p class="signs-h">Call if you notice:</p><ul class="mini-ticks">{{#cardSigns}}<li>{{.}}</li>{{/cardSigns}}</ul>{{/cardSigns.length}}{{#pageUrl}}<p class="more">Learn more →</p>{{/pageUrl}}</article>{{/services}}
         </div>
       </div>
     </section>
@@ -77,11 +77,34 @@
     </section>
     {{/highlights.length}}
 
+    {{#hasReviews}}
+    <section class="sec {{reviewsBg}}">
+      <div class="sec-in">
+        <p class="kicker">Reviews</p>
+        <h2>What customers say</h2>
+        <div class="grid {{reviewsGrid}}">
+          {{#reviews}}<blockquote class="card quote">{{#stars}}<div class="stars" aria-label="{{rating}} out of 5 stars">{{stars}}</div>{{/stars}}<p>“{{quote}}”</p><footer>{{name}}{{#source}} · <span class="muted">{{source}}</span>{{/source}}</footer></blockquote>{{/reviews}}
+        </div>
+        {{#reviewLinks.length}}<p class="review-links">{{#reviewLinks}}<a class="btn btn-outline" href="{{url}}" rel="noopener">{{label}}</a>{{/reviewLinks}}</p>{{/reviewLinks.length}}
+      </div>
+    </section>
+    {{/hasReviews}}
+    {{#pendingReviews}}
+    <section class="sec {{reviewsBg}}">
+      <div class="sec-in">
+        <p class="kicker">Reviews</p>
+        <h2>What customers say</h2>
+        <div class="pending">{{{icons.star}}}<p><strong>To be added:</strong> 3–6 customer reviews from Yelp, Nextdoor, Google or Facebook, quoted with permission.</p></div>
+      </div>
+    </section>
+    {{/pendingReviews}}
+
     {{#showProcess}}
     <section class="sec {{processBg}}">
       <div class="sec-in">
         <p class="kicker">How it works</p>
         <h2>{{processHeading}}</h2>
+        {{#processDraftPill}}<p class="draft-pill">Draft: for {{shortName}} to confirm or edit</p>{{/processDraftPill}}
         {{#process.length}}<ol class="steps">{{#process}}<li><h3>{{title}}</h3><p>{{text}}</p></li>{{/process}}</ol>{{/process.length}}
         {{#pendingProcess}}<div class="pending">{{{icons.clipboard}}}<p><strong>To be added:</strong> the 3–4 steps of how a job goes with {{shortName}}, from the first call to the finished work.</p></div>{{/pendingProcess}}
       </div>
@@ -108,10 +131,36 @@
       {{/pendingTeam}}
       {{#team.length}}
       <div class="sec-in team">
-        {{#team}}<article class="person">{{#photo}}<img src="{{photo}}" alt="{{name}}" loading="lazy">{{/photo}}<div><h3>{{name}}</h3><p class="role">{{role}}</p><p>{{bio}}</p></div></article>{{/team}}
+        {{#team}}<article class="person">{{#photo}}<img src="{{photo}}" alt="{{name}}" loading="lazy">{{/photo}}{{^photo}}<div class="avatar-ph" aria-hidden="true">{{{icons.user}}}<span>Photo to be added</span></div>{{/photo}}<div><h3>{{name}}</h3><p class="role">{{role}}</p><p>{{bio}}</p>{{#draft}}<p class="draft-pill">Draft: for {{shortName}} to confirm or edit</p>{{/draft}}</div></article>{{/team}}
       </div>
       {{/team.length}}
     </section>
+
+    {{#showQuickHelp}}
+    <section class="sec {{quickHelpBg}}" id="emergency">
+      <div class="sec-in help">
+        <div>
+          <p class="kicker">Quick help</p>
+          <h2>{{quickHelp.heading}}</h2>
+          <p class="lead-dark">{{quickHelp.intro}}</p>
+          <p class="warn">{{{icons.shield}}}<span>{{quickHelp.warning}}</span></p>
+          <a class="btn btn-accent btn-lg" href="tel:{{phoneDigits}}">{{{icons.phone}}}<span>Call {{phone}}</span></a>
+        </div>
+        <ol class="steps steps-compact">{{#quickHelp.steps}}<li><h3>{{title}}</h3><p>{{text}}</p></li>{{/quickHelp.steps}}</ol>
+      </div>
+    </section>
+    {{/showQuickHelp}}
+
+    {{#showSeasonal}}
+    <section class="sec {{seasonalBg}}" id="tips">
+      <div class="sec-in">
+        <p class="kicker">Homeowner tips</p>
+        <h2>{{seasonal.heading}}</h2>
+        <p class="lead-dark narrow-p">{{seasonal.intro}}</p>
+        <div class="grid grid-3">{{#seasonal.items}}<div class="card tip"><h3>{{{icons.check}}}<span>{{title}}</span></h3><p>{{text}}</p></div>{{/seasonal.items}}</div>
+      </div>
+    </section>
+    {{/showSeasonal}}
 
     {{#showGallery}}
     <section class="sec {{galleryBg}}" id="work">
@@ -119,33 +168,12 @@
         <p class="kicker">Our work</p>
         <h2>Recent jobs</h2>
         {{#gallery.length}}<div class="gallery">{{#gallery}}<figure><img src="{{src}}" alt="{{alt}}" loading="lazy">{{#caption}}<figcaption>{{caption}}</figcaption>{{/caption}}</figure>{{/gallery}}</div>{{/gallery.length}}
-        {{#pendingGallery}}<div class="gallery">{{#pendingTiles}}<div class="pending pending-tile">{{{icons.droplet}}}<p><strong>Job photo {{.}}</strong><br>To be added</p></div>{{/pendingTiles}}</div>{{/pendingGallery}}
+        {{#pendingGallery}}<div class="gallery">{{#pendingTiles}}<div class="pending pending-tile">{{{iconSvg}}}<p><strong>{{label}}</strong><br>Job photo to be added</p></div>{{/pendingTiles}}</div>{{/pendingGallery}}
       </div>
     </section>
     {{/showGallery}}
 
-    {{#hasReviews}}
-    <section class="sec {{reviewsBg}}">
-      <div class="sec-in">
-        <p class="kicker">Reviews</p>
-        <h2>What customers say</h2>
-        <div class="grid grid-3">
-          {{#reviews}}<blockquote class="card quote"><div class="stars" aria-label="{{rating}} out of 5 stars">{{stars}}</div><p>“{{quote}}”</p><footer>{{name}}{{#source}} · <span class="muted">{{source}}</span>{{/source}}</footer></blockquote>{{/reviews}}
-        </div>
-        {{#reviewLinks.length}}<p class="review-links">{{#reviewLinks}}<a class="btn btn-outline" href="{{url}}" rel="noopener">{{label}}</a>{{/reviewLinks}}</p>{{/reviewLinks.length}}
-      </div>
-    </section>
-    {{/hasReviews}}
 
-    {{#pendingReviews}}
-    <section class="sec {{reviewsBg}}">
-      <div class="sec-in">
-        <p class="kicker">Reviews</p>
-        <h2>What customers say</h2>
-        <div class="pending">{{{icons.star}}}<p><strong>To be added:</strong> 3–6 customer reviews from Yelp, Nextdoor, Google or Facebook, quoted with permission.</p></div>
-      </div>
-    </section>
-    {{/pendingReviews}}
 
     {{#hasGoodToKnow}}
     <section class="sec {{goodBg}}">

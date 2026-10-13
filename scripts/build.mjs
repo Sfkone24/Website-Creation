@@ -111,21 +111,25 @@ function build(slug, library) {
   cfg.ogImageUrl = cfg.siteUrl && cfg.ogImage ? `${cfg.siteUrl}/${clientAsset(cfg.ogImage)}` : "";
 
   cfg.reviews = (cfg.reviews ?? []).map((r) => {
-    const rating = r.rating ?? 5;
-    return { ...r, rating, stars: "★".repeat(rating) + "☆".repeat(5 - rating) };
+    const rating = r.rating ?? 0;
+    return { ...r, rating, stars: r.rating ? "★".repeat(rating) + "☆".repeat(5 - rating) : "" };
   });
   cfg.hasReviews = cfg.reviews.length > 0;
+  cfg.reviewsGrid = cfg.reviews.length === 2 || cfg.reviews.length === 4 ? "grid-2r" : "grid-3";
   const pending = (has) => cfg.preview && !has;
   cfg.pendingCredentials = pending(cfg.credentials?.length);
   cfg.pendingProcess = pending(cfg.process?.length);
   cfg.pendingTeam = pending(cfg.team.length);
   cfg.pendingGallery = pending(cfg.gallery.length);
-  cfg.pendingTiles = cfg.pendingGallery ? [1, 2, 3, 4] : [];
+  cfg.pendingTiles = [];
   cfg.pendingReviews = pending(cfg.hasReviews);
   cfg.pendingPayments = pending(cfg.payments?.length);
   cfg.pendingHours = pending(cfg.hoursTable?.length || cfg.hours);
   cfg.pendingEmail = pending(cfg.email);
   cfg.showProcess = Boolean(cfg.process?.length || cfg.pendingProcess);
+  cfg.processDraftPill = Boolean(cfg.preview && cfg.processIsDraft && cfg.process?.length);
+  cfg.showQuickHelp = Boolean(cfg.final && cfg.quickHelp?.steps?.length);
+  cfg.showSeasonal = Boolean(cfg.final && cfg.seasonal?.items?.length);
   cfg.showGallery = Boolean(cfg.gallery.length || cfg.pendingGallery);
   cfg.hasGoodToKnow = Boolean(cfg.guarantees?.length || cfg.payments?.length || cfg.pendingPayments);
 
@@ -140,8 +144,11 @@ function build(slug, library) {
       pageSlug,
       // Starter tier is a single rich home page; Standard adds a page per service.
       pageUrl: cfg.final && details && cfg.tier !== "starter" ? `services/${pageSlug}/` : "",
+      // Final sites list a few common warning signs on each service card.
+      cardSigns: cfg.final && details?.signs ? details.signs.slice(0, 3) : [],
     };
   });
+  if (cfg.pendingGallery) cfg.pendingTiles = cfg.services.slice(0, 4).map((s) => ({ label: s.name, iconSvg: s.iconSvg }));
   // 2 or 4 services read better as a 2-column grid than a 3-column grid with an orphan.
   cfg.servicesGrid = [2, 4].includes(cfg.services.length) ? "grid-2" : "grid-3";
   cfg.highlights = (cfg.highlights ?? []).map((h) => ({ ...h, iconSvg: icons[h.icon] ?? icons.check }));
@@ -160,8 +167,9 @@ function build(slug, library) {
 
   // Alternate section backgrounds across whichever optional sections are present.
   const order = [
-    ["servicesBg", true], ["highlightsBg", cfg.highlights.length], ["processBg", cfg.showProcess], ["aboutBg", true],
-    ["galleryBg", cfg.showGallery], ["reviewsBg", cfg.hasReviews || cfg.pendingReviews], ["goodBg", cfg.hasGoodToKnow], ["areasBg", true], ["faqBg", true],
+    ["servicesBg", true], ["highlightsBg", cfg.highlights.length], ["reviewsBg", cfg.hasReviews || cfg.pendingReviews], ["processBg", cfg.showProcess],
+    ["aboutBg", true], ["quickHelpBg", cfg.showQuickHelp], ["seasonalBg", cfg.showSeasonal], ["galleryBg", cfg.showGallery],
+    ["goodBg", cfg.hasGoodToKnow], ["areasBg", true], ["faqBg", true],
   ];
   let alt = false;
   for (const [key, present] of order) if (present) { cfg[key] = alt ? "sec-alt" : ""; alt = !alt; }

@@ -64,6 +64,8 @@ for (const s of cfg.services ?? []) {
 
 // How they work
 need(cfg.process?.length >= 3, "process: 3-4 steps describing how a job goes with this company");
+need(!cfg.processIsDraft, "process is still a draft: get the owner to confirm or edit the steps, then remove processIsDraft");
+for (const t of cfg.team ?? []) need(!t.draft, `team member "${t.name}" bio is still a draft: get the owner's version or approval`);
 need(cfg.payments?.length >= 1, "payments: accepted payment methods");
 want(cfg.guarantees?.length, "guarantees: warranty or workmanship guarantee, only if the owner actually offers one");
 need(cfg.faq?.length >= 6, `FAQ needs 6+ questions including business-specific ones (has ${cfg.faq?.length ?? 0})`);
