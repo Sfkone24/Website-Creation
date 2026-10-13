@@ -76,5 +76,62 @@
       "q": "What size system does my home need?",
       "a": "Proper sizing depends on square footage, insulation, windows and ductwork, not just the size of the old unit. An oversized or undersized system costs more to run and wears out sooner, so we size equipment to your home."
     }
-  ]
+  ],
+  "quickHelp": {
+    "heading": "No heat or no AC? Check these first",
+    "intro": "Some no-heat and no-AC problems have a simple cause. You can safely check these five things yourself in about 15 minutes before you call for service. If you smell gas or a carbon monoxide alarm goes off, skip these checks. Get everyone outside first and follow the safety steps on this page.",
+    "steps": [
+      {
+        "title": "Check the thermostat",
+        "text": "Make sure it is set to Heat or Cool, not Off, and the fan is set to Auto. For heat, set it 3 to 5 degrees above the room temperature. For cooling, set it 3 to 5 degrees below. If you have a smart or programmable thermostat, make sure it is not in Away or Eco mode or running a schedule that changes the setting. If the screen is blank, put in fresh batteries if it uses them. Some thermostats get their power from the furnace. So a blank screen can also mean the furnace has lost power, which the next steps check."
+      },
+      {
+        "title": "Check the air filter",
+        "text": "A clogged filter blocks airflow. It can make a furnace overheat and shut itself off, or make the AC coil freeze up. Turn the system off at the thermostat. Then slide the filter out of its slot at the furnace, or from behind a large return grille in a wall or ceiling. If it is gray and clogged, replace it with the same size. The size is printed on the edge. Point the arrow the way the air flows, toward the furnace and away from the room. If you see ice on the indoor coil or the copper pipes, leave cooling off and set the fan to On for a few hours to melt it. Put towels down to catch the water."
+      },
+      {
+        "title": "Check the breakers and the furnace switch",
+        "text": "At your electrical panel, look for a tripped breaker labeled furnace, AC, heat pump, air handler or condenser. A tripped breaker usually sits in the middle or off position. Reset it once by pushing it fully off, then back on. If it trips again, leave it off and call a pro, because something is wrong. Do not touch the panel if it or the floor is wet, or if you smell burning or see scorch marks. Never take the cover off the panel. Next, find the furnace power switch on or near the furnace. It often looks like a regular light switch, so it is easy to flip off by mistake. Make sure it is on."
+      },
+      {
+        "title": "Check the furnace door, vent pipes and outdoor unit",
+        "text": "Many furnaces have a safety switch that keeps them off if the front panel is loose. Make sure the panel is pushed or latched fully into place. If your furnace vents out the side of the house through one or two plastic pipes, check that snow, ice, leaves or a nest is not blocking the openings. Outside, clear leaves, grass clippings, snow and clutter from around the AC or heat pump. Leave about 2 feet of open space on all sides. Inside, move rugs, furniture and curtains off vents and return grilles."
+      },
+      {
+        "title": "Wait, then note what you see",
+        "text": "After any change, give the system 5 to 10 minutes. Many systems have a built-in delay after a reset or power outage. If it still will not run, write down any error message on the thermostat. Many furnaces also have a small blinking light you can see through a window in the panel. Count the blinks before you open anything, since taking the panel off cuts power and can clear the code. Also look for water on the floor near the furnace. A clogged drain line can trip a safety switch that shuts the system down. Do not keep pressing reset buttons on the furnace or an oil burner, because repeated resets can be unsafe. Tell the technician what you found. It can help them find the problem faster."
+      }
+    ],
+    "warning": "If you smell gas, which smells like rotten eggs, leave the house right away. Do not flip light switches, unplug anything, change the thermostat or use a lighter or match on the way out. Wait to use your phone until you are outside and away from the house. Then call your gas company or 911. If you use propane, call your propane supplier or 911. If a carbon monoxide alarm goes off, get everyone, pets included, out into fresh air and call 911. Do not go back inside until responders say it is safe. If you smell burning or see smoke coming from the furnace, turn the system off at the thermostat and call for service. If you see flames or heavy smoke, get out and call 911."
+  },
+  "seasonal": {
+    "heading": "Fall and winter HVAC checklist for Bloomington homes",
+    "intro": "Southern Indiana winters bring hard freezes, snow and months of steady furnace use. A little prep in October or November helps your system run safely. It also makes it less likely to break down on the coldest night of the year.",
+    "items": [
+      {
+        "title": "Start the season with a fresh filter",
+        "text": "Put in a new filter before you turn on the heat, then check it every month. Basic 1-inch filters often need changing every 1 to 3 months. Change them more often if you have pets or dust from home projects. Thicker 4- or 5-inch filters usually last longer, so follow the label. Take a photo of the filter size so you buy the right one. The first time the heat runs, a light dusty smell is normal and usually fades within a few hours. A strong burning smell is not normal. Treat a rotten-egg smell as a gas leak."
+      },
+      {
+        "title": "Test your carbon monoxide alarms",
+        "text": "Press the test button on each CO alarm and smoke alarm, and change the batteries if needed. Test them once a month after that. Have a CO alarm on every level of the home and outside each sleeping area. This matters most if you have a gas, propane or oil furnace, a gas water heater, a fireplace or wood stove, or an attached garage. Most CO alarms wear out after 5 to 10 years. Check the date on the back and replace old ones."
+      },
+      {
+        "title": "Clear vents, returns and the furnace area",
+        "text": "Walk through each room and move furniture, rugs and holiday decorations off supply vents and return grilles. Keep most vents open, even in rooms you do not use. Closing too many can cut airflow and strain the system. In the basement or utility room, keep boxes, laundry and clutter away from the furnace and water heater. Never store paint, gasoline, solvents or spray cans near them, because the fumes can catch fire."
+      },
+      {
+        "title": "Keep outdoor equipment, vent pipes and the gas meter clear",
+        "text": "Rake leaves away from the outdoor unit. After a snow, use a broom to gently brush snow off a heat pump and keep drifts away from it. Do not chip ice off the coil, since that can bend the thin metal fins. In cold weather, a heat pump may stop its fan and give off steam for a few minutes while it defrosts. That is normal. If the unit stays caked in ice for hours, call a pro. Do not cover a heat pump in winter, since it heats your home. If your furnace vents out the side of the house through plastic pipes, keep snow, ice and leaves away from the openings. A blocked pipe can shut your furnace off on the coldest night. Use a broom to keep snow and ice off your gas meter too."
+      },
+      {
+        "title": "Keep an eye on indoor humidity",
+        "text": "Heating dries out the air, which can cause dry skin, static shocks and gaps in wood floors. Aim for about 30 to 40 percent humidity in winter. You can check it with a low-cost humidity gauge. If you see water or frost on the inside of windows, the air is too damp for the cold outside, so turn the humidifier down. Older homes with single-pane windows may need to stay closer to 30 percent. If your furnace has a whole-house humidifier, make sure it is turned on for winter. Its water pad is usually replaced once a year."
+      },
+      {
+        "title": "Book a tune-up and plan for cold snaps",
+        "text": "Furnace and heat pump makers generally recommend a professional check once a year, ideally in early fall before steady cold sets in. Some warranties require yearly maintenance, so check your paperwork. For a gas furnace, a typical tune-up includes cleaning and checking the burners and flame sensor, testing safety controls, looking over the heat exchanger and vent pipes, and checking airflow. Heat pumps run all year, so many owners have them checked in both spring and fall. If you heat with propane or oil, check the tank gauge and schedule a fill before a cold snap. If you travel, keep the heat at 55 degrees or higher. That helps keep pipes in crawlspaces and outside walls from freezing."
+      }
+    ]
+  }
 }

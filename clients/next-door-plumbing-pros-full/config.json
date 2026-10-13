@@ -101,6 +101,7 @@
   "aboutParagraphs": [
     "Next Door Plumbing Pros is a local, family-run plumbing company based in central Indiana, serving Bloomington and the surrounding area. We handle the plumbing problems homeowners call about most: hidden leaks, water heaters, water softeners and treatment, copper repipes and gas lines.",
     "Customers know our plumber, Chris, by name. Reviews on Yelp and Nextdoor describe a same-day fix for a leak under the house, an older home's problem solved quickly, and work that's polite, professional and fast.",
+    "Our jobs range from quick fixes to bigger projects: hard-to-reach leaks under the house, water heater service, softeners and water treatment, copper repipes, and gas lines and hookups, including in garages. We also take care of the everyday repairs every house needs.",
     "Plumbing problems don't keep business hours, so we don't either. We're open 24 hours a day. Call or send a request any time, and we'll get back to you."
   ],
   "areaRegion": "Bloomington & the surrounding area",
@@ -115,16 +116,36 @@
   ],
   "faq": [
     {
-      "q": "Do you handle plumbing emergencies after hours?",
-      "a": "Yes. We're open 24 hours a day, including nights and weekends. Call (812) 558-1967. If water is actively leaking, shut off the main water valve first to limit the damage."
+      "q": "When can I call, and how do I set up a visit?",
+      "a": "Any time. We're open 24 hours a day and can always help. Call us at (812) 558-1967 or send a request through the form on this site. For anything urgent, like an active leak, call instead of using the form. Tell us what's wrong and where it is in the house. If water is leaking, shut off your main water valve first to limit the damage."
     },
     {
-      "q": "How do I protect my outdoor faucets this winter?",
-      "a": "Before the first hard freeze, disconnect garden hoses from your wall hydrants and yard hydrants. A hose left attached can trap water that freezes, cracks the hose bib and causes a leak inside the wall. If your home has an indoor shutoff for the outdoor faucet, close it and drain the line."
+      "q": "What area do you serve?",
+      "a": "We serve Bloomington and the surrounding area. We're a local, family-run plumbing company based in central Indiana. If you're not sure we cover your address, call (812) 558-1967 and ask."
     },
     {
-      "q": "What areas do you serve?",
-      "a": "Bloomington and the surrounding area in central Indiana. Not sure if you're in our area? Call and ask."
+      "q": "Do you work on older homes?",
+      "a": "Yes. Bloomington has plenty of older houses, and we work on them. One Nextdoor reviewer said we fixed a problem in their older home in about 15 minutes and took care of some extra bathroom problems too. Every job is different, so times vary. Common trouble spots in older homes include shutoff valves that stick or drip, aging galvanized steel pipe and leaks in crawlspaces. If the pipes in your older home keep leaking, ask us about copper pipe replacement."
+    },
+    {
+      "q": "How do I keep my pipes from freezing?",
+      "a": "Our winter tip: before the first hard freeze, disconnect hoses from wall hydrants and yard hydrants. A hose left on can trap water in the hydrant, which can lead to leaks and broken hose bibs. Keep your heat at 55°F or higher, even when you're away. If your crawlspace has vents, close them for the winter and open them again in spring, but don't block any opening that brings in air for a furnace or water heater. Wrap pipes in crawlspaces and unheated garages with foam pipe insulation. If you're on a well, protect the pressure tank and any exposed pipes too. On the coldest nights, open the cabinet doors under sinks on outside walls and let the cold water drip. Learn where your main water shutoff is before you need it. If a pipe freezes, open the faucet and warm the pipe slowly with a hair dryer, starting near the faucet. Keep the dryer away from standing water. Never use a torch or any open flame. If a pipe bursts, shut off the main water valve, stay away from wet areas near outlets or electrical panels, and call a plumber."
+    },
+    {
+      "q": "What should I do if I smell gas?",
+      "a": "Gas companies add a smell like rotten eggs to natural gas and propane so you can notice a leak. If you smell it, get everyone out of the house right away. Don't turn lights, switches or appliances on or off. Don't light anything, don't start a car in an attached garage, and don't use your phone until you're outside. Once you're a safe distance away, call your gas utility's emergency line, your propane supplier or 911. Don't go back inside until they say it's safe. Never try to find or fix a gas leak yourself. Carbon monoxide is a different danger. It has no smell, so keep working CO alarms in your home."
+    },
+    {
+      "q": "Should I flush my water heater?",
+      "a": "For most tank water heaters, yes. Minerals in the water settle at the bottom of the tank as sediment. Over time that can cause popping or rumbling sounds, less hot water and a shorter life for the tank. Many manufacturers recommend flushing once a year, and more often if you have hard water. Check your owner's manual for your model's schedule. A flush means shutting down the heater's gas or power and draining scalding water, so many homeowners have a plumber do it. A plumber can also check the anode rod and the temperature and pressure relief valve while they're there. If an older tank has never been flushed, the drain valve may clog or leak, so have a pro look first. Tankless water heaters need a different kind of cleaning called descaling."
+    },
+    {
+      "q": "Do I need a water softener?",
+      "a": "It depends on your water. Hard water has extra minerals, mostly calcium and magnesium. Signs include white crust on faucets and shower heads, spots on dishes, soap that won't lather well, and scale in your water heater. Hard water is common in many private wells in southern Indiana. City water varies, and your water utility can tell you how hard its water is. A simple hardness test will tell you for sure. A softener treats hardness, but it does not remove bacteria or nitrates. If you're on a well, health officials recommend testing it at least once a year for those. High iron or a sulfur smell may need a different kind of treatment. If someone in your home is on a low-sodium diet, ask about potassium chloride instead of salt, or a drinking water tap that skips the softener."
+    },
+    {
+      "q": "Is copper pipe better than PEX?",
+      "a": "Both are good choices, and each has strengths. Copper has been used in homes for decades. It handles heat well, isn't hurt by sunlight and can last a very long time. PEX is flexible plastic tubing. It's quicker to run through walls, needs fewer fittings and is less likely to burst if it freezes, though it still can. PEX can't be left in sunlight for long, and rodents sometimes chew it in crawlspaces. Very acidic water, which some wells have, can wear pinholes in copper over time, so it's smart to test well water first. If your home still has old galvanized steel pipe, low water pressure and rusty water are common signs it's time to replace it. Low pressure can have other causes too, like a clogged faucet aerator, a partly closed valve or a well pressure tank problem, so have it checked before you replace any pipe."
     }
   ],
   "urgentLead": "Leak or no hot water?",
@@ -132,5 +153,55 @@
   "privacyUpdated": "October 13, 2026",
   "faqExclude": [
     "Are chemical drain cleaners safe for my pipes?"
-  ]
+  ],
+  "process": [
+    {
+      "title": "Call or send a request",
+      "text": "Call us at (812) 558-1967. We're open 24 hours a day, so you can call any time. For jobs that aren't urgent, you can also use the request form on this site. Tell us what's wrong and where it is in the house. If water is leaking, shut off your main water valve if you can. If water is near outlets or your electrical panel, stay away from that area."
+    },
+    {
+      "title": "We set up a time",
+      "text": "We'll talk through the problem with you and set up a time to come out. If it's urgent, like an active leak or no water at all, tell us right away so we can plan around it."
+    },
+    {
+      "title": "We find the cause and explain it",
+      "text": "We look over the problem, find the cause and explain what we found in plain words. We tell you what we recommend, and you decide before any work starts. If we spot anything else that needs attention, we'll point it out so you can decide what to do about it."
+    },
+    {
+      "title": "We fix it and check our work",
+      "text": "We make the repair, then turn the water back on and test it. We check for leaks and make sure the fixture or appliance works the way it should. We clean up the work area and answer your questions before we leave."
+    }
+  ],
+  "processIsDraft": true,
+  "processHeading": "How a job works with Next Door",
+  "team": [
+    {
+      "name": "Chris",
+      "role": "Plumber",
+      "draft": true,
+      "bio": "Customers on Yelp and Nextdoor mention Chris by name, for tracking down and fixing leaks under the house and for taking care of every problem on the list. His own story and experience will go here once he shares them."
+    }
+  ],
+  "reviews": [
+    {
+      "quote": "Chris came and fixed actually two leaks and was so polite, professional and so fast.",
+      "name": "Yelp customer",
+      "source": "Yelp",
+      "rating": 5,
+      "permission": false
+    },
+    {
+      "quote": "10 star review for Chris, for fixing ALL our recent plumbing problems:)",
+      "name": "Nextdoor neighbor",
+      "source": "Nextdoor",
+      "permission": false
+    }
+  ],
+  "reviewLinks": [
+    {
+      "label": "See recommendations on Nextdoor",
+      "url": "https://nextdoor.com/pages/nextdoor-plumbing-pros-llc-bloomington-in/"
+    }
+  ],
+  "mapEmbed": "https://www.google.com/maps?q=Bloomington,+Indiana&output=embed"
 }

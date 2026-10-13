@@ -27,7 +27,7 @@
           <label>What do you need?
             <select name="need">{{#requestOptions}}<option>{{.}}</option>{{/requestOptions}}<option>Other</option></select>
           </label>
-          <label>Details <span class="req">(optional)</span><textarea name="message" rows="3"></textarea></label>
+          <label><span>Details <span class="req">(optional)</span></span><textarea name="message" rows="3"></textarea></label>
           <button class="btn btn-accent btn-lg" type="submit">Send request</button>
           {{#final}}<p class="form-fine">By sending this form you agree to be contacted about your request. See our <a href="{{base}}privacy/">privacy policy</a>.</p>{{/final}}
           <p class="form-note" hidden></p>

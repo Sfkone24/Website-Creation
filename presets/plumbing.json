@@ -83,5 +83,62 @@
       "q": "Why is my water pressure low?",
       "a": "Low pressure can come from clogged aerators, a failing pressure regulator, hidden leaks or old corroded pipes. If it affects the whole house, it's worth having it checked."
     }
-  ]
+  ],
+  "quickHelp": {
+    "heading": "Plumbing emergency? Do this first",
+    "intro": "A burst pipe or a bad leak can flood a room in minutes. Act fast, but put safety first. Follow these five steps in order to limit the damage while you wait for a plumber. If you smell gas, or water is near outlets or your electric panel, read step 4 and the warning at the bottom first.",
+    "steps": [
+      {
+        "title": "Close the main water shutoff",
+        "text": "Find the main shutoff valve where the water line comes into your home. It is often on a basement wall that faces the street, in the crawlspace near the front of the house, or next to the water heater or an indoor water meter. If it has a round handle, turn it clockwise until it stops. If it has a lever, turn it a quarter turn so it sits across the pipe. Then open a faucet to check that the water stops. If the valve will not move, do not force it, because old valves can snap. On city water, call your water utility and ask if they can shut off the water at the curb. On a well, switch off the well pump at its breaker or at the switch near the pressure tank, but only if you are standing on a dry floor. Then close the valve on the pipe leaving the pressure tank."
+      },
+      {
+        "title": "Turn off the water heater",
+        "text": "Next, shut down the water heater so it does not keep heating a tank that may be losing water. For an electric heater, switch off its breaker at the panel, but only if you, your hands, and the floor around the panel are dry. For a gas heater, turn the control knob to Pilot or Vacation. Some newer gas heaters have a digital panel instead, so follow the label on the tank. If the tank itself is leaking, also close the cold water valve on the pipe at the top of the tank. Do not try to drain it yourself, because the water can scald. If flood water reached the burner or gas controls, do not turn the heater back on until a pro checks it. Never work on the gas line yourself."
+      },
+      {
+        "title": "Drain water from the pipes",
+        "text": "With the main shutoff closed, drain the water still sitting in your pipes so less of it pours out of the leak. Open both the hot and cold taps on the lowest faucet in your home, such as a basement laundry sink or tub. Then open a faucet on the top floor. This lets air into the lines so they drain faster. If sewage is backing up into a floor drain, tub, or toilet, skip this step. Do not run any water or flush any toilets until a plumber clears the line. This matters even more if your home is on a septic system."
+      },
+      {
+        "title": "Protect people and belongings",
+        "text": "Keep everyone, including pets, out of rooms where water is near outlets, cords, or appliances. Never walk through standing water if the power may still be on in that area. If water is near or touching your electric panel, do not touch the panel. Call your electric utility to cut power from outside, then call an electrician. Stay out from under any ceiling that sags or drips, since it can fall. If it is safe, move rugs, furniture, papers, and electronics to a dry place, and soak up water with towels, mops, and buckets. Take photos and video of the damage before you clean up, and call your insurance company soon. Wet drywall, carpet, and wood can start to grow mold within a day or two, so drying out fast matters."
+      },
+      {
+        "title": "Call a plumber",
+        "text": "Once the water is off and everyone is safe, call a plumber. If someone else is handling the steps above, you can call sooner. Tell them what happened, where the water is coming from, and whether you got the main shutoff closed. Let them know if you have a well, a septic system, a crawlspace, or a sewage backup, so they can come prepared. Ask how they charge for the visit before work starts, and ask what you should do until they arrive. Keep the water off until the plumber says it is safe to turn it back on."
+      }
+    ],
+    "warning": "If you smell gas or a rotten-egg odor, get everyone out of the house right away. On the way out, do not flip switches, unplug anything, use your phone, light a match, or start a car in an attached garage. Do not try to find the leak. Once you are outside and well away from the house, call your gas utility or 911. If your home uses propane, call your propane supplier or 911. Do not go back inside until they say it is safe."
+  },
+  "seasonal": {
+    "heading": "Winter plumbing checklist for Bloomington-area homes",
+    "intro": "Bloomington winters bring hard freezes, and cold snaps can push temperatures into the single digits. That cold can split pipes, especially in older homes with crawlspaces, basements, attics, and unheated garages. A small crack in a pipe can leak hundreds of gallons in a day. Do these six things in the fall, before the first hard freeze, to lower your risk of a burst pipe.",
+    "items": [
+      {
+        "title": "Unhook hoses and drain outdoor faucets",
+        "text": "Disconnect garden hoses before the first hard freeze, even from frost-free outdoor faucets. A hose left attached traps water in the faucet, so the part of the pipe inside your wall can freeze and split. You may not see that leak until you turn on the faucet in spring. If your outdoor faucet has a shutoff valve inside the house, close it. Then open the outdoor faucet to let the water drain out. If the inside valve has a small drain cap, open it over a bucket to empty the rest, then close the cap. Drain and store your hoses, and add a foam faucet cover for extra protection."
+      },
+      {
+        "title": "Insulate crawlspace and garage pipes",
+        "text": "Pipes in crawlspaces, attics, unheated garages, and outside walls freeze first. Wrap exposed pipes with foam pipe insulation from a hardware store, and tape the seams so there are no gaps. Seal holes where pipes or wires pass through outside walls with caulk or spray foam. Close or cover crawlspace vents for winter, and keep the crawlspace door shut. Never block a vent or opening that brings air to a furnace or water heater. Insulation slows freezing but does not add heat, so for pipes that freeze every year, ask a plumber about heat cable or moving the pipe. If you have a well, protect pipes in a well pit or pump house, and make sure the pressure tank is not in a spot that freezes."
+      },
+      {
+        "title": "Keep the heat on when you are away",
+        "text": "Keep your thermostat at 55 degrees or higher, day and night, even if you will be gone only a few days. Never turn the heat off in winter. Leave inside doors open so heat reaches every room. Before a trip, make sure your furnace is running well and change the filter, since a furnace that stops while you are gone can lead to frozen pipes. For longer trips, ask someone to check inside your home every day, including the basement. You can also close the main water shutoff, open the lowest faucet to drain the lines, and set the water heater to Vacation. On a well, also turn off the pump. A Wi-Fi thermostat, temperature alarm, or leak sensor can warn your phone if the heat goes out."
+      },
+      {
+        "title": "Open cabinets and let faucets drip in deep cold",
+        "text": "When it drops below about 20 degrees outside, open the cabinet doors under sinks on outside walls so warm room air can reach the pipes. Let a thin, steady drip run from those faucets, from both hot and cold if there are two handles. Moving water is less likely to freeze, and an open tap eases the pressure that bursts pipes. Move cleaners out of reach of kids and pets. If a faucet slows to a trickle or stops, a pipe may be frozen. Leave the faucet open and call a plumber. You can gently warm the pipe with a hair dryer or a space heater kept at least 3 feet from anything that can burn, but only if there is no standing water nearby. Never use a torch or open flame. Know where your main shutoff is, since a split pipe can start leaking as it thaws."
+      },
+      {
+        "title": "Find and test your main shutoff",
+        "text": "Find your main water shutoff now, before you need it. It is often on a basement wall facing the street, in the crawlspace, or near the water heater. Turn it slowly to make sure it moves and closes all the way, then open a faucet to check that the water stops. If the valve is stiff, do not force it, because old valves can break. Open it fully again when you are done. Tag the valve and show everyone at home where it is. If it is stuck, leaks at the handle, or will not fully close, have a plumber repair or replace it, often with a quarter-turn ball valve. On a well, also know where the pump's breaker or switch is and where the valve after the pressure tank is."
+      },
+      {
+        "title": "Test your sump pump and check your water heater",
+        "text": "If you have a sump pump, slowly pour a bucket of water into the pit. The pump should turn on, empty the pit, and shut off. Make sure the pump is plugged straight into an outlet, not an extension cord. Check that the outside drain line is not blocked by ice, snow, or leaves. Next, look around the base of your water heater for rust, drips, or puddles. Make sure the pipe from the relief valve on the side of the tank runs down toward the floor and is not capped or blocked. If the heater burns gas, keep paint, boxes, and clutter away from it, and test your carbon monoxide alarms. Many makers suggest draining a few gallons from the tank once a year to flush out sediment. Check your owner's manual first, since the water is hot enough to scald."
+      }
+    ]
+  }
 }
